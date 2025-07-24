@@ -81,3 +81,7 @@ dist/
 .env.production
 .env.test
 
+LICENSE.txt
+install-tools.log
+install-summary.json
+awscliv2.zip
