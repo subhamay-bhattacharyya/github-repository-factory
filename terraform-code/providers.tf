@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "github" {
-  owner = "subhamay-bhattacharyya"
+  owner = "bsubhamay"
 }

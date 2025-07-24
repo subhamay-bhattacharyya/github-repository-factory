@@ -16,3 +16,7 @@ unset GITHUB_TOKEN && gh auth login -h github.com -p https -s delete_repo -w
 
 # View a Repo in the Browser
 gh repo view mtc-repo --web
+
+# Terraform Console
+# -------------------
+terraform console -state="../terraform-state/terraform.tfstate"

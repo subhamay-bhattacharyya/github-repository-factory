@@ -1,0 +1,542 @@
+{
+   "0001":{
+      "workshop":"AWS Storage Immersion Day",
+      "category":"storage",
+      "description":"S3 Security Best Practices",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/s3-security-best-practices-lab",
+      "visibility":"private"
+   },
+   "0002":{
+      "workshop":"AWS Storage Immersion Day",
+      "category":"storage",
+      "description":"S3 Storage Performance",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/storage-performance-best-practices-lab/02-s3performance",
+      "visibility":"private"
+   },
+   "0003":{
+      "workshop":"AWS Storage Immersion Day",
+      "category":"storage",
+      "description":"EFS Storage Performance",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/storage-performance-best-practices-lab/03-efsperformance",
+      "visibility":"private"
+   },
+   "0004":{
+      "workshop":"AWS Storage Immersion Day",
+      "category":"storage",
+      "description":"Data Migration",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/migrating-data-with-datasync-lab/02-datamigration",
+      "visibility":"private"
+   },
+   "0005":{
+      "workshop":"AWS Storage Immersion Day",
+      "category":"storage",
+      "description":"AWS Backup",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":3.0,
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/aws-backup-lab",
+      "visibility":"private"
+   },
+   "0101":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Working with Glue Data Catalog",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab1",
+      "visibility":"private"
+   },
+   "0102":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Working with Apache Spark",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab2",
+      "visibility":"private"
+   },
+   "0103":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Working with Glue ETL",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab3",
+      "visibility":"private"
+   },
+   "0104":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Working with Glue Streaming",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab4",
+      "visibility":"private"
+   },
+   "0105":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Working with Glue Studio - ETL Job",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab6",
+      "visibility":"private"
+   },
+   "0106":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Working with Glue Studio - Streaming ETL Job",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab6",
+      "visibility":"private"
+   },
+   "0107":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Monitoring Troubleshooting and Scaling",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab7",
+      "visibility":"private"
+   },
+   "0108":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Glue Job Orchestration",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab8",
+      "visibility":"private"
+   },
+   "0109":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Working with AWS Glue Job Bookmarks",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab10",
+      "visibility":"private"
+   },
+   "0110":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Working with AWS Glue Data Quality",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab12",
+      "visibility":"private"
+   },
+   "0111":{
+      "workshop":"AWS Glue Immersion Day",
+      "category":"glue",
+      "description":"Working with Glue Databrew",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab5",
+      "visibility":"private"
+   },
+   "0201":{
+      "workshop":"AWS General Immersion Day",
+      "category":"general",
+      "description":"Compute - Amazon EC2",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/10-ec2",
+      "visibility":"private"
+   },
+   "0202":{
+      "workshop":"AWS General Immersion Day",
+      "category":"general",
+      "description":"Network - Amazon VPC",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0203":{
+      "workshop":"AWS General Immersion Day",
+      "category":"general",
+      "description":"Security - AWS IAM & Config & CloudTrail",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0204":{
+      "workshop":"AWS General Immersion Day",
+      "category":"general",
+      "description":"Monitoring - Amazon CloudWatch",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0205":{
+      "workshop":"AWS General Immersion Day",
+      "category":"general",
+      "description":"Database - Amazon RDS",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0206":{
+      "workshop":"AWS General Immersion Day",
+      "category":"general",
+      "description":"Storage - Amazon S3 and EFS",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0301":{
+      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
+      "category":"data-protection",
+      "description":"S3 Versioning",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0302":{
+      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
+      "category":"data-protection",
+      "description":"S3 Object Lock",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0303":{
+      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
+      "category":"data-protection",
+      "description":"S3 Replication",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0304":{
+      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
+      "category":"data-protection",
+      "description":"S3 Multi-Region Access Points",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"1",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0305":{
+      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
+      "category":"data-protection",
+      "description":"S3 Cross Account and Multi-region Access Points",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":3.0,
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0401":{
+      "workshop":"Serverless Patterns",
+      "category":"serverless",
+      "description":"Intro to Serverless",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":3.0,
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0402":{
+      "workshop":"Serverless Patterns",
+      "category":"serverless",
+      "description":"Synchronous Invocation",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":3.0,
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0403":{
+      "workshop":"Serverless Patterns",
+      "category":"serverless",
+      "description":"Synchronous + Idempotence",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":3.0,
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0404":{
+      "workshop":"Serverless Patterns",
+      "category":"serverless",
+      "description":"Asynchronous Invocation",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":3.0,
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0405":{
+      "workshop":"Serverless Patterns",
+      "category":"serverless",
+      "description":"Polling",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":3.0,
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0406":{
+      "workshop":"Serverless Patterns",
+      "category":"serverless",
+      "description":"Streaming Data",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":3.0,
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0407":{
+      "workshop":"Serverless Patterns",
+      "category":"serverless",
+      "description":"Streaming Datalake",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":3.0,
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0501":{
+      "workshop":"Severless Datalake Immersion Day",
+      "category":"serverless-datalake",
+      "description":"Data Ingestion and Storage",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0502":{
+      "workshop":"Severless Datalake Immersion Day",
+      "category":"serverless-datalake",
+      "description":"Data Cataloging and ETL",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0503":{
+      "workshop":"Severless Datalake Immersion Day",
+      "category":"serverless-datalake",
+      "description":"Data Analytics and Visualization",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0601":{
+      "workshop":"AWS Disaster Recovery workshop",
+      "category":"disaster-recovery",
+      "description":"Backup and Restore",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0602":{
+      "workshop":"AWS Disaster Recovery workshop",
+      "category":"disaster-recovery",
+      "description":"Pilot Light",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0603":{
+      "workshop":"AWS Disaster Recovery workshop",
+      "category":"disaster-recovery",
+      "description":"Warm Standby",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0701":{
+      "workshop":"Amazon Athena workshop",
+      "category":"athena",
+      "description":"Athena Basics",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0702":{
+      "workshop":"Amazon Athena workshop",
+      "category":"athena",
+      "description":"Athena Federation",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0703":{
+      "workshop":"Amazon Athena workshop",
+      "category":"athena",
+      "description":"User Defined Functions",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0704":{
+      "workshop":"Amazon Athena workshop",
+      "category":"athena",
+      "description":"Custom Data Source Connector",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0705":{
+      "workshop":"Amazon Athena workshop",
+      "category":"athena",
+      "description":"Text Analysis Using UDF",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0706":{
+      "workshop":"Amazon Athena workshop",
+      "category":"athena",
+      "description":"Machine Learning",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0707":{
+      "workshop":"Amazon Athena workshop",
+      "category":"athena",
+      "description":"ACID Transactions with Iceberg",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0708":{
+      "workshop":"Amazon Athena workshop",
+      "category":"athena",
+      "description":"Athena Spark",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0801":{
+      "workshop":"The Amazon API Gateway workshop",
+      "category":"api-gateway",
+      "description":"Introduction to Amazon API Gateway",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0802":{
+      "workshop":"The Amazon API Gateway workshop",
+      "category":"api-gateway",
+      "description":"Deploy your first API using IaC",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0803":{
+      "workshop":"The Amazon API Gateway workshop",
+      "category":"api-gateway",
+      "description":"API Gateway REST Integrations",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0804":{
+      "workshop":"The Amazon API Gateway workshop",
+      "category":"api-gateway",
+      "description":"Observability in API Gateway",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0805":{
+      "workshop":"The Amazon API Gateway workshop",
+      "category":"api-gateway",
+      "description":"WebSocket APIs",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   },
+   "0806":{
+      "workshop":"The Amazon API Gateway workshop",
+      "category":"api-gateway",
+      "description":"Enable fine-grained access control for your APIs",
+      "iac":"tf",
+      "status":"not-started",
+      "priority":"NaN",
+      "html-url":"NaN",
+      "visibility":"private"
+   }
+}

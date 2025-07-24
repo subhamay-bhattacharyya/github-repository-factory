@@ -13,6 +13,22 @@ provider "github" {
   owner = "subhamay-bhattacharyya"
 }
 
+
+Random Provider
+---------------
+terraform {
+  required_providers {
+    random = {
+      source = "hashicorp/random"
+      version = "3.7.2"
+    }
+  }
+}
+
+provider "random" {
+  # Configuration options
+}
+
 Backend
 ----------------
 terraform {
@@ -25,3 +41,6 @@ Terraform Registry Documentation for Terraform
 -----------------------------------------------
 
 https://registry.terraform.io/providers/integrations/github/latest/docs
+
+
+
