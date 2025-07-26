@@ -11,7 +11,7 @@ variable "repo_max" {
 
 variable "repos" {
   description = "List of repositories to create"
-  type        = set(string)
+  type        = map(map(string))
 
   validation {
     condition     = length(var.repos) <= 10
