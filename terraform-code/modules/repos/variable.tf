@@ -1,21 +1,11 @@
-variable "repo_max" {
-  description = "Maximum number of repositories to create"
-  type        = number
-  default     = 2
-
-  validation {
-    condition     = var.repo_max <= 10
-    error_message = "Do not deploy more than 10 repos."
-  }
-}
 
 variable "repos" {
   description = "List of repositories to create"
-  type        = map(map(string))
+  type        = map(any)
 
   validation {
-    condition     = length(var.repos) <= 10
-    error_message = "The number of repositories must be less than or equal to the repo_max"
+    condition     = length(var.repos) <= 1000
+    error_message = "The number of repositories must be less than or equal to 1000"
   }
 }
 
