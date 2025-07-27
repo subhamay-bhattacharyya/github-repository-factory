@@ -7,7 +7,7 @@
       "status":"not-started",
       "priority":"1",
       "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/s3-security-best-practices-lab",
-      "visibility":"private"
+      "visibility":"public"
    },
    "0002":{
       "workshop":"AWS Storage Immersion Day",
@@ -17,6 +17,6 @@
       "status":"not-started",
       "priority":"1",
       "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/storage-performance-best-practices-lab/02-s3performance",
-      "visibility":"private"
+      "visibility":"public"
    }
 }
