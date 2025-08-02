@@ -40,7 +40,7 @@ jobs:
 
       - name: Get the list of Gists
         id: get-gists
-        if "${{ github.event.inputs.operation == 'get-gists' }}"
+        if: "${{ github.event.inputs.operation == 'get-gists' }}"
         shell: bash
         working-directory: ${{ github.workspace }}/gist-factory
         env:
@@ -50,8 +50,8 @@ jobs:
           ls -laR
 
       - name: Run Gist Manager Script
-        id: get-gists
-        if "${{ github.event.inputs.operation == 'manage-gists' }}"
+        id: manage-gists
+        if: "${{ github.event.inputs.operation == 'manage-gists' }}"
         shell: bash
         working-directory: ${{ github.workspace }}/gist-factory      
         env:
