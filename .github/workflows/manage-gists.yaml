@@ -1,0 +1,67 @@
+name: Manage Gists from JSON
+
+on:
+  workflow_dispatch:
+      # Inputs the workflow accepts.
+    inputs:
+      operation:
+            description: "Operation to perform"
+            required: true
+            default: "create"
+            type: choice
+            options:
+            - get-gists
+            - manage-gists
+
+
+jobs:
+  gist-manager:
+    name: Execute Python Script to Manage Gists
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write    # Required to push changes back
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # - name: Set up Python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: '3.11'
+
+      # - name: Install Required Python Packages
+      #   run: |
+      #     pip install --upgrade pip
+      #     pip install requests
+
+      - name: Get the list of Gists
+        id: get-gists
+        if "${{ github.event.inputs.operation == 'get-gists' }}"
+        shell: bash
+        working-directory: ${{ github.workspace }}/gist-factory
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching Gists..."
+          ls -laR
+
+      - name: Run Gist Manager Script
+        id: get-gists
+        if "${{ github.event.inputs.operation == 'manage-gists' }}"
+        shell: bash
+        working-directory: ${{ github.workspace }}/gist-factory      
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # python manage_gists.py
+          echo "Manage Gists..."
+
+      # - name: Commit Updated JSON File
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "github-actions[bot]@users.noreply.github.com"
+      #     git add gists_input.json
+      #     git commit -m "🔄 Update gists_input.json with Gist IDs and changes" || echo "No changes to commit"
+      #     git push

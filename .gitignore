@@ -13,7 +13,7 @@ crash.*.log
 # password, private keys, and other secrets. These should not be part of version 
 # control as they are data points which are potentially sensitive and subject 
 # to change depending on the environment.
-*.tfvars
+# *.tfvars
 *.tfvars.json
 
 # Ignore override files as they are usually used to override resources locally and so
@@ -81,3 +81,9 @@ dist/
 .env.production
 .env.test
 
+LICENSE.txt
+install-tools.log
+install-summary.json
+awscliv2.zip
+
+mtc-repo*/*

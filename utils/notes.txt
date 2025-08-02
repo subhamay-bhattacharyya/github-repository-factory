@@ -1,0 +1,46 @@
+GitHub Provider
+-----------
+terraform {
+  required_providers {
+    github = {
+      source = "integrations/github"
+      version = "6.6.0"
+    }
+  }
+}
+
+provider "github" {
+  owner = "subhamay-bhattacharyya"
+}
+
+
+Random Provider
+---------------
+terraform {
+  required_providers {
+    random = {
+      source = "hashicorp/random"
+      version = "3.7.2"
+    }
+  }
+}
+
+provider "random" {
+  # Configuration options
+}
+
+Backend
+----------------
+terraform {
+  backend "local" {
+    path = "../terraform-state/terraform.tfstate"
+  }
+}
+
+Terraform Registry Documentation for Terraform
+-----------------------------------------------
+
+https://registry.terraform.io/providers/integrations/github/latest/docs
+
+
+
