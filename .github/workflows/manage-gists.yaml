@@ -1,4 +1,6 @@
 name: Manage Gists from JSON
+run-name: Manage Gists from JSON
+description: This workflow manages GitHub Gists based on a JSON file input.
 
 on:
   workflow_dispatch:
