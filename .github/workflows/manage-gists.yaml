@@ -1,69 +1,70 @@
 name: Manage Gists from JSON
 run-name: Manage Gists from JSON
-description: This workflow manages GitHub Gists based on a JSON file input.
 
 on:
   workflow_dispatch:
-      # Inputs the workflow accepts.
     inputs:
       operation:
-            description: "Operation to perform"
-            required: true
-            default: "create"
-            type: choice
-            options:
-            - get-gists
-            - manage-gists
-
+        description: "Operation to perform"
+        required: true
+        default: "create"
+        type: choice
+        options:
+          - get-gists
+          - manage-gists
 
 jobs:
   gist-manager:
     name: Execute Python Script to Manage Gists
     runs-on: ubuntu-latest
 
+    # Required to push back to the repo — does NOT grant Gist access
     permissions:
-      contents: write    # Required to push changes back
+      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # - name: Set up Python
-      #   uses: actions/setup-python@v5
-      #   with:
-      #     python-version: '3.11'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-      # - name: Install Required Python Packages
-      #   run: |
-      #     pip install --upgrade pip
-      #     pip install requests
+      - name: Install Required Python Packages
+        run: |
+          pip install --upgrade pip
+          pip install requests
 
-      - name: Get the list of Gists
+      - name: Get the list of Secret Gists
         id: get-gists
         if: ${{ github.event.inputs.operation == 'get-gists' }}
         shell: bash
         working-directory: ${{ github.workspace }}/gist-factory
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_GIST_TOKEN }}  # ✅ Must have 'gist' scope
         run: |
-          echo "Fetching Gists..."
-          ls -laR
+          echo "📥 Fetching Secret Gists..."
+          python get-list-of-gists.py
 
       - name: Run Gist Manager Script
         id: manage-gists
         if: ${{ github.event.inputs.operation == 'manage-gists' }}
         shell: bash
-        working-directory: ${{ github.workspace }}/gist-factory      
+        working-directory: ${{ github.workspace }}/gist-factory
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_GIST_TOKEN }}  # ✅ Must have 'gist' scope
         run: |
-          # python manage_gists.py
-          echo "Manage Gists..."
+          echo "📥 Managing Secret Gists..."
+          python manage-gists.py
 
-      # - name: Commit Updated JSON File
-      #   run: |
-      #     git config user.name "github-actions[bot]"
-      #     git config user.email "github-actions[bot]@users.noreply.github.com"
-      #     git add gists_input.json
-      #     git commit -m "🔄 Update gists_input.json with Gist IDs and changes" || echo "No changes to commit"
-      #     git push
+      - name: Commit Updated JSON File
+        if: ${{ github.event.inputs.operation == 'manage-gists' }}
+        working-directory: ${{ github.workspace }}/gist-factory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add all-gists.json
+          git add gist-ids.json
+          git commit -m "🔄 Update gists-fetched.json with Gist IDs and changes" || echo "No changes to commit"
+          git push
