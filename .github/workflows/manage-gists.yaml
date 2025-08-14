@@ -69,9 +69,10 @@ jobs:
 
     - name: Check for changes
       id: git-check
+      working-directory: ${{ github.workspace }}/gist-factory
       run: |
-        git diff --exit-code all-gists.json || echo "changes=true" >> $GITHUB_OUTPUT
-        git diff --exit-code gist-id.json || echo "changes=true" >> $GITHUB_OUTPUT
+        git diff main -- all-gists.json || echo "changes=true" >> $GITHUB_OUTPUT
+        git diff main -- gist-id.json || echo "changes=true" >> $GITHUB_OUTPUT
 
     - name: Commit and push changes
       if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run
