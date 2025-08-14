@@ -547,13 +547,10 @@ def main():
         print("\n## Gist Operation Report\n")
         # Print markdown table header
         print(f"| {'Gist ID':<32} | {'Filename':<30} | {'Status':<10} | {'Description'} |")
-        print(f"|{'-'*34}|{'-'*32}|{'-'*12}|{'-'*60}|")
+        print(f"|{'-'*34}|{'-'*32}|{'-'*12}|{'-'*62}|")
         # Print markdown table rows
         for row in table:
             print(f"| {row[0]:<32} | {row[1]:<30} | {row[2]:<10} | {row[3]:<60} |")
-        print("-" * 60)
-        for row in table:
-            print(f"{row[0]:<32} {row[1]:<30} {row[2]:<10} {row[3]:<60}")
         print("-" * 60)
 
         # Print summary
