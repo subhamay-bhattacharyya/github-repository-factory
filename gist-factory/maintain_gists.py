@@ -182,7 +182,8 @@ def create_gists(
                 item.update({"id": gist_id})
                 created_items.append(item)
                 if debug:
-                    print(f"✅ [{idx}] Created gist: {gist_id}")
+                    gist_url = resp.json().get("html_url")
+                    print(f"✅ [{idx}] Created gist: {gist_url}")
             else:
                 print(
                     f"❌ [{idx}] Failed to create gist: {resp.status_code} {resp.text}",
@@ -249,7 +250,8 @@ def update_gists(
             if resp.status_code == 200:
                 updated_items.append(item)
                 if debug:
-                    print(f"✅ [{idx}] Updated gist: {gist_id}")
+                    gist_url = resp.json().get("html_url")
+                    print(f"✅ [{idx}] Updated gist: {gist_url}")
             else:
                 print(
                     f"❌ [{idx}] Failed to update gist {gist_id}: {resp.status_code} {resp.text}",
@@ -506,11 +508,10 @@ def main():
         to_delete
     ) > 0:
         # to_delete is a list of gist IDs, wrap as dicts for consistency
-        merged_items.extend(
-            {"id": gist_id, "operation": "delete"} for gist_id in to_delete
-        )
+        merged_items.extend([{"id": gist_id, "operation": "skip"} for gist_id in to_delete])
 
     # Optionally, print or process merged_items as needed
+    print("=" * 60)
     if getattr(args, "debug", False):
         print("Merged items:")
         for item in merged_items:

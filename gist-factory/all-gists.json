@@ -1,7 +1,7 @@
 [
     {
         "id": null,
-        "filename": "4316-api-gateway-cft.json",
+        "filename": "4316-api-gateway-cft-1.json",
         "description": "Gist for 4316-api-gateway-cft.json",
         "content": {
             "schemaVersion": 1,
@@ -14,8 +14,8 @@
     },
     {
         "id": null,
-        "filename": "1201-kubernetes-tf.json",
-        "description": "Gist for 1201-kubernetes-tf.json",
+        "filename": "1201-kubernetes-tf-2.json",
+        "description": "Gist for 1201-kubernetes-tf-2.json",
         "content": {
             "schemaVersion": 1,
             "label": "status",
