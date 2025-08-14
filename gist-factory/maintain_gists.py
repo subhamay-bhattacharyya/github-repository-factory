@@ -496,12 +496,14 @@ def main():
 
     # Merge created_items, updated_items, and to_skip if their lengths are more than 0
     merged_items = []
-    if "created_items" in locals() and len(created_items) > 0:
+    if len(created_items) > 0:
         merged_items.extend([x.update({"operation": "skip"}) for x in created_items])
-    if "updated_items" in locals() and len(updated_items) > 0:
+    if len(updated_items) > 0:
         merged_items.extend([x.update({"operation": "skip"}) for x in updated_items])
     if len(to_skip) > 0:
         merged_items.extend([x.update({"operation": "skip"}) for x in to_skip])
+    if len(to_delete) > 0 and len(deleted_items) == 0:
+        merged_items.extend([{"id": gist_id, "operation": "skip"} for gist_id in to_delete])
 
     # If no items were deleted, merge to_delete list with the result
     if ("deleted_items" not in locals() or len(deleted_items) == 0) and len(
