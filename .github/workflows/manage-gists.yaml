@@ -57,7 +57,7 @@ jobs:
 
     - name: Execute maintain_gists.py
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
       working-directory: ${{ github.workspace }}/gist-factory
       run: |
         python maintain_gists.py \
@@ -70,7 +70,8 @@ jobs:
     - name: Check for changes
       id: git-check
       run: |
-        git diff --exit-code all_gists.json || echo "changes=true" >> $GITHUB_OUTPUT
+        git diff --exit-code all-gists.json || echo "changes=true" >> $GITHUB_OUTPUT
+        git diff --exit-code gist-id.json || echo "changes=true" >> $GITHUB_OUTPUT
 
     - name: Commit and push changes
       if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run
@@ -90,6 +91,6 @@ jobs:
       with:
         name: gist-results
         path: |
-          all_gists.json
-          *.log
+          all-gists.json
+          gist-id.json
         retention-days: 30
