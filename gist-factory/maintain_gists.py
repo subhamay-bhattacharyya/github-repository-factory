@@ -497,20 +497,14 @@ def main():
     # Merge created_items, updated_items, and to_skip if their lengths are more than 0
     merged_items = []
     if to_create and len(created_items) > 0:
-        merged_items.extend([x.update({"operation": "skip"}) for x in created_items])
+        merged_items.extend(created_items)
     if to_update and len(updated_items) > 0:
-        merged_items.extend([x.update({"operation": "skip"}) for x in updated_items])
+        merged_items.extend(updated_items)
     if len(to_skip) > 0:
-        merged_items.extend([x.update({"operation": "skip"}) for x in to_skip])
+        merged_items.extend(to_skip)
     if len(to_delete) > 0 and len(deleted_items) == 0:
-        merged_items.extend([{"id": gist_id, "operation": "skip"} for gist_id in to_delete])
+        merged_items.extend(to_delete)
 
-    # If no items were deleted, merge to_delete list with the result
-    if ("deleted_items" not in locals() or len(deleted_items) == 0) and len(
-        to_delete
-    ) > 0:
-        # to_delete is a list of gist IDs, wrap as dicts for consistency
-        merged_items.extend([{"id": gist_id, "operation": "skip"} for gist_id in to_delete])
 
     # Optionally, print or process merged_items as needed
     print("=" * 60)
