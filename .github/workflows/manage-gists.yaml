@@ -80,7 +80,7 @@ jobs:
     - name: Wait for Security Check workflow to complete
       shell: bash
       run: |
-        sleep(60)
+        sleep 60
 
     - name: Commit and push changes
       if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
