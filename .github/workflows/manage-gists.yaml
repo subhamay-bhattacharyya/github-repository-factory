@@ -55,7 +55,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Execute maintain_gists.py
+    - name: Execute Python script (maintain_gists.py)
       env:
         GITHUB_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
       working-directory: ${{ github.workspace }}/gist-factory
@@ -76,6 +76,15 @@ jobs:
         else
           echo "changes=true" >> $GITHUB_OUTPUT
         fi
+
+    - name: Wait for Security Check workflow to complete
+      uses: lewagon/wait-on-check-action@v1.3.3
+      with:
+      ref: ${{ github.ref }}
+      check-name: 'Security Check'
+      repo-token: ${{ secrets.GITHUB_TOKEN }}
+      wait-interval: 20
+      allowed-conclusions: success
 
     - name: Commit and push changes
       if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run

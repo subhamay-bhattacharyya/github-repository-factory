@@ -546,12 +546,13 @@ def main():
         # Print table header
         print("\n## Gist Operation Report\n")
         # Print markdown table header
+        print("-" * (34 + 32 + 12 + 62 ))
         print(f"| {'Gist ID':<32} | {'Filename':<30} | {'Status':<10} | {'Description'} |")
         print(f"|{'-'*34}|{'-'*32}|{'-'*12}|{'-'*62}|")
         # Print markdown table rows
         for row in table:
             print(f"| {row[0]:<32} | {row[1]:<30} | {row[2]:<10} | {row[3]:<60} |")
-        print("-" * 60)
+        print("-" * (34 + 32 + 12 + 62 ))
 
         # Print summary
         status_counts = Counter(get_status(item) for item in merged_items)
