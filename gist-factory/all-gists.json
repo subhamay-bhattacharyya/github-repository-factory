@@ -1,8 +1,8 @@
 [
     {
         "id": null,
-        "filename": "4316-api-gateway-cft-1.json",
-        "description": "Gist for 4316-api-gateway-cft.json",
+        "filename": "1201-kubernetes-tf-3.json",
+        "description": "Gist for 1201-kubernetes-tf-3.json",
         "content": {
             "schemaVersion": 1,
             "label": "status",
@@ -10,45 +10,6 @@
             "color": "red",
             "style": "flat"
         },
-        "operation": "delete"
-    },
-    {
-        "id": null,
-        "filename": "1201-kubernetes-tf-2.json",
-        "description": "Gist for 1201-kubernetes-tf-2.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "not started",
-            "color": "red",
-            "style": "flat"
-        },
-        "operation": "delete"
-    },
-        {
-        "id": null,
-        "filename": "4316-api-gateway-cft-1.json",
-        "description": "Gist for 4316-api-gateway-cft.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "not started",
-            "color": "red",
-            "style": "flat"
-        },
-        "operation": "delete"
-    },
-    {
-        "id": null,
-        "filename": "1201-kubernetes-tf-2.json",
-        "description": "Gist for 1201-kubernetes-tf-2.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "not started",
-            "color": "red",
-            "style": "flat"
-        },
-        "operation": "delete"
+        "operation": "create"
     }
 ]
