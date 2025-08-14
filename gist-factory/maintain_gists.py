@@ -518,6 +518,7 @@ def main():
         print("No items to write back to output file.", file=sys.stderr)
         sys.exit(0)
     else:
+        print(f"Writing the file {output_path} ")
         try:
             with output_path.open("w", encoding="utf-8") as f:
                 json.dump(merged_items, f, indent=2)
@@ -527,7 +528,7 @@ def main():
             sys.exit(1)
 
     # If merged_items is not empty, print a tabular report
-    if merged_items:
+    if not merged_items:
 
         # Prepare table rows
         table = []

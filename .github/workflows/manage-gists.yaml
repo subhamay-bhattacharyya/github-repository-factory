@@ -10,12 +10,12 @@ on:
       input_path:
         description: 'Path to the input JSON file'
         required: true
-        default: 'all-gists.json'
+        default: 'gist-factory/all-gists.json'
         type: string
       output_path:
         description: 'Path to the output JSON file (optional)'
         required: false
-        default: 'all-gists.json'
+        default: 'gist-factory/all-gists.json'
         type: string
       skip_existing:
         description: 'Skip items that already contain a gist_id'
