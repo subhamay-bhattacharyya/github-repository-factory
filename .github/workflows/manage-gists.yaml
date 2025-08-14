@@ -71,20 +71,25 @@ jobs:
       id: git-check
       working-directory: ${{ github.workspace }}/gist-factory
       run: |
-        git diff main -- all-gists.json || echo "changes=true" >> $GITHUB_OUTPUT
-        git diff main -- gist-id.json || echo "changes=true" >> $GITHUB_OUTPUT
+        if git diff --quiet --exit-code -- all-gists.json gist-id.json; then
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
 
     - name: Commit and push changes
       if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run
       working-directory: gist-factory
       run: |
-        git checkout -b feature/update-gists
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add all-gists.json gist-id.json
-        git commit -m "Update gists via GitHub Actions [skip ci]"
-        git push --set-upstream origin feature/update-gists
-        git push
+        if ! git diff --cached --quiet; then
+          git commit -m "Update gists via GitHub Actions [skip ci]"
+          git push
+        else
+          echo "No changes to commit."
+        fi
 
     - name: Upload artifacts
       if: always()
