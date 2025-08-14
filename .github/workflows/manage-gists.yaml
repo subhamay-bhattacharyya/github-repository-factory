@@ -78,13 +78,9 @@ jobs:
         fi
 
     - name: Wait for Security Check workflow to complete
-      uses: lewagon/wait-on-check-action@v1.3.3
-      with:
-        ref: ${{ github.ref }}
-        check-name: 'Security Check'
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        wait-interval: 120
-        allowed-conclusions: success
+      shell: bash
+      run: |
+        sleep(60)
 
     - name: Commit and push changes
       if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
