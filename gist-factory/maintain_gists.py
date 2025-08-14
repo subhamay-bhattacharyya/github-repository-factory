@@ -544,9 +544,15 @@ def main():
             )
 
         # Print table header
-        print("\nGist Operation Report")
-        print("=" * 60)
-        print(f"{'Gist ID':<32} {'Filename':<20} {'Status':<10} {'Description'}")
+        print("\n## Gist Operation Report\n")
+        print("| {:<32} | {:<20} | {:<10} | {:<40} |".format("Gist ID", "Filename", "Status", "Description"))
+        print("|" + "-"*34 + "|" + "-"*22 + "|" + "-"*12 + "|" + "-"*40 + "|")
+        # Print markdown table header
+        print(f"| {'Gist ID':<32} | {'Filename':<20} | {'Status':<10} | {'Description'} |")
+        print(f"|{'-'*34}|{'-'*22}|{'-'*12}|{'-'*40}|")
+        # Print markdown table rows
+        for row in table:
+            print(f"| {row[0]:<32} | {row[1]:<20} | {row[2]:<10} | {row[3]:<40} |")
         print("-" * 60)
         for row in table:
             print(f"{row[0]:<32} {row[1]:<20} {row[2]:<10} {row[3]}")

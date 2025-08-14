@@ -83,7 +83,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add all-gists.json gist-id.json
+        git add -A .
         if ! git diff --cached --quiet; then
           git commit -m "Update gists via GitHub Actions [skip ci]"
           git push
