@@ -513,8 +513,9 @@ def main():
         for item in merged_items:
             print(json.dumps(item, indent=2))
 
+    print(f"Merged items - {merged_items}")
     # Write the updated items back to the output file
-    if merged_items:
+    if not merged_items:
         print("No items to write back to output file.", file=sys.stderr)
         sys.exit(0)
     else:
@@ -528,7 +529,7 @@ def main():
             sys.exit(1)
 
     # If merged_items is not empty, print a tabular report
-    if not merged_items:
+    if merged_items:
 
         # Prepare table rows
         table = []
