@@ -1,67 +1,95 @@
-name: Manage Gists from JSON
+name: Maintain GitHub Gists
+run-name: Maintain Gists run by ${{ github.actor }} on ${{ github.ref_name }}
+description: |
+  This workflow maintains GitHub Gists by creating, updating, or deleting them based on the provided input JSON file.
+  It can be triggered manually or via a scheduled event.
 
 on:
   workflow_dispatch:
-      # Inputs the workflow accepts.
     inputs:
-      operation:
-            description: "Operation to perform"
-            required: true
-            default: "create"
-            type: choice
-            options:
-            - get-gists
-            - manage-gists
-
+      input_path:
+        description: 'Path to the input JSON file'
+        required: true
+        default: 'gist-factory/all-gists.json'
+        type: string
+      output_path:
+        description: 'Path to the output JSON file (optional)'
+        required: false
+        default: 'gist-factory/all-gists.json'
+        type: string
+      skip_existing:
+        description: 'Skip items that already contain a gist_id'
+        required: false
+        default: true
+        type: boolean
+      dry_run:
+        description: 'Show what would be done without making API calls'
+        required: false
+        default: false
+        type: boolean
+      debug:
+        description: 'Enable debug output'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
-  gist-manager:
-    name: Execute Python Script to Manage Gists
+  maintain-gists:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write    # Required to push changes back
-
+    
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
 
-      # - name: Set up Python
-      #   uses: actions/setup-python@v5
-      #   with:
-      #     python-version: '3.11'
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
 
-      # - name: Install Required Python Packages
-      #   run: |
-      #     pip install --upgrade pip
-      #     pip install requests
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
 
-      - name: Get the list of Gists
-        id: get-gists
-        if "${{ github.event.inputs.operation == 'get-gists' }}"
-        shell: bash
-        working-directory: ${{ github.workspace }}/gist-factory
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Fetching Gists..."
-          ls -laR
+    - name: Execute maintain_gists.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      working-directory: gist-factory
+      run: |
+        python maintain_gists.py \
+          --input "${{ inputs.input_path }}" \
+          ${{ inputs.output_path && format('--output "{0}"', inputs.output_path) || '' }} \
+          ${{ inputs.skip_existing && '--skip-existing' || '' }} \
+          ${{ inputs.dry_run && '--dry-run' || '' }} \
+          ${{ inputs.debug && '--debug' || '' }}
 
-      - name: Run Gist Manager Script
-        id: get-gists
-        if "${{ github.event.inputs.operation == 'manage-gists' }}"
-        shell: bash
-        working-directory: ${{ github.workspace }}/gist-factory      
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # python manage_gists.py
-          echo "Manage Gists..."
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code all_gists.json || echo "changes=true" >> $GITHUB_OUTPUT
 
-      # - name: Commit Updated JSON File
-      #   run: |
-      #     git config user.name "github-actions[bot]"
-      #     git config user.email "github-actions[bot]@users.noreply.github.com"
-      #     git add gists_input.json
-      #     git commit -m "🔄 Update gists_input.json with Gist IDs and changes" || echo "No changes to commit"
-      #     git push
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run
+      working-directory: gist-factory
+      run: |
+        git checkout -b feature/update-gists
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add all_gists.json
+        git commit -m "Update gists via GitHub Actions [skip ci]"
+        git push --set-upstream origin feature/update-gists
+        git push
+
+    - name: Upload artifacts
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: gist-results
+        path: |
+          all_gists.json
+          *.log
+        retention-days: 30

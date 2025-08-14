@@ -103,7 +103,7 @@ fi
 if should_run awscli; then
   log_step "Installing AWS CLI"
   run_cmd "Download AWS CLI" curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-  run_cmd "Unzip AWS CLI" unzip awscliv2.zip
+  run_cmd "Unzip AWS CLI" unzip -o awscliv2.zip
   run_cmd "Install AWS CLI" sudo ./aws/install
   rm -rf awscliv2.zip aws
   AWS_VERSION=$(aws --version 2>&1 | awk '{print $1}' | cut -d/ -f2)
