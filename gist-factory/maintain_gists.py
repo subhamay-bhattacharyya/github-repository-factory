@@ -496,9 +496,9 @@ def main():
 
     # Merge created_items, updated_items, and to_skip if their lengths are more than 0
     merged_items = []
-    if len(created_items) > 0:
+    if to_create and len(created_items) > 0:
         merged_items.extend([x.update({"operation": "skip"}) for x in created_items])
-    if len(updated_items) > 0:
+    if to_update and len(updated_items) > 0:
         merged_items.extend([x.update({"operation": "skip"}) for x in updated_items])
     if len(to_skip) > 0:
         merged_items.extend([x.update({"operation": "skip"}) for x in to_skip])
