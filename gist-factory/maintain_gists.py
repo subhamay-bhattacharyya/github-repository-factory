@@ -531,9 +531,11 @@ def main():
     print("Length of merged_items:", len(merged_items))
     print("Bool merged_items:", bool(merged_items))
     if merged_items:
+        print("In if merged_items:")
         # Prepare report data
         report = []
         for item in merged_items:
+            print("In for item in merged_items:")
             report.append(
             {
                 "id": item.get("id", "-"),
