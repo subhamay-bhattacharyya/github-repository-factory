@@ -1,0 +1,46 @@
+# .github/workflows/codeql.yml
+name: Code Scanning - CodeQL
+
+on:
+  push:
+    branches:
+      - bug/**
+      - feature/**
+  pull_request:
+    branches:
+      - bug/**
+      - feature/**
+  schedule:
+    - cron: '29 3 * * 1'  # optional weekly maintenance run
+
+permissions:
+  contents: read
+  security-events: write   # <-- REQUIRED to upload SARIF
+  actions: read
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'javascript', 'typescript', 'python', 'ruby', 'java', 'go', 'cpp', 'csharp' ]  # keep only what you use
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+
+      # For compiled languages, build your project here instead of autobuild
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: '/language:${{matrix.language}}'
