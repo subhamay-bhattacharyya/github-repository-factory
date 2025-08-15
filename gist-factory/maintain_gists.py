@@ -528,8 +528,8 @@ def main():
             sys.exit(1)
 
     # If merged_items is not empty, print a tabular report
-    if merged_items:
-
+    print("Length of merged_items:", len(merged_items))
+    if not merged_items:
         # Prepare report data
         report = []
         for item in merged_items:
