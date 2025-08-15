@@ -26,7 +26,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript', 'typescript', 'python']  # keep only what you use
+        language: [ 'javascript', 'python']  # keep only what you use
 
     steps:
       - uses: actions/checkout@v4

@@ -1,8 +1,5 @@
 name: Maintain GitHub Gists
 run-name: Maintain Gists run by ${{ github.actor }} on ${{ github.ref_name }}
-description: |
-  This workflow maintains GitHub Gists by creating, updating, or deleting them based on the provided input JSON file.
-  It can be triggered manually or via a scheduled event.
 
 on:
   workflow_dispatch:
@@ -37,85 +34,128 @@ jobs:
   maintain-gists:
     name: Maintain Gists
     runs-on: ubuntu-latest
-    
+
+    # Prevent overlapping runs of THIS workflow on the same branch
+    concurrency:
+      group: maintain-gists-${{ github.ref }}
+      cancel-in-progress: false
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-        cache: 'pip'
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
-    - name: Prepare temp branch name
-      id: temp-branch
-      run: echo "name=auto/gist-update-${{ github.run_id }}" >> "$GITHUB_OUTPUT"
+      - name: Prepare temp branch name
+        id: temp-branch
+        run: echo "name=auto/gist-update-${{ github.run_id }}" >> "$GITHUB_OUTPUT"
 
-    - name: Execute Python script (maintain_gists.py)
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
-      working-directory: ${{ github.workspace }}/gist-factory
-      run: |
-        python maintain_gists.py \
-          --input "${{ inputs.input_path }}" \
-          ${{ inputs.output_path && format('--output "{0}"', inputs.output_path) || '' }} \
-          ${{ inputs.skip_existing && '--skip-existing' || '' }} \
-          ${{ inputs.dry_run && '--dry-run' || '' }} \
-          ${{ inputs.debug && '--debug' || '' }}
+      - name: Execute Python script (maintain_gists.py)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
+        working-directory: ${{ github.workspace }}/gist-factory
+        run: |
+          python maintain_gists.py \
+            --input "${{ inputs.input_path }}" \
+            ${{ inputs.output_path && format('--output "{0}"', inputs.output_path) || '' }} \
+            ${{ inputs.skip_existing && '--skip-existing' || '' }} \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            ${{ inputs.debug && '--debug' || '' }}
 
-    - name: Check for changes
-      id: git-check
-      working-directory: ${{ github.workspace }}/gist-factory
-      run: |
-        if git diff --quiet --exit-code -- all-gists.json gist-id.json; then
-          echo "changes=false" >> $GITHUB_OUTPUT
-        else
-          echo "changes=true" >> $GITHUB_OUTPUT
-        fi
+      - name: Check for changes
+        id: git-check
+        working-directory: ${{ github.workspace }}/gist-factory
+        run: |
+          if git diff --quiet --exit-code -- all-gists.json gist-id.json; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
 
-    - name: Commit only (no push yet)
-      if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
-      working-directory: gist-factory
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A .
-        if ! git diff --cached --quiet; then
-          git commit -m "Update gists via GitHub Actions [skip ci]"
-        else
-          echo "No changes to commit."; exit 0
-        fi
+      # 🔒 Wait here if CodeQL is still running on this branch
+      - name: Wait for CodeQL to be idle on this branch
+        if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ github.ref_name }}
+          # set your CodeQL workflow name OR file; name is safest if you used the default
+          CODEQL_WORKFLOW_NAME: "Code Scanning - CodeQL"
+        run: |
+          echo "Waiting for CodeQL runs on $BRANCH to finish..."
+          max_wait=1800   # 30 minutes
+          interval=15
+          waited=0
+          # query runs of the named workflow on this branch that are queued or in_progress
+          while true; do
+            inprog=$(gh run list \
+              --repo "$REPO" \
+              --workflow "$CODEQL_WORKFLOW_NAME" \
+              --branch "$BRANCH" \
+              --json status,headBranch \
+              --jq '[.[] | select(.headBranch=="'"$BRANCH"'") | select(.status=="in_progress" or .status=="queued")] | length')
 
-    - name: Create & push temp branch (allowed by ruleset)
-      if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
-      run: |
-        git switch -c "${{ steps.temp.outputs.name }}"
-        git push -u origin "${{ steps.temp.outputs.name }}"
+            if [ "$inprog" -eq 0 ]; then
+              echo "CodeQL is idle on $BRANCH. Continuing."
+              break
+            fi
 
-    - name: Open PR into the protected branch
-      uses: peter-evans/create-pull-request@v6
-      with:
-        title: "Update gists via GitHub Actions"
-        body: "Automated update from ${{ steps.temp.outputs.name }}."
-        branch: "${{ steps.temp.outputs.name }}"   # head (source) branch
-        base: "${{ github.ref_name }}"             # current bug/... branch
-        delete-branch: true
+            if [ "$waited" -ge "$max_wait" ]; then
+              echo "Timed out waiting for CodeQL ($waited s)."
+              exit 1
+            fi
 
-    - name: Upload artifacts
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: gist-results
-        path: |
-          all-gists.json
-          gist-id.json
-        retention-days: 30
+            echo "CodeQL still running ($inprog run(s)); sleeping $interval s..."
+            sleep $interval
+            waited=$((waited+interval))
+          done
+
+      - name: Commit only (no push yet)
+        if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
+        working-directory: gist-factory
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A .
+          if ! git diff --cached --quiet; then
+            git commit -m "Update gists via GitHub Actions [skip ci]"
+          else
+            echo "No changes to commit."; exit 0
+          fi
+
+      - name: Create & push temp branch (allowed by ruleset)
+        if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
+        run: |
+          git switch -c "${{ steps['temp-branch'].outputs.name }}"
+          git push -u origin "${{ steps['temp-branch'].outputs.name }}"
+
+      - name: Open PR into the protected branch
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: "Update gists via GitHub Actions"
+          body: "Automated update from ${{ steps['temp-branch'].outputs.name }}."
+          branch: "${{ steps['temp-branch'].outputs.name }}"   # head (source) branch
+          base: "${{ github.ref_name }}"                       # current bug/... branch
+          delete-branch: true
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gist-results
+          path: |
+            gist-factory/all-gists.json
+            gist-factory/gist-id.json
+          retention-days: 30
