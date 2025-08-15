@@ -530,7 +530,7 @@ def main():
     # If merged_items is not empty, print a tabular report
     print("Length of merged_items:", len(merged_items))
     print("Bool merged_items:", bool(merged_items))
-    if not merged_items:
+    if merged_items:
         # Prepare report data
         report = []
         for item in merged_items:
