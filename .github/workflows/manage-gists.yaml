@@ -74,6 +74,12 @@ jobs:
             ${{ inputs.dry_run && '--dry-run' || '' }} \
             ${{ inputs.debug && '--debug' || '' }}
 
+      - name: Print the JSON repository
+        shell: bash
+        working-directory: ${{ github.workspace }}/gist-factory
+        run: |
+          cat gist-operation-report.json|jq
+
       - name: Check for changes
         id: git-check
         working-directory: ${{ github.workspace }}/gist-factory
@@ -94,7 +100,7 @@ jobs:
           # set your CodeQL workflow name OR file; name is safest if you used the default
           CODEQL_WORKFLOW_NAME: "Code Scanning - CodeQL"
         run: |
-          echo "Waiting for CodeQL runs on $BRANCH to finish..."
+          echo "Waiting for CodeQL runs on ${{ env.BRANCH }} to finish..."
           max_wait=1800   # 30 minutes
           interval=15
           waited=0

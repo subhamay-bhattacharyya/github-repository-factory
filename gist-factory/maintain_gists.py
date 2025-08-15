@@ -513,7 +513,6 @@ def main():
         for item in merged_items:
             print(json.dumps(item, indent=2))
 
-    print(f"Merged items - {merged_items}")
     # Write the updated items back to the output file
     if not merged_items:
         print("No items to write back to output file.", file=sys.stderr)
@@ -522,7 +521,7 @@ def main():
         print(f"Writing the file {output_path} ")
         try:
             with output_path.open("w", encoding="utf-8") as f:
-                json.dump(merged_items, f, indent=2)
+                json.dump([x.update({"operation": "skip"}) for x in merged_items], f, indent=2)
             print(f"Updated items written to {output_path}")
         except OSError as e:
             print(f"Failed to write output JSON: {e}", file=sys.stderr)
@@ -531,31 +530,29 @@ def main():
     # If merged_items is not empty, print a tabular report
     if merged_items:
 
-        # Prepare table rows
-        table = []
+        # Prepare report data
+        report = []
         for item in merged_items:
-            table.append(
-                [
-                    item.get("id", "-"),
-                    item.get("filename", "-"),
-                    get_status(item),
-                    item.get("description", "-"),
-                ]
+            report.append(
+            {
+                "id": item.get("id", "-"),
+                "filename": item.get("filename", "-"),
+                "status": get_status(item),
+                "description": item.get("description", "-"),
+            }
             )
 
-        # Print table header
-        print("\n## Gist Operation Report\n")
-        # Print markdown table header
-        print("-" * (34 + 32 + 12 + 62 ))
-        print(f"| {'Gist ID':<32} | {'Filename':<30} | {'Status':<10} | {'Description'} |")
-        print(f"|{'-'*34}|{'-'*32}|{'-'*12}|{'-'*62}|")
-        # Print markdown table rows
-        for row in table:
-            print(f"| {row[0]:<32} | {row[1]:<30} | {row[2]:<10} | {row[3]:<60} |")
-        print("-" * (34 + 32 + 12 + 62 ))
+        # Write JSON report for GitHub Action step
+        report_path = Path("gist-factory/gist-operation-report.json")
+        try:
+            with report_path.open("w", encoding="utf-8") as f:
+                json.dump(report, f, indent=2)
+            print(f"Gist operation report written to {report_path}")
+        except OSError as e:
+            print(f"Failed to write gist operation report: {e}", file=sys.stderr)
 
         # Print summary
-        status_counts = Counter(get_status(item) for item in merged_items)
+        status_counts = Counter(item["status"] for item in report)
         print("Summary:")
         for status in ["Created", "Updated", "Deleted", "Skipped"]:
             print(f"  {status}: {status_counts.get(status, 0)}")
