@@ -78,6 +78,8 @@ jobs:
         shell: bash
         working-directory: ${{ github.workspace }}/gist-factory
         run: |
+          pwd
+          ls -lR 
           cat gist-operation-report.json|jq
 
       - name: Check for changes

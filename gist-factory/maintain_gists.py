@@ -547,7 +547,7 @@ def main():
         print(f"report - {report}")
 
         # Write JSON report for GitHub Action step
-        print("In write JSON report for GitHub Action step:")
+        print("DEBUG: About to write gist operation report...")  # Debug statement
         report_path = Path("gist-factory/gist-operation-report.json")
         try:
             with report_path.open("w", encoding="utf-8") as f:
