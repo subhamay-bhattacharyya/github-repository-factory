@@ -403,7 +403,7 @@ def main():
     input_path = args.input
     output_path = args.output or args.input
     # Derive report_path from output_path, but with filename 'gist-operation-report.json'
-    report_path = output_path.with_name("gist-operation-report.json")
+    report_path = "/".join(output_path.split("/")[:-1]) + "/gist-operation-report.json"
 
     if getattr(args, "debug", False):
         print("---------------------------------------------------------")
