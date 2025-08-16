@@ -402,11 +402,14 @@ def main():
 
     input_path = args.input
     output_path = args.output or args.input
+    # Derive report_path from output_path, but with filename 'gist-operation-report.json'
+    report_path = output_path.with_name("gist-operation-report.json")
 
     if getattr(args, "debug", False):
         print("---------------------------------------------------------")
         print(f"Input file     => {input_path}")
         print(f"Output file    => {output_path}")
+        print(f"Report file    => {report_path}")
         print(f"Skip existing  => {args.skip_existing}")
         print(f"Dry run        => {args.dry_run}")
         print("---------------------------------------------------------")
@@ -548,7 +551,7 @@ def main():
 
         # Write JSON report for GitHub Action step
         print("DEBUG: About to write gist operation report...")  # Debug statement
-        report_path = Path("gist-factory/gist-operation-report.json")
+        # report_path = Path("gist-factory/gist-operation-report.json")
         try:
             with report_path.open("w", encoding="utf-8") as f:
                 json.dump(report, f, indent=2)
@@ -564,11 +567,11 @@ def main():
         print("=" * 60)
 
         # generate gist_id.json:
-        generate_gist_id_json(
-            Path("gist-factory/all-gists.json"),
-            Path("gist-factory/gist-id.json"),
-            "bsubhamay",
-        )
+        # generate_gist_id_json(
+        #     Path("gist-factory/all-gists.json"),
+        #     Path("gist-factory/gist-id.json"),
+        #     "bsubhamay",
+        # )
 
 
 if __name__ == "__main__":
