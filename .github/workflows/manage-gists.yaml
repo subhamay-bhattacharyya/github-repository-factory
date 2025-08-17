@@ -121,7 +121,7 @@ jobs:
 
       - name: Commit only (no push yet)
         if: ${{ inputs.dry_run == false && success() }}
-        working-directory: gist-factory
+        working-directory: ${{ github.workspace }}/gist-factory
         run: |
           git branch
           git status

@@ -179,7 +179,7 @@ def create_gists(
             resp = session.post(API_URL, headers=headers, json=payload, timeout=10)
             if resp.status_code == 201:
                 gist_id = resp.json().get("id")
-                item.update({"id": gist_id})
+                item.update({"id": gist_id,"operation": "created"})
                 created_items.append(item)
                 if debug:
                     gist_url = resp.json().get("html_url")
@@ -248,7 +248,7 @@ def update_gists(
                 f"{API_URL}/{gist_id}", headers=headers, json=payload, timeout=10
             )
             if resp.status_code == 200:
-                updated_items.append(item)
+                updated_items.append(item.update({"operation": "updated"}))
                 if debug:
                     gist_url = resp.json().get("html_url")
                     print(f"✅ [{idx}] Updated gist: {gist_url}")
@@ -524,7 +524,7 @@ def main():
         print(f"Writing the file {output_path} ")
         try:
             with output_path.open("w", encoding="utf-8") as f:
-                json.dump([x.update({"operation": "skip"}) for x in merged_items], f, indent=2)
+                json.dump(merged_items, f, indent=2)
             print(f"Updated items written to {output_path}")
         except OSError as e:
             print(f"Failed to write output JSON: {e}", file=sys.stderr)
