@@ -58,9 +58,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Prepare temp branch name
-        id: temp-branch
-        run: echo "name=auto/gist-update-${{ github.run_id }}" >> "$GITHUB_OUTPUT"
+      # - name: Prepare temp branch name
+      #   id: temp-branch
+      #   run: echo "name=auto/gist-update-${{ github.run_id }}" >> "$GITHUB_OUTPUT"
 
       - name: Execute Python script (maintain_gists.py)
         env:
@@ -78,19 +78,24 @@ jobs:
         shell: bash
         working-directory: ${{ github.workspace }}/gist-factory
         run: |
-          pwd
-          ls -lR 
+          # pwd
+          # ls -lR 
+          echo "========== gist-operation-report.json ==================="
           cat gist-operation-report.json|jq
+          echo "==========     all-gists.json ==========================="
+          cat all-gists.json
 
-      - name: Check for changes
-        id: git-check
-        working-directory: ${{ github.workspace }}/gist-factory
-        run: |
-          if git diff --quiet --exit-code -- all-gists.json gist-id.json; then
-            echo "changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "changes=true" >> $GITHUB_OUTPUT
-          fi
+      # - name: Check for changes
+      #   id: git-check
+      #   working-directory: ${{ github.workspace }}/gist-factory
+      #   run: |
+          # git branch --show-current
+
+          # if git diff --quiet --exit-code -- all-gists.json gist-id.json; then
+          #   echo "changes=false" >> $GITHUB_OUTPUT
+          # else
+          #   echo "changes=true" >> $GITHUB_OUTPUT
+          # fi
 
       # 🔒 Wait here if CodeQL is still running on this branch
       - name: Wait for CodeQL to be idle on this branch
@@ -134,29 +139,33 @@ jobs:
         if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
         working-directory: gist-factory
         run: |
+          git branch
+          git status
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A .
           if ! git diff --cached --quiet; then
             git commit -m "Update gists via GitHub Actions [skip ci]"
+            # git push origin "${{ steps.temp-branch.outputs.name }}" || echo "No changes to commit, but branch exists."
+            git push origin HEAD:"${{ github.ref_name }}" || echo "No changes to commit, but branch exists."
           else
             echo "No changes to commit."; exit 0
           fi
 
-      - name: Create & push temp branch (allowed by ruleset)
-        if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
-        run: |
-          git switch -c "${{ steps['temp-branch'].outputs.name }}"
-          git push -u origin "${{ steps['temp-branch'].outputs.name }}"
+      # - name: Create & push temp branch (allowed by ruleset)
+      #   if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
+      #   run: |
+      #     git switch -c "${{ steps['temp-branch'].outputs.name }}"
+      #     git push -u origin "${{ steps['temp-branch'].outputs.name }}"
 
-      - name: Open PR into the protected branch
-        uses: peter-evans/create-pull-request@v6
-        with:
-          title: "Update gists via GitHub Actions"
-          body: "Automated update from ${{ steps['temp-branch'].outputs.name }}."
-          branch: "${{ steps['temp-branch'].outputs.name }}"   # head (source) branch
-          base: "${{ github.ref_name }}"                       # current bug/... branch
-          delete-branch: true
+      # - name: Open PR into the protected branch
+      #   uses: peter-evans/create-pull-request@v6
+      #   with:
+      #     title: "Update gists via GitHub Actions"
+      #     body: "Automated update from ${{ steps['temp-branch'].outputs.name }}."
+      #     branch: "${{ steps['temp-branch'].outputs.name }}"   # head (source) branch
+      #     base: "${{ github.ref_name }}"                       # current bug/... branch
+      #     delete-branch: true
 
       - name: Upload artifacts
         if: always()
