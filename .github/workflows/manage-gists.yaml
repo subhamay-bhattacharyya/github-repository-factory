@@ -119,7 +119,7 @@ jobs:
             waited=$((waited+interval))
           done
 
-      - name: Commit only (no push yet)
+      - name: Commit and push changes
         if: ${{ inputs.dry_run == false && success() }}
         working-directory: ${{ github.workspace }}/gist-factory
         run: |
@@ -127,10 +127,9 @@ jobs:
           git status
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A .
+          git add all-gists.json gist-operation-report.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update gists via GitHub Actions [skip ci]"
-            # git push origin "${{ steps.temp-branch.outputs.name }}" || echo "No changes to commit, but branch exists."
+            git commit -m "Update gist metadata and operation report via GitHub Actions [skip ci]"
             git push origin HEAD:"${{ github.ref_name }}" || echo "No changes to commit, but branch exists."
           else
             echo "No changes to commit."; exit 0
