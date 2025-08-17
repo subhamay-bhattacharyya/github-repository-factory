@@ -136,7 +136,7 @@ jobs:
           done
 
       - name: Commit only (no push yet)
-        if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
+        if: ${{ inputs.dry_run == false && success() }}
         working-directory: gist-factory
         run: |
           git branch
