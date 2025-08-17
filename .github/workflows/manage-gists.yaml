@@ -119,7 +119,7 @@ jobs:
             waited=$((waited+interval))
           done
 
-      - name: Commit and push changes
+      - name: Commit changes
         if: ${{ inputs.dry_run == false && success() }}
         working-directory: ${{ github.workspace }}/gist-factory
         run: |
@@ -130,10 +130,15 @@ jobs:
           git add all-gists.json gist-operation-report.json
           if ! git diff --cached --quiet; then
             git commit -m "Update gist metadata and operation report via GitHub Actions [skip ci]"
-            git push origin HEAD:"${{ github.ref_name }}" || echo "No changes to commit, but branch exists."
           else
             echo "No changes to commit."; exit 0
           fi
+
+      - name: Push changes after CodeQL is idle
+        if: ${{ inputs.dry_run == false && success() }}
+        working-directory: ${{ github.workspace }}/gist-factory
+        run: |
+          git push origin HEAD:"${{ github.ref_name }}" || echo "No changes to push, but branch exists."
 
       # - name: Create & push temp branch (allowed by ruleset)
       #   if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run && success()
