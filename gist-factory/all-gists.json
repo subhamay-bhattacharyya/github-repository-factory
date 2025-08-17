@@ -1,28 +1,15 @@
 [
-    {
-        "id": "59614cb8e85a429214d9d4f15d7ae58f",
-        "filename": "1201-kubernetes-tf-111.json",
-        "description": "Gist for 1201-kubernetes-tf-111.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "not started",
-            "color": "red",
-            "style": "flat"
-        },
-        "operation": "delete"
+  {
+    "id": "693cc07bb0b15ef79d63abdbb2fc4af3",
+    "filename": "1201-kubernetes-tf-112.json",
+    "description": "Gist for 1201-kubernetes-tf-112.json",
+    "content": {
+      "schemaVersion": 1,
+      "label": "status",
+      "message": "not started",
+      "color": "red",
+      "style": "flat"
     },
-    {
-        "id": null,
-        "filename": "1201-kubernetes-tf-112.json",
-        "description": "Gist for 1201-kubernetes-tf-112.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "not started",
-            "color": "red",
-            "style": "flat"
-        },
-        "operation": "create"
-    }
+    "operation": "created"
+  }
 ]
