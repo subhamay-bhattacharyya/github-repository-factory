@@ -403,13 +403,13 @@ def main():
     input_path = args.input
     output_path = args.output or args.input
     # Derive report_path from output_path, but with filename 'gist-operation-report.json'
-    report_path = "/".join(output_path.split("/")[:-1]) + "/gist-operation-report.json"
+    report_file = "gist-operation-report.json"
 
     if getattr(args, "debug", False):
         print("---------------------------------------------------------")
         print(f"Input file     => {input_path}")
         print(f"Output file    => {output_path}")
-        print(f"Report file    => {report_path}")
+        print(f"Report file    => {report_file}")
         print(f"Skip existing  => {args.skip_existing}")
         print(f"Dry run        => {args.dry_run}")
         print("---------------------------------------------------------")
@@ -531,14 +531,10 @@ def main():
             sys.exit(1)
 
     # If merged_items is not empty, print a tabular report
-    print("Length of merged_items:", len(merged_items))
-    print("Bool merged_items:", bool(merged_items))
     if merged_items:
-        print("In if merged_items:")
         # Prepare report data
         report = []
         for item in merged_items:
-            print("In for item in merged_items:")
             report.append(
             {
                 "id": item.get("id", "-"),
@@ -547,11 +543,10 @@ def main():
                 "description": item.get("description", "-"),
             }
             )
-        print(f"report - {report}")
+        report_path = Path(report_file).expanduser().resolve()
 
         # Write JSON report for GitHub Action step
-        print("DEBUG: About to write gist operation report...")  # Debug statement
-        # report_path = Path("gist-factory/gist-operation-report.json")
+        print(f"DEBUG: About to write gist operation report...{report_path}")
         try:
             with report_path.open("w", encoding="utf-8") as f:
                 json.dump(report, f, indent=2)
