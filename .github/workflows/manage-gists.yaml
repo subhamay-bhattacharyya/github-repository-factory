@@ -82,7 +82,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          BRANCH_NAME="temp-${{ github.run_id }}"
+          BRANCH_NAME="temp/run-${{ github.run_id }}"
           git checkout -b "$BRANCH_NAME"
 
           git add -A .

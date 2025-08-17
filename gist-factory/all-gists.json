@@ -1,8 +1,8 @@
 [
     {
         "id": null,
-        "filename": "1201-kubernetes-tf-101.json",
-        "description": "Gist for 1201-kubernetes-tf-101.json",
+        "filename": "1201-kubernetes-tf-111.json",
+        "description": "Gist for 1201-kubernetes-tf-111.json",
         "content": {
             "schemaVersion": 1,
             "label": "status",
@@ -11,5 +11,18 @@
             "style": "flat"
         },
         "operation": "create"
+    },
+    {
+        "id": "561bf5668f2473fe715cb130d4aac6ea",
+        "filename": "1201-kubernetes-tf.json",
+        "description": "Gist for 1201-kubernetes-tf.json",
+        "content": {
+            "schemaVersion": 1,
+            "label": "status",
+            "message": "not started",
+            "color": "red",
+            "style": "flat"
+        },
+        "operation": "delete"
     }
 ]
