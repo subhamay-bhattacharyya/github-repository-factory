@@ -524,7 +524,7 @@ def main():
         print(f"Writing the file {output_path} ")
         try:
             with output_path.open("w", encoding="utf-8") as f:
-                json.dump(merged_items, f, indent=2)
+                json.dump([x.update({"operation": "skip"}) for x in merged_items], f, indent=2)
             print(f"Updated items written to {output_path}")
         except OSError as e:
             print(f"Failed to write output JSON: {e}", file=sys.stderr)
