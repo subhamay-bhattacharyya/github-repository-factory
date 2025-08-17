@@ -80,6 +80,12 @@ jobs:
           cat gist-operation-report.json|jq
           echo "==========     all-gists.json ==========================="
           cat all-gists.json
+          echo "==========     git add ==========================="
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add all-gists.json gist-operation-report.json
+          git commit -m "Update gist metadata and operation report via GitHub Actions [skip ci]"
+
 
       # 🔒 Wait here if CodeQL is still running on this branch
       - name: Wait for CodeQL to be idle on this branch
@@ -123,11 +129,11 @@ jobs:
         if: ${{ inputs.dry_run == false && success() }}
         working-directory: ${{ github.workspace }}/gist-factory
         run: |
-          git branch
-          git status
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add all-gists.json gist-operation-report.json
+          # git branch
+          # git status
+          # git config --local user.email "action@github.com"
+          # git config --local user.name "GitHub Action"
+          # git add all-gists.json gist-operation-report.json
           if ! git diff --cached --quiet; then
             git commit -m "Update gist metadata and operation report via GitHub Actions [skip ci]"
           else
