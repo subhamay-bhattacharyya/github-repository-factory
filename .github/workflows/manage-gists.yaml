@@ -70,30 +70,18 @@ jobs:
             ${{ inputs.dry_run && '--dry-run' || '' }} \
             ${{ inputs.debug && '--debug' || '' }}
 
-      - name: Print the JSON repository
-        shell: bash
-        working-directory: ${{ github.workspace }}/gist-factory
-        run: |
-          # pwd
-          # ls -lR 
-          echo "========== gist-operation-report.json ==================="
-          cat gist-operation-report.json|jq
-          echo "==========     all-gists.json ==========================="
-          cat all-gists.json
-          echo "==========     git add ==========================="
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add all-gists.json gist-operation-report.json
-          git commit -m "Update gist metadata and operation report via GitHub Actions [skip ci]"
-
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
       - name: Commit and push changes to temp branch
         working-directory: ${{ github.workspace }}/gist-factory
         run: |
+          ls -lR 
+          echo "========== gist-operation-report.json ==================="
+          cat gist-operation-report.json|jq
+          echo "========== all-gists.json ==============================="
+          cat all-gists.json
+          echo "==========  configure git ==============================="
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           BRANCH_NAME="temp-${{ github.run_id }}"
           git checkout -b "$BRANCH_NAME"
 
