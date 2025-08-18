@@ -40,8 +40,6 @@ def get_status(item):
             return "Updated"
         elif item["operation"] == "create":
             return "Created"
-    if "id" in item and item.get("id"):
-        return "Skipped"
     return "Skipped"
 
 
@@ -120,7 +118,7 @@ def segregate_gists(
         gist_id = item.get("id")
         operation = item.get("operation", None)
         if operation == "delete" and gist_id:
-            to_delete.append(gist_id)
+            to_delete.append(item)
         elif operation == "update" and gist_id:
             to_update.append(item)
         elif (operation == "create" or operation is None) and not gist_id:
@@ -179,10 +177,12 @@ def create_gists(
             resp = session.post(API_URL, headers=headers, json=payload, timeout=10)
             if resp.status_code == 201:
                 gist_id = resp.json().get("id")
-                item.update({"id": gist_id})
+                raw_url = resp.json().get("files", {}).get(item.get("filename", "untitled.json"), {}).get("raw_url")
+                item.update({"id": gist_id, "operation": "created", "raw_url": raw_url})
                 created_items.append(item)
                 if debug:
-                    print(f"✅ [{idx}] Created gist: {gist_id}")
+                    gist_url = resp.json().get("html_url")
+                    print(f"✅ [{idx}] Created gist: {gist_url}")
             else:
                 print(
                     f"❌ [{idx}] Failed to create gist: {resp.status_code} {resp.text}",
@@ -192,6 +192,14 @@ def create_gists(
             print(
                 f"❌ [{idx}] Network error during gist creation: {e}", file=sys.stderr
             )
+
+    print(">>>>>>>>---------------------------------------------------------")
+    print(f"Created {len(created_items)} gists.")
+    print(">>>>>>>>---------------------------------------------------------")
+    print("Created gists:")
+    for item in created_items:
+        print(json.dumps(item, indent=2))
+
     return created_items
 
 
@@ -247,9 +255,10 @@ def update_gists(
                 f"{API_URL}/{gist_id}", headers=headers, json=payload, timeout=10
             )
             if resp.status_code == 200:
-                updated_items.append(item)
+                updated_items.append(item.update({"operation": "updated"}))
                 if debug:
-                    print(f"✅ [{idx}] Updated gist: {gist_id}")
+                    gist_url = resp.json().get("html_url")
+                    print(f"✅ [{idx}] Updated gist: {gist_url}")
             else:
                 print(
                     f"❌ [{idx}] Failed to update gist {gist_id}: {resp.status_code} {resp.text}",
@@ -257,12 +266,20 @@ def update_gists(
                 )
         except requests.RequestException as e:
             print(f"❌ [{idx}] Network error during gist update: {e}", file=sys.stderr)
+
+    print(">>>>>>>>---------------------------------------------------------")
+    print(f"Updated {len(updated_items)} gists.")
+    print(">>>>>>>>---------------------------------------------------------")
+    print("Updated gists:")
+    for item in updated_items:
+        print(json.dumps(item, indent=2))
+
     return updated_items
 
 
 def delete_gists(
     session: requests.Session,
-    gist_ids: List[str],
+    items: List[Dict[str, Any]],
     token: str,
     dry_run: bool = False,
     debug: bool = False,
@@ -272,12 +289,13 @@ def delete_gists(
     Returns the list of gist IDs that were successfully deleted.
     """
 
-    deleted_ids = []
+    deleted_items = []
     if debug:
-        print("First two gist IDs to delete:")
-        for gist_id in gist_ids[:2]:
-            print(gist_id)
+        print("First two gists to delete:")
+        for item in items[:2]:
+            print(json.dumps(item, indent=2))
 
+    gist_ids = [item["id"] for item in items if "id" in item and item["id"]]
     for idx, gist_id in enumerate(gist_ids, start=1):
         if dry_run:
             print(f"[DRY RUN] Would delete gist {gist_id}")
@@ -287,7 +305,7 @@ def delete_gists(
             headers = get_headers(token)
             resp = session.delete(f"{API_URL}/{gist_id}", headers=headers, timeout=10)
             if resp.status_code == 204:
-                deleted_ids.append(gist_id)
+                deleted_items.append(item.update({"operation": "deleted"}))
                 if debug:
                     print(f"✅ [{idx}] Deleted gist: {gist_id}")
             else:
@@ -299,10 +317,17 @@ def delete_gists(
             print(
                 f"❌ [{idx}] Network error during gist deletion: {e}", file=sys.stderr
             )
-    return deleted_ids
+    print(">>>>>>>>---------------------------------------------------------")
+    print(f"Deleted {len(deleted_items)} gists.")
+    print(">>>>>>>>---------------------------------------------------------")
+    print("Deleted gists:")
+    for item in deleted_items:
+        print(json.dumps(item, indent=2))
+
+    return deleted_items
 
 
-def generate_gist_id_json(all_gists_path, output_path, github_username):
+def generate_gist_id_json(all_gists_path, gist_id_file_path, github_username):
     """
     Generate a JSON file mapping filenames to gist id and raw_url.
     Args:
@@ -335,11 +360,11 @@ def generate_gist_id_json(all_gists_path, output_path, github_username):
         gist_map[filename] = {"id": gist_id, "raw_url": raw_url}
 
     try:
-        with output_path.open("w", encoding="utf-8") as f:
+        with gist_id_file_path.open("w", encoding="utf-8") as f:
             json.dump(gist_map, f, indent=2)
-        print(f"Gist ID JSON written to {output_path}")
+        print(f"Gist ID JSON written to {gist_id_file_path}")
     except (OSError, IOError) as e:
-        print(f"Failed to write {output_path}: {e}", file=sys.stderr)
+        print(f"Failed to write {gist_id_file_path}: {e}", file=sys.stderr)
 
 
 def main():
@@ -400,11 +425,16 @@ def main():
 
     input_path = args.input
     output_path = args.output or args.input
+    # Derive report_path from output_path, but with filename 'gist-operation-report.json'
+    report_file = "gist-operation-report.json"
+    gist_id_file = "gist-id.json"
 
     if getattr(args, "debug", False):
         print("---------------------------------------------------------")
         print(f"Input file     => {input_path}")
         print(f"Output file    => {output_path}")
+        print(f"Report file    => {report_file}")
+        print(f"Gist Ids file  => {gist_id_file}")
         print(f"Skip existing  => {args.skip_existing}")
         print(f"Dry run        => {args.dry_run}")
         print("---------------------------------------------------------")
@@ -433,7 +463,6 @@ def main():
 
     session = requests.Session()
 
-    # Example usage:
     to_create, to_update, to_delete, to_skip = segregate_gists(items)
     if getattr(args, "debug", False):
         print(f"To create: {len(to_create)}")
@@ -441,9 +470,6 @@ def main():
         print(f"To delete: {len(to_delete)}")
         print(f"To skip: {len(to_skip)}")
 
-    print(">>>>>>>>---------------------------------------------------------")
-    print(f"Skipped {len(to_skip)} gists.")
-    print(">>>>>>>>---------------------------------------------------------")
     if to_create:
         created_items = create_gists(
             session,
@@ -452,13 +478,6 @@ def main():
             dry_run=args.dry_run,
             debug=args.debug,
         )
-        print(">>>>>>>>---------------------------------------------------------")
-        print(f"Created {len(created_items)} gists.")
-        print(">>>>>>>>---------------------------------------------------------")
-        if getattr(args, "debug", False):
-            print("Created gists:")
-            for item in created_items:
-                print(json.dumps(item, indent=2))
 
     if to_update:
         updated_items = update_gists(
@@ -468,13 +487,6 @@ def main():
             dry_run=args.dry_run,
             debug=args.debug,
         )
-        print(">>>>>>>>---------------------------------------------------------")
-        print(f"Updated {len(updated_items)} gists.")
-        print(">>>>>>>>---------------------------------------------------------")
-        if getattr(args, "debug", False):
-            print("Updated gists:")
-            for item in updated_items:
-                print(json.dumps(item, indent=2))
 
     if to_delete:
         deleted_items = delete_gists(
@@ -484,43 +496,30 @@ def main():
             dry_run=args.dry_run,
             debug=args.debug,
         )
-        print(">>>>>>>>---------------------------------------------------------")
-        print(f"Deleted {len(deleted_items)} gists.")
-        print(">>>>>>>>---------------------------------------------------------")
-        if getattr(args, "debug", False):
-            print("Deleted gists:")
-            for item in deleted_items:
-                print(json.dumps(item, indent=2))
 
     # Merge created_items, updated_items, and to_skip if their lengths are more than 0
     merged_items = []
-    if "created_items" in locals() and len(created_items) > 0:
+    if to_create and len(created_items) > 0:
         merged_items.extend(created_items)
-    if "updated_items" in locals() and len(updated_items) > 0:
+    if to_update and len(updated_items) > 0:
         merged_items.extend(updated_items)
     if len(to_skip) > 0:
         merged_items.extend(to_skip)
+    if len(to_delete) > 0 and len(deleted_items) == 0:
+        merged_items.extend(to_delete)
 
-    # If no items were deleted, merge to_delete list with the result
-    if ("deleted_items" not in locals() or len(deleted_items) == 0) and len(
-        to_delete
-    ) > 0:
-        # to_delete is a list of gist IDs, wrap as dicts for consistency
-        merged_items.extend(
-            {"id": gist_id, "operation": "delete"} for gist_id in to_delete
-        )
-
-    # Optionally, print or process merged_items as needed
+    print("=" * 60)
     if getattr(args, "debug", False):
         print("Merged items:")
         for item in merged_items:
             print(json.dumps(item, indent=2))
 
     # Write the updated items back to the output file
-    if merged_items:
+    if not merged_items:
         print("No items to write back to output file.", file=sys.stderr)
         sys.exit(0)
     else:
+        print(f"Writing the file {output_path} ")
         try:
             with output_path.open("w", encoding="utf-8") as f:
                 json.dump(merged_items, f, indent=2)
@@ -529,42 +528,45 @@ def main():
             print(f"Failed to write output JSON: {e}", file=sys.stderr)
             sys.exit(1)
 
-    # If merged_items is not empty, print a tabular report
+    # If merged_items is not empty, generate a JSON report
+    if "deleted_items" in locals() and deleted_items:
+        print(f"Deleted items : {deleted_items} gists.")
+        merged_items.extend(deleted_items)
     if merged_items:
-
-        # Prepare table rows
-        table = []
+        report = []
         for item in merged_items:
-            table.append(
-                [
-                    item.get("id", "-"),
-                    item.get("filename", "-"),
-                    get_status(item),
-                    item.get("description", "-"),
-                ]
+            report.append(
+            {
+                "id": item.get("id", "-"),
+                "filename": item.get("filename", "-"),
+                "status": item.get("operation", "-"),
+                "description": item.get("description", "-"),
+            }
             )
+        report_path = Path(report_file).expanduser().resolve()
 
-        # Print table header
-        print("\nGist Operation Report")
-        print("=" * 60)
-        print(f"{'Gist ID':<32} {'Filename':<20} {'Status':<10} {'Description'}")
-        print("-" * 60)
-        for row in table:
-            print(f"{row[0]:<32} {row[1]:<20} {row[2]:<10} {row[3]}")
-        print("-" * 60)
+        # Write JSON report for GitHub Action step
+        try:
+            with report_path.open("w", encoding="utf-8") as f:
+                json.dump(report, f, indent=2)
+            print(f"Gist operation report written to {report_path}")
+        except OSError as e:
+            print(f"Failed to write gist operation report: {e}", file=sys.stderr)
 
         # Print summary
-        status_counts = Counter(get_status(item) for item in merged_items)
-        print("Summary:")
-        for status in ["Created", "Updated", "Deleted", "Skipped"]:
-            print(f"  {status}: {status_counts.get(status, 0)}")
-        print("=" * 60)
+        # status_counts = Counter(item["status"] for item in report)
+        # print("Summary:")
+        # print(status_counts)
+        # for status in ["Created", "Updated", "Deleted", "Skipped"]:
+        #     print(f"  {status}: {status_counts.get(status, 0)}")
+        # print("=" * 60)
 
         # generate gist_id.json:
+        gist_id_file_path = Path(gist_id_file).expanduser().resolve()
         generate_gist_id_json(
-            Path("gist-factory/all-gists.json"),
-            Path("gist-factory/gist-id.json"),
-            "bsubhamay",
+            all_gists_path= output_path,
+            gist_id_file_path = gist_id_file_path,
+            github_username="bsubhamay"
         )
 
 
