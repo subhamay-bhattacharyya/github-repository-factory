@@ -1,6 +1,6 @@
 [
   {
-    "id": null,
+    "id": "39a762c72317a63f4b7ded37a0c05b2c",
     "filename": "maintain-gist-test-13.json",
     "description": "Gist for maintain-gist-test-13.json",
     "content": {
@@ -10,10 +10,11 @@
       "color": "red",
       "style": "flat"
     },
-    "operation": "create"
+    "operation": "created",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/39a762c72317a63f4b7ded37a0c05b2c/raw/1c6a00b92e0dec0420a5338bcc64eb4f1741ff47/maintain-gist-test-13.json"
   },
   {
-    "id": null,
+    "id": "ddc239580febe99fc95387eed879846d",
     "filename": "maintain-gist-test-14.json",
     "description": "Gist for maintain-gist-test-14.json",
     "content": {
@@ -23,6 +24,7 @@
       "color": "red",
       "style": "flat"
     },
-    "operation": "create"
+    "operation": "created",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ddc239580febe99fc95387eed879846d/raw/1c6a00b92e0dec0420a5338bcc64eb4f1741ff47/maintain-gist-test-14.json"
   }
 ]
