@@ -1,6 +1,6 @@
 [
   {
-    "id": null,
+    "id": "198b9351d03f64afb3971bf847ac1b19",
     "filename": "maintain-gist-test-15.json",
     "description": "Gist for maintain-gist-test-15.json",
     "content": {
@@ -10,10 +10,11 @@
       "color": "red",
       "style": "flat"
     },
-    "operation": "create"
+    "operation": "created",
+    "url": "https://api.github.com/gists/198b9351d03f64afb3971bf847ac1b19"
   },
   {
-    "id": null,
+    "id": "43cfaf0a8cbe0f186ae530744783ba50",
     "filename": "maintain-gist-test-16.json",
     "description": "Gist for maintain-gist-test-16.json",
     "content": {
@@ -23,6 +24,7 @@
       "color": "red",
       "style": "flat"
     },
-    "operation": "create"
+    "operation": "created",
+    "url": "https://api.github.com/gists/43cfaf0a8cbe0f186ae530744783ba50"
   }
 ]
