@@ -1,18 +1,2002 @@
 {
-  "0002-storage-cft": {
-    "id": "060b1904142f72680629869dec80242d",
-    "raw_url": "https://gist.githubusercontent.com/bsubhamay/060b1904142f72680629869dec80242d/raw/1c6a00b92e0dec0420a5338bcc64eb4f1741ff47/0002-storage-cft.json"
+  "4101-gen-ai-llm-tf.json": {
+    "id": "c505b2b4c27d6a95b0bf8c8db40d27f1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c505b2b4c27d6a95b0bf8c8db40d27f1/raw/4101-gen-ai-llm-tf.json"
   },
-  "0002-storage-tf": {
-    "id": "c0c2c4f55f1eb6dd657eadbf4c814b51",
-    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c0c2c4f55f1eb6dd657eadbf4c814b51/raw/1c6a00b92e0dec0420a5338bcc64eb4f1741ff47/0002-storage-tf.json"
+  "4101-gen-ai-llm-cft.json": {
+    "id": "79f0c85a63e1e08d68684952bf914f2b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/79f0c85a63e1e08d68684952bf914f2b/raw/4101-gen-ai-llm-cft.json"
   },
-  "0001-storage-cft": {
-    "id": "3fb4e0a61137736343b3002809b1ad20",
-    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3fb4e0a61137736343b3002809b1ad20/raw/1c6a00b92e0dec0420a5338bcc64eb4f1741ff47/0001-storage-cft.json"
+  "4102-gen-ai-llm-tf.json": {
+    "id": "acc4b3157e44867afcd1168fd8666e38",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/acc4b3157e44867afcd1168fd8666e38/raw/4102-gen-ai-llm-tf.json"
   },
-  "0001-storage-tf": {
-    "id": "9daca5ee825116fb6f3a58fc00e8c7a7",
-    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9daca5ee825116fb6f3a58fc00e8c7a7/raw/1c6a00b92e0dec0420a5338bcc64eb4f1741ff47/0001-storage-tf.json"
+  "4102-gen-ai-llm-cft.json": {
+    "id": "6754015feed07511ff64663710f488e9",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6754015feed07511ff64663710f488e9/raw/4102-gen-ai-llm-cft.json"
+  },
+  "4103-gen-ai-llm-tf.json": {
+    "id": "123a0c222c2d80169704ff8af9bcf32f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/123a0c222c2d80169704ff8af9bcf32f/raw/4103-gen-ai-llm-tf.json"
+  },
+  "4103-gen-ai-llm-cft.json": {
+    "id": "059d2e52886ed8b64e4b68cf928c1dc6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/059d2e52886ed8b64e4b68cf928c1dc6/raw/4103-gen-ai-llm-cft.json"
+  },
+  "4104-gen-ai-llm-tf.json": {
+    "id": "4eafc4b8c495b5cd814faf9d2bebdcec",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4eafc4b8c495b5cd814faf9d2bebdcec/raw/4104-gen-ai-llm-tf.json"
+  },
+  "4104-gen-ai-llm-cft.json": {
+    "id": "944e015765167b7195a833a3f6da954a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/944e015765167b7195a833a3f6da954a/raw/4104-gen-ai-llm-cft.json"
+  },
+  "1401-highly-available-tf.json": {
+    "id": "11d17444ec5e4b73aefb0c6c78083908",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/11d17444ec5e4b73aefb0c6c78083908/raw/1401-highly-available-tf.json"
+  },
+  "1401-highly-available-cft.json": {
+    "id": "e7169892b2cb47ed992b6e0a7a28f4f1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e7169892b2cb47ed992b6e0a7a28f4f1/raw/1401-highly-available-cft.json"
+  },
+  "5001-disaster-recovery-tf.json": {
+    "id": "4b1a812472d7230589a6cbb82459c910",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4b1a812472d7230589a6cbb82459c910/raw/5001-disaster-recovery-tf.json"
+  },
+  "5001-disaster-recovery-cft.json": {
+    "id": "892b11b9deaf5b2af15ab161da2738b3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/892b11b9deaf5b2af15ab161da2738b3/raw/5001-disaster-recovery-cft.json"
+  },
+  "5002-disaster-recovery-tf.json": {
+    "id": "665a4518c86d8209e6a7c0ae9f6da725",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/665a4518c86d8209e6a7c0ae9f6da725/raw/5002-disaster-recovery-tf.json"
+  },
+  "5002-disaster-recovery-cft.json": {
+    "id": "287d878ede226084c5d61b1bd1499d5f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/287d878ede226084c5d61b1bd1499d5f/raw/5002-disaster-recovery-cft.json"
+  },
+  "5003-disaster-recovery-tf.json": {
+    "id": "0005ab754862df4404f88cca7d44032a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0005ab754862df4404f88cca7d44032a/raw/5003-disaster-recovery-tf.json"
+  },
+  "5003-disaster-recovery-cft.json": {
+    "id": "b5db98826d647d9943375fcbb5aaf206",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b5db98826d647d9943375fcbb5aaf206/raw/5003-disaster-recovery-cft.json"
+  },
+  "2901-gen-ai-chatbot-tf.json": {
+    "id": "9552d6aedd1a4265a7f88c83c2decd44",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9552d6aedd1a4265a7f88c83c2decd44/raw/2901-gen-ai-chatbot-tf.json"
+  },
+  "2901-gen-ai-chatbot-cft.json": {
+    "id": "c82239158e45f5e8f1f6140e86259017",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c82239158e45f5e8f1f6140e86259017/raw/2901-gen-ai-chatbot-cft.json"
+  },
+  "0701-intelligence-dashboard-tf.json": {
+    "id": "ce2d529beec811db009df97a65b1c899",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ce2d529beec811db009df97a65b1c899/raw/0701-intelligence-dashboard-tf.json"
+  },
+  "0701-intelligence-dashboard-cft.json": {
+    "id": "6288a9a9659e2c0bb054ad32864cfa44",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6288a9a9659e2c0bb054ad32864cfa44/raw/0701-intelligence-dashboard-cft.json"
+  },
+  "2401-security-tf.json": {
+    "id": "b8cf52661a25c4bf98a72e22d47d97fd",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b8cf52661a25c4bf98a72e22d47d97fd/raw/2401-security-tf.json"
+  },
+  "2401-security-cft.json": {
+    "id": "3bb81f5f2e006aedccf5d20de48d0cfa",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3bb81f5f2e006aedccf5d20de48d0cfa/raw/2401-security-cft.json"
+  },
+  "2402-security-tf.json": {
+    "id": "1263363ab60b6bf3bd312847d41073d8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1263363ab60b6bf3bd312847d41073d8/raw/2402-security-tf.json"
+  },
+  "2402-security-cft.json": {
+    "id": "7994dd0a5d8c1c22b1c63954025740e8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7994dd0a5d8c1c22b1c63954025740e8/raw/2402-security-cft.json"
+  },
+  "2403-security-tf.json": {
+    "id": "adfd76632f5f3b118ca42ee7c451b035",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/adfd76632f5f3b118ca42ee7c451b035/raw/2403-security-tf.json"
+  },
+  "2403-security-cft.json": {
+    "id": "c194a8beffb42c031a2e9580c6a066ac",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c194a8beffb42c031a2e9580c6a066ac/raw/2403-security-cft.json"
+  },
+  "2404-security-tf.json": {
+    "id": "3f42b792bac49a9bdd0333a1b90407b0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3f42b792bac49a9bdd0333a1b90407b0/raw/2404-security-tf.json"
+  },
+  "2404-security-cft.json": {
+    "id": "8a87af0486ab8178fd409a4debafab88",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8a87af0486ab8178fd409a4debafab88/raw/2404-security-cft.json"
+  },
+  "0201-glue-tf.json": {
+    "id": "e04bfe94f018bfc423ecd68245f87527",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e04bfe94f018bfc423ecd68245f87527/raw/0201-glue-tf.json"
+  },
+  "0201-glue-cft.json": {
+    "id": "a608f2ba32e32d2767b75bf60aa552eb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a608f2ba32e32d2767b75bf60aa552eb/raw/0201-glue-cft.json"
+  },
+  "0202-glue-tf.json": {
+    "id": "e9c0ed79eeb005427b8998f74f4af2a4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e9c0ed79eeb005427b8998f74f4af2a4/raw/0202-glue-tf.json"
+  },
+  "0202-glue-cft.json": {
+    "id": "bf28b5d279404ae12c5cced7a9531ae3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/bf28b5d279404ae12c5cced7a9531ae3/raw/0202-glue-cft.json"
+  },
+  "0203-glue-tf.json": {
+    "id": "804be7fc3ab92f8c588c1ea69dd69120",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/804be7fc3ab92f8c588c1ea69dd69120/raw/0203-glue-tf.json"
+  },
+  "0203-glue-cft.json": {
+    "id": "d407cf6044e4d3dbd0ddb8e42a850544",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d407cf6044e4d3dbd0ddb8e42a850544/raw/0203-glue-cft.json"
+  },
+  "0204-glue-tf.json": {
+    "id": "8e72a74af9ce3ba64f394f027abdf0e8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8e72a74af9ce3ba64f394f027abdf0e8/raw/0204-glue-tf.json"
+  },
+  "0204-glue-cft.json": {
+    "id": "908740e9423c2060dfb72c174758e95d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/908740e9423c2060dfb72c174758e95d/raw/0204-glue-cft.json"
+  },
+  "0205-glue-tf.json": {
+    "id": "e36d7c01723d0a000d58742a3bbce455",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e36d7c01723d0a000d58742a3bbce455/raw/0205-glue-tf.json"
+  },
+  "0205-glue-cft.json": {
+    "id": "315917d6f5513dffaa410fb27bb0d329",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/315917d6f5513dffaa410fb27bb0d329/raw/0205-glue-cft.json"
+  },
+  "0206-glue-tf.json": {
+    "id": "726d880b7ebf41335bbae8a9f922e9c8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/726d880b7ebf41335bbae8a9f922e9c8/raw/0206-glue-tf.json"
+  },
+  "0206-glue-cft.json": {
+    "id": "c3d182c7a9181e202f39f3ac60d843cd",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c3d182c7a9181e202f39f3ac60d843cd/raw/0206-glue-cft.json"
+  },
+  "0207-glue-tf.json": {
+    "id": "cd08e9f14025bf7e4e3be2c61650259b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cd08e9f14025bf7e4e3be2c61650259b/raw/0207-glue-tf.json"
+  },
+  "0207-glue-cft.json": {
+    "id": "c3f347e57f5bc3436d3f7b981870c254",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c3f347e57f5bc3436d3f7b981870c254/raw/0207-glue-cft.json"
+  },
+  "0208-glue-tf.json": {
+    "id": "07877ca2fbe9012ebdc9de69ed26dc28",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/07877ca2fbe9012ebdc9de69ed26dc28/raw/0208-glue-tf.json"
+  },
+  "0208-glue-cft.json": {
+    "id": "7ca6e34e9948c8b37fdf2341d6564ce2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7ca6e34e9948c8b37fdf2341d6564ce2/raw/0208-glue-cft.json"
+  },
+  "0209-glue-tf.json": {
+    "id": "5fe1f121091fec951da1bcf383b61405",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5fe1f121091fec951da1bcf383b61405/raw/0209-glue-tf.json"
+  },
+  "0209-glue-cft.json": {
+    "id": "982ccd53118afcb0e5aba42f703e4b80",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/982ccd53118afcb0e5aba42f703e4b80/raw/0209-glue-cft.json"
+  },
+  "0210-glue-tf.json": {
+    "id": "b0e8e34a460bae3a1e0bddfd672f4662",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b0e8e34a460bae3a1e0bddfd672f4662/raw/0210-glue-tf.json"
+  },
+  "0210-glue-cft.json": {
+    "id": "1a46bae89aced9a94c040a5bce748a58",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1a46bae89aced9a94c040a5bce748a58/raw/0210-glue-cft.json"
+  },
+  "0211-glue-tf.json": {
+    "id": "3c706d0ca518435613dab73a55489826",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3c706d0ca518435613dab73a55489826/raw/0211-glue-tf.json"
+  },
+  "0211-glue-cft.json": {
+    "id": "e6cb872c1e958281824a2d7d587fe2b5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e6cb872c1e958281824a2d7d587fe2b5/raw/0211-glue-cft.json"
+  },
+  "0212-glue-tf.json": {
+    "id": "dea53c94dff04ca352e937cee7d98b7e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/dea53c94dff04ca352e937cee7d98b7e/raw/0212-glue-tf.json"
+  },
+  "0212-glue-cft.json": {
+    "id": "20542fb21be9aea1174e2bc48f04b918",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/20542fb21be9aea1174e2bc48f04b918/raw/0212-glue-cft.json"
+  },
+  "1601-gen-ai-claude-tf.json": {
+    "id": "3ab104eb567bce0349fa5ee64f76618b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3ab104eb567bce0349fa5ee64f76618b/raw/1601-gen-ai-claude-tf.json"
+  },
+  "1601-gen-ai-claude-cft.json": {
+    "id": "94658461dfdcf68633e4693d571537a2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/94658461dfdcf68633e4693d571537a2/raw/1601-gen-ai-claude-cft.json"
+  },
+  "0401-general-tf.json": {
+    "id": "7e98cc7f4d6f895fbd9d3036e882d77c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7e98cc7f4d6f895fbd9d3036e882d77c/raw/0401-general-tf.json"
+  },
+  "0401-general-cft.json": {
+    "id": "3411806ae1c22a287d3cbd48e644a5ae",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3411806ae1c22a287d3cbd48e644a5ae/raw/0401-general-cft.json"
+  },
+  "0402-general-tf.json": {
+    "id": "4030cbbe31e00a0aba30e9cfb3256106",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4030cbbe31e00a0aba30e9cfb3256106/raw/0402-general-tf.json"
+  },
+  "0402-general-cft.json": {
+    "id": "f6a92bb081a01109017206990e4c544f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f6a92bb081a01109017206990e4c544f/raw/0402-general-cft.json"
+  },
+  "0403-general-tf.json": {
+    "id": "ad164259cfa5a61bb0f244721ba28f58",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ad164259cfa5a61bb0f244721ba28f58/raw/0403-general-tf.json"
+  },
+  "0403-general-cft.json": {
+    "id": "aafc22e88ff71b6dd00756f0093c1132",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/aafc22e88ff71b6dd00756f0093c1132/raw/0403-general-cft.json"
+  },
+  "0404-general-tf.json": {
+    "id": "5c824d97e876cf8918149f0a2fd30daf",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5c824d97e876cf8918149f0a2fd30daf/raw/0404-general-tf.json"
+  },
+  "0404-general-cft.json": {
+    "id": "1218759fafc3674b3012b7ac5e2f655a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1218759fafc3674b3012b7ac5e2f655a/raw/0404-general-cft.json"
+  },
+  "0405-general-tf.json": {
+    "id": "df519f9c07901dec10b0af6e9dbd8afc",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/df519f9c07901dec10b0af6e9dbd8afc/raw/0405-general-tf.json"
+  },
+  "0405-general-cft.json": {
+    "id": "d61e4be2440ef380ea1d70106ff3a6d1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d61e4be2440ef380ea1d70106ff3a6d1/raw/0405-general-cft.json"
+  },
+  "0406-general-tf.json": {
+    "id": "9109a8822df05ae4ac5ecfa2162390b9",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9109a8822df05ae4ac5ecfa2162390b9/raw/0406-general-tf.json"
+  },
+  "0406-general-cft.json": {
+    "id": "1545ffcf2fdc3fff877f74f4757ca9a7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1545ffcf2fdc3fff877f74f4757ca9a7/raw/0406-general-cft.json"
+  },
+  "0901-datalake-tf.json": {
+    "id": "a34f5a128bfb04f8e1936f51f4930692",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a34f5a128bfb04f8e1936f51f4930692/raw/0901-datalake-tf.json"
+  },
+  "0901-datalake-cft.json": {
+    "id": "ce85790f8d23d07b121986bffb0fca7d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ce85790f8d23d07b121986bffb0fca7d/raw/0901-datalake-cft.json"
+  },
+  "0902-datalake-tf.json": {
+    "id": "b027fd2275baa894e58cc09c31cd9f9e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b027fd2275baa894e58cc09c31cd9f9e/raw/0902-datalake-tf.json"
+  },
+  "0902-datalake-cft.json": {
+    "id": "87600f0df6b2c924857262c34438e619",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/87600f0df6b2c924857262c34438e619/raw/0902-datalake-cft.json"
+  },
+  "0903-datalake-tf.json": {
+    "id": "fe5003fbf8a0a34c42ca3afee163f58a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/fe5003fbf8a0a34c42ca3afee163f58a/raw/0903-datalake-tf.json"
+  },
+  "0903-datalake-cft.json": {
+    "id": "6d21a362760f34ed93c3556ab194a58f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6d21a362760f34ed93c3556ab194a58f/raw/0903-datalake-cft.json"
+  },
+  "0904-datalake-tf.json": {
+    "id": "6fbd065c9cf6fa5d26e9a9b7182060ed",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6fbd065c9cf6fa5d26e9a9b7182060ed/raw/0904-datalake-tf.json"
+  },
+  "0904-datalake-cft.json": {
+    "id": "08df97ff04730c78cacb9f5169f930d3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/08df97ff04730c78cacb9f5169f930d3/raw/0904-datalake-cft.json"
+  },
+  "0905-datalake-tf.json": {
+    "id": "d265ddc685a2a68ecd81522b377a0338",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d265ddc685a2a68ecd81522b377a0338/raw/0905-datalake-tf.json"
+  },
+  "0905-datalake-cft.json": {
+    "id": "458cfdbbcfc355577599312f27d126b7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/458cfdbbcfc355577599312f27d126b7/raw/0905-datalake-cft.json"
+  },
+  "1901-tagging-tf.json": {
+    "id": "491a280fa04d8aac3cca20543c0f88db",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/491a280fa04d8aac3cca20543c0f88db/raw/1901-tagging-tf.json"
+  },
+  "1901-tagging-cft.json": {
+    "id": "be47dc3437a1a5d989d2465699aa5877",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/be47dc3437a1a5d989d2465699aa5877/raw/1901-tagging-cft.json"
+  },
+  "1902-tagging-tf.json": {
+    "id": "a86f0c5eed2caba8b45bd697770ce31e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a86f0c5eed2caba8b45bd697770ce31e/raw/1902-tagging-tf.json"
+  },
+  "1902-tagging-cft.json": {
+    "id": "984e5be8f9c8195d6e50c5fc252153f8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/984e5be8f9c8195d6e50c5fc252153f8/raw/1902-tagging-cft.json"
+  },
+  "1903-tagging-tf.json": {
+    "id": "5c030d543b3bf20309daf44ae3233b41",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5c030d543b3bf20309daf44ae3233b41/raw/1903-tagging-tf.json"
+  },
+  "1903-tagging-cft.json": {
+    "id": "6be1daecb707158327383452bd345187",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6be1daecb707158327383452bd345187/raw/1903-tagging-cft.json"
+  },
+  "1904-tagging-tf.json": {
+    "id": "a7ee14cdca25687a049de45b530c98c3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a7ee14cdca25687a049de45b530c98c3/raw/1904-tagging-tf.json"
+  },
+  "1904-tagging-cft.json": {
+    "id": "53cd73713248959430ae1f427a4ee7bd",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/53cd73713248959430ae1f427a4ee7bd/raw/1904-tagging-cft.json"
+  },
+  "1905-tagging-tf.json": {
+    "id": "ec89a1bd5a3829250243c5e88bff2dfb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ec89a1bd5a3829250243c5e88bff2dfb/raw/1905-tagging-tf.json"
+  },
+  "1905-tagging-cft.json": {
+    "id": "102d6d225b6bf6c1dd2c28bd74797e37",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/102d6d225b6bf6c1dd2c28bd74797e37/raw/1905-tagging-cft.json"
+  },
+  "1906-tagging-tf.json": {
+    "id": "386a8857d0749fe54d1b66dfac7356c0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/386a8857d0749fe54d1b66dfac7356c0/raw/1906-tagging-tf.json"
+  },
+  "1906-tagging-cft.json": {
+    "id": "17a870f2d13cff5fecd237d71e063854",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/17a870f2d13cff5fecd237d71e063854/raw/1906-tagging-cft.json"
+  },
+  "4001-gen-ai-tf.json": {
+    "id": "064c4790b309e2e47472337e1c91075e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/064c4790b309e2e47472337e1c91075e/raw/4001-gen-ai-tf.json"
+  },
+  "4001-gen-ai-cft.json": {
+    "id": "dfc675f80d5c5fa34a53c2dd3a3863d2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/dfc675f80d5c5fa34a53c2dd3a3863d2/raw/4001-gen-ai-cft.json"
+  },
+  "4002-gen-ai-tf.json": {
+    "id": "1d817deb444264c98d51d29fb681d800",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1d817deb444264c98d51d29fb681d800/raw/4002-gen-ai-tf.json"
+  },
+  "4002-gen-ai-cft.json": {
+    "id": "a7b1467815a0b0a4582a342928678dc2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a7b1467815a0b0a4582a342928678dc2/raw/4002-gen-ai-cft.json"
+  },
+  "4003-gen-ai-tf.json": {
+    "id": "16257cb44b710efeca6fc420a0925555",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/16257cb44b710efeca6fc420a0925555/raw/4003-gen-ai-tf.json"
+  },
+  "4003-gen-ai-cft.json": {
+    "id": "f2110e8488b2527f8000df5291c08be4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f2110e8488b2527f8000df5291c08be4/raw/4003-gen-ai-cft.json"
+  },
+  "4004-gen-ai-tf.json": {
+    "id": "fbfe5249d94b8e6179ed833957e9a5ce",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/fbfe5249d94b8e6179ed833957e9a5ce/raw/4004-gen-ai-tf.json"
+  },
+  "4004-gen-ai-cft.json": {
+    "id": "aa2e7665d7d8b889f5edc8eed6e513b6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/aa2e7665d7d8b889f5edc8eed6e513b6/raw/4004-gen-ai-cft.json"
+  },
+  "2101-gen-ai-tf.json": {
+    "id": "54740835febd8b525660d16cd3f9370c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/54740835febd8b525660d16cd3f9370c/raw/2101-gen-ai-tf.json"
+  },
+  "2101-gen-ai-cft.json": {
+    "id": "4b88421ce091cd25826b7cd1e1f7d17a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4b88421ce091cd25826b7cd1e1f7d17a/raw/2101-gen-ai-cft.json"
+  },
+  "3900-gen-ai-tf.json": {
+    "id": "7285a16fd69ec88185d623120c403cca",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7285a16fd69ec88185d623120c403cca/raw/3900-gen-ai-tf.json"
+  },
+  "3900-gen-ai-cft.json": {
+    "id": "5cf090c4c74b9d0f4a5e91e6b4dfe33e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5cf090c4c74b9d0f4a5e91e6b4dfe33e/raw/3900-gen-ai-cft.json"
+  },
+  "3901-gen-ai-tf.json": {
+    "id": "4c8729b05b95793b541da46f5045c66f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4c8729b05b95793b541da46f5045c66f/raw/3901-gen-ai-tf.json"
+  },
+  "3901-gen-ai-cft.json": {
+    "id": "269fe586f328ad966a7b1435d9c99e03",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/269fe586f328ad966a7b1435d9c99e03/raw/3901-gen-ai-cft.json"
+  },
+  "3902-gen-ai-tf.json": {
+    "id": "1507c32399907e29a776eda5647d28ed",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1507c32399907e29a776eda5647d28ed/raw/3902-gen-ai-tf.json"
+  },
+  "3902-gen-ai-cft.json": {
+    "id": "c72abf7e94faedd663dc0de22c5382ba",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c72abf7e94faedd663dc0de22c5382ba/raw/3902-gen-ai-cft.json"
+  },
+  "3903-gen-ai-tf.json": {
+    "id": "d8954704cf0af436583f04ce9b18dda6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d8954704cf0af436583f04ce9b18dda6/raw/3903-gen-ai-tf.json"
+  },
+  "3903-gen-ai-cft.json": {
+    "id": "d2a21fc69daab4fbac3ef4b5c026eb5f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d2a21fc69daab4fbac3ef4b5c026eb5f/raw/3903-gen-ai-cft.json"
+  },
+  "3801-athena-tf.json": {
+    "id": "255a87926850a737f7eb17ad88b07678",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/255a87926850a737f7eb17ad88b07678/raw/3801-athena-tf.json"
+  },
+  "3801-athena-cft.json": {
+    "id": "3a774681a6452f1d4c8ad0545761f37a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3a774681a6452f1d4c8ad0545761f37a/raw/3801-athena-cft.json"
+  },
+  "3802-athena-tf.json": {
+    "id": "7fdc48e6ef92bd3b8d21e3703652efbd",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7fdc48e6ef92bd3b8d21e3703652efbd/raw/3802-athena-tf.json"
+  },
+  "3802-athena-cft.json": {
+    "id": "a54a27234ce43fefefdf648fd8295582",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a54a27234ce43fefefdf648fd8295582/raw/3802-athena-cft.json"
+  },
+  "3803-athena-tf.json": {
+    "id": "283228ade04e4ddc2164b52b1ce76a79",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/283228ade04e4ddc2164b52b1ce76a79/raw/3803-athena-tf.json"
+  },
+  "3803-athena-cft.json": {
+    "id": "2e17011f994aba6620984607c77a756e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2e17011f994aba6620984607c77a756e/raw/3803-athena-cft.json"
+  },
+  "3804-athena-tf.json": {
+    "id": "fd1612590de396a5eed31e48f05a8473",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/fd1612590de396a5eed31e48f05a8473/raw/3804-athena-tf.json"
+  },
+  "3804-athena-cft.json": {
+    "id": "13a93066bcb50be8446a7c50afc4f3b3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/13a93066bcb50be8446a7c50afc4f3b3/raw/3804-athena-cft.json"
+  },
+  "3805-athena-tf.json": {
+    "id": "6528196ccdeaeb526c18ffbcb273f328",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6528196ccdeaeb526c18ffbcb273f328/raw/3805-athena-tf.json"
+  },
+  "3805-athena-cft.json": {
+    "id": "79b25bf9f1eb12cc293439dc3b9aa261",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/79b25bf9f1eb12cc293439dc3b9aa261/raw/3805-athena-cft.json"
+  },
+  "3806-athena-tf.json": {
+    "id": "7d35e8309d7bf54cc38ecd74d32bc4c7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7d35e8309d7bf54cc38ecd74d32bc4c7/raw/3806-athena-tf.json"
+  },
+  "3806-athena-cft.json": {
+    "id": "a86cb74f674c3f62176a3b647a9df398",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a86cb74f674c3f62176a3b647a9df398/raw/3806-athena-cft.json"
+  },
+  "3807-athena-tf.json": {
+    "id": "041e41b755c0fe474898160a3c9ca0a2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/041e41b755c0fe474898160a3c9ca0a2/raw/3807-athena-tf.json"
+  },
+  "3807-athena-cft.json": {
+    "id": "93151ed90cfa1e4c848b9d84478875fb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/93151ed90cfa1e4c848b9d84478875fb/raw/3807-athena-cft.json"
+  },
+  "3808-athena-tf.json": {
+    "id": "d2b0cc347208a2db1d86ea7b8f9bb0a7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d2b0cc347208a2db1d86ea7b8f9bb0a7/raw/3808-athena-tf.json"
+  },
+  "3808-athena-cft.json": {
+    "id": "057271c52ccf48d4dbc63dabb497070c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/057271c52ccf48d4dbc63dabb497070c/raw/3808-athena-cft.json"
+  },
+  "1101-bedrock-tf.json": {
+    "id": "d46d76b24bdbcbde71845e5585c647a3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d46d76b24bdbcbde71845e5585c647a3/raw/1101-bedrock-tf.json"
+  },
+  "1101-bedrock-cft.json": {
+    "id": "c125249a014e1cf9c3b2c4e2476b67d4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c125249a014e1cf9c3b2c4e2476b67d4/raw/1101-bedrock-cft.json"
+  },
+  "1102-bedrock-tf.json": {
+    "id": "c7917a7e04ea22b95bf0d17448017f56",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c7917a7e04ea22b95bf0d17448017f56/raw/1102-bedrock-tf.json"
+  },
+  "1102-bedrock-cft.json": {
+    "id": "7c968bf4da785e8cd6b7851ff71681b4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7c968bf4da785e8cd6b7851ff71681b4/raw/1102-bedrock-cft.json"
+  },
+  "1103-bedrock-tf.json": {
+    "id": "017608e1ff777960bf60947c5b431c66",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/017608e1ff777960bf60947c5b431c66/raw/1103-bedrock-tf.json"
+  },
+  "1103-bedrock-cft.json": {
+    "id": "fea52739c291c926d107010262bfaed2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/fea52739c291c926d107010262bfaed2/raw/1103-bedrock-cft.json"
+  },
+  "1104-bedrock-tf.json": {
+    "id": "9c71febbef1b3b0c55719b3a55e3ee6d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9c71febbef1b3b0c55719b3a55e3ee6d/raw/1104-bedrock-tf.json"
+  },
+  "1104-bedrock-cft.json": {
+    "id": "d86e7f9ba2def06a35dccc327fb243e0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d86e7f9ba2def06a35dccc327fb243e0/raw/1104-bedrock-cft.json"
+  },
+  "1105-bedrock-tf.json": {
+    "id": "affe56177e4b91411f725cdafe96b6a4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/affe56177e4b91411f725cdafe96b6a4/raw/1105-bedrock-tf.json"
+  },
+  "1105-bedrock-cft.json": {
+    "id": "b8d14555700fe48f2c2bb7e7fa0aad1c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b8d14555700fe48f2c2bb7e7fa0aad1c/raw/1105-bedrock-cft.json"
+  },
+  "5101-data-engineering-tf.json": {
+    "id": "23bf958f756cb93310a92f8211faf86d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/23bf958f756cb93310a92f8211faf86d/raw/5101-data-engineering-tf.json"
+  },
+  "5101-data-engineering-cft.json": {
+    "id": "7430f746ad315bea42016602d4e6c757",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7430f746ad315bea42016602d4e6c757/raw/5101-data-engineering-cft.json"
+  },
+  "5102-data-engineering-tf.json": {
+    "id": "a7beaf399194f96f13b9270c9118d35a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a7beaf399194f96f13b9270c9118d35a/raw/5102-data-engineering-tf.json"
+  },
+  "5102-data-engineering-cft.json": {
+    "id": "383257a0e927bb78a9bbad4fb5acefd4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/383257a0e927bb78a9bbad4fb5acefd4/raw/5102-data-engineering-cft.json"
+  },
+  "5103-data-engineering-tf.json": {
+    "id": "ffae717d377de69a2041eabe35acc0fb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ffae717d377de69a2041eabe35acc0fb/raw/5103-data-engineering-tf.json"
+  },
+  "5103-data-engineering-cft.json": {
+    "id": "e65e866f5e15a26c461e5542a6a2cd8d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e65e866f5e15a26c461e5542a6a2cd8d/raw/5103-data-engineering-cft.json"
+  },
+  "5104-data-engineering-tf.json": {
+    "id": "15d47846192425a44a3fdd4b1f1dcc31",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/15d47846192425a44a3fdd4b1f1dcc31/raw/5104-data-engineering-tf.json"
+  },
+  "5104-data-engineering-cft.json": {
+    "id": "33014a3a1174176c3d27697cc06d3bea",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/33014a3a1174176c3d27697cc06d3bea/raw/5104-data-engineering-cft.json"
+  },
+  "5105-data-engineering-tf.json": {
+    "id": "921ce0856a115f496d19ecd59c80770d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/921ce0856a115f496d19ecd59c80770d/raw/5105-data-engineering-tf.json"
+  },
+  "5105-data-engineering-cft.json": {
+    "id": "006670fa22e451a22c75bc9d0a4db05a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/006670fa22e451a22c75bc9d0a4db05a/raw/5105-data-engineering-cft.json"
+  },
+  "5106-data-engineering-tf.json": {
+    "id": "1083fa782335390213cb5b1721ab2623",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1083fa782335390213cb5b1721ab2623/raw/5106-data-engineering-tf.json"
+  },
+  "5106-data-engineering-cft.json": {
+    "id": "9a42c5f8fb7c090fa0caabfb70e88ea0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9a42c5f8fb7c090fa0caabfb70e88ea0/raw/5106-data-engineering-cft.json"
+  },
+  "1701-bedrock-agent-tf.json": {
+    "id": "49f55a6362cf4018ea0b148fb1299879",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/49f55a6362cf4018ea0b148fb1299879/raw/1701-bedrock-agent-tf.json"
+  },
+  "1701-bedrock-agent-cft.json": {
+    "id": "afbb80e2285e789b9f77abb2a0f7f6f0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/afbb80e2285e789b9f77abb2a0f7f6f0/raw/1701-bedrock-agent-cft.json"
+  },
+  "1702-bedrock-agent-tf.json": {
+    "id": "96214449d838258233c16642e5c20afd",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/96214449d838258233c16642e5c20afd/raw/1702-bedrock-agent-tf.json"
+  },
+  "1702-bedrock-agent-cft.json": {
+    "id": "6e198ef5026de5ff39892d2fedbe41ac",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6e198ef5026de5ff39892d2fedbe41ac/raw/1702-bedrock-agent-cft.json"
+  },
+  "1703-bedrock-agent-tf.json": {
+    "id": "5f2105ec9b394f56301982907e3c2b30",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5f2105ec9b394f56301982907e3c2b30/raw/1703-bedrock-agent-tf.json"
+  },
+  "1703-bedrock-agent-cft.json": {
+    "id": "f04bf3ace546f27b1a96d8d0940e4fe9",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f04bf3ace546f27b1a96d8d0940e4fe9/raw/1703-bedrock-agent-cft.json"
+  },
+  "1704-bedrock-agent-tf.json": {
+    "id": "d63a4c57069fda4771f9ad2ae5da595e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d63a4c57069fda4771f9ad2ae5da595e/raw/1704-bedrock-agent-tf.json"
+  },
+  "1704-bedrock-agent-cft.json": {
+    "id": "3840295fb64404cf1d9d992965e0bf20",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3840295fb64404cf1d9d992965e0bf20/raw/1704-bedrock-agent-cft.json"
+  },
+  "1705-bedrock-agent-tf.json": {
+    "id": "b73bddff5bca39a07e53ac0d9aea019c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b73bddff5bca39a07e53ac0d9aea019c/raw/1705-bedrock-agent-tf.json"
+  },
+  "1705-bedrock-agent-cft.json": {
+    "id": "d5f6a089d29df2bfcea043cf8fb9ed04",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d5f6a089d29df2bfcea043cf8fb9ed04/raw/1705-bedrock-agent-cft.json"
+  },
+  "1706-bedrock-agent-tf.json": {
+    "id": "c560deabdb60ba9cf0bbbac6551ad5b7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c560deabdb60ba9cf0bbbac6551ad5b7/raw/1706-bedrock-agent-tf.json"
+  },
+  "1706-bedrock-agent-cft.json": {
+    "id": "79eba067a07301eab1b38425201eb59b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/79eba067a07301eab1b38425201eb59b/raw/1706-bedrock-agent-cft.json"
+  },
+  "1707-bedrock-agent-tf.json": {
+    "id": "91eee1be6c4ae77ebec33462bfdf669b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/91eee1be6c4ae77ebec33462bfdf669b/raw/1707-bedrock-agent-tf.json"
+  },
+  "1707-bedrock-agent-cft.json": {
+    "id": "3a0881af408f633e2c23ebbcca676976",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3a0881af408f633e2c23ebbcca676976/raw/1707-bedrock-agent-cft.json"
+  },
+  "1708-bedrock-agent-tf.json": {
+    "id": "2ec8d6aae75a1d3b00f91603bb6eec22",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2ec8d6aae75a1d3b00f91603bb6eec22/raw/1708-bedrock-agent-tf.json"
+  },
+  "1708-bedrock-agent-cft.json": {
+    "id": "4cffca5f423c49806f49d32d05465693",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4cffca5f423c49806f49d32d05465693/raw/1708-bedrock-agent-cft.json"
+  },
+  "1709-bedrock-agent-tf.json": {
+    "id": "e315ce42722f0b46a2f38cffe9529a59",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e315ce42722f0b46a2f38cffe9529a59/raw/1709-bedrock-agent-tf.json"
+  },
+  "1709-bedrock-agent-cft.json": {
+    "id": "3f40761365d46d115728cf37bfbb41c2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3f40761365d46d115728cf37bfbb41c2/raw/1709-bedrock-agent-cft.json"
+  },
+  "1710-bedrock-agent-tf.json": {
+    "id": "621e4c750b81a1e880d0006a0b075d8c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/621e4c750b81a1e880d0006a0b075d8c/raw/1710-bedrock-agent-tf.json"
+  },
+  "1710-bedrock-agent-cft.json": {
+    "id": "1306b84bd848dbc7dfbd07bb8c396bc4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1306b84bd848dbc7dfbd07bb8c396bc4/raw/1710-bedrock-agent-cft.json"
+  },
+  "1711-bedrock-agent-tf.json": {
+    "id": "5abf19e24573244abdc33e5aac444a10",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5abf19e24573244abdc33e5aac444a10/raw/1711-bedrock-agent-tf.json"
+  },
+  "1711-bedrock-agent-cft.json": {
+    "id": "a664b41b8dbb10e6686f7a6eb52a404f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a664b41b8dbb10e6686f7a6eb52a404f/raw/1711-bedrock-agent-cft.json"
+  },
+  "3601-sagemaker-tf.json": {
+    "id": "db2efa1a3a9a8322a852f1b14b85ddec",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/db2efa1a3a9a8322a852f1b14b85ddec/raw/3601-sagemaker-tf.json"
+  },
+  "3601-sagemaker-cft.json": {
+    "id": "9477c816d39c6a8dda41748ab047fd0f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9477c816d39c6a8dda41748ab047fd0f/raw/3601-sagemaker-cft.json"
+  },
+  "3602-sagemaker-tf.json": {
+    "id": "2861d4286f3dbf4aa402e0d443e69f66",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2861d4286f3dbf4aa402e0d443e69f66/raw/3602-sagemaker-tf.json"
+  },
+  "3602-sagemaker-cft.json": {
+    "id": "10c23aefe440eae5078bb795ada8f289",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/10c23aefe440eae5078bb795ada8f289/raw/3602-sagemaker-cft.json"
+  },
+  "3603-sagemaker-tf.json": {
+    "id": "63bfd53ff670d4928ed00393db100865",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/63bfd53ff670d4928ed00393db100865/raw/3603-sagemaker-tf.json"
+  },
+  "3603-sagemaker-cft.json": {
+    "id": "de7e3c5a7a88b8c117f6eb22d9da8438",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/de7e3c5a7a88b8c117f6eb22d9da8438/raw/3603-sagemaker-cft.json"
+  },
+  "3604-sagemaker-tf.json": {
+    "id": "73d5f7d0c9decba717152a33637c4ab8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/73d5f7d0c9decba717152a33637c4ab8/raw/3604-sagemaker-tf.json"
+  },
+  "3604-sagemaker-cft.json": {
+    "id": "6d7afbea0a1cf12cc33a71a8e25fe089",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6d7afbea0a1cf12cc33a71a8e25fe089/raw/3604-sagemaker-cft.json"
+  },
+  "3605-sagemaker-tf.json": {
+    "id": "de2c9d26d51962dc6a9e5b0edd657290",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/de2c9d26d51962dc6a9e5b0edd657290/raw/3605-sagemaker-tf.json"
+  },
+  "3605-sagemaker-cft.json": {
+    "id": "0d58acc285403a4c66a35af37773a1d6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0d58acc285403a4c66a35af37773a1d6/raw/3605-sagemaker-cft.json"
+  },
+  "3606-sagemaker-tf.json": {
+    "id": "be209b0a881f737872d4152e30f7df42",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/be209b0a881f737872d4152e30f7df42/raw/3606-sagemaker-tf.json"
+  },
+  "3606-sagemaker-cft.json": {
+    "id": "d2b22db91486ca17601b9621a9d3146d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d2b22db91486ca17601b9621a9d3146d/raw/3606-sagemaker-cft.json"
+  },
+  "4201-power-tools-tf.json": {
+    "id": "6a0fac8cd774fd977a559feb202ab2e3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6a0fac8cd774fd977a559feb202ab2e3/raw/4201-power-tools-tf.json"
+  },
+  "4201-power-tools-cft.json": {
+    "id": "a6b6698b527103f0827d03559e453a2f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a6b6698b527103f0827d03559e453a2f/raw/4201-power-tools-cft.json"
+  },
+  "4202-power-tools-tf.json": {
+    "id": "ecbfb1cb926e6a125b28bd7435442be5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ecbfb1cb926e6a125b28bd7435442be5/raw/4202-power-tools-tf.json"
+  },
+  "4202-power-tools-cft.json": {
+    "id": "ee055497f96dc965ec37eab44a7b1c82",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ee055497f96dc965ec37eab44a7b1c82/raw/4202-power-tools-cft.json"
+  },
+  "1601-vpc-tf.json": {
+    "id": "5728574c11eb9d6467b0c8a954bb4760",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5728574c11eb9d6467b0c8a954bb4760/raw/1601-vpc-tf.json"
+  },
+  "1601-vpc-cft.json": {
+    "id": "2da474a59ecd30421e2cf7ef51feee52",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2da474a59ecd30421e2cf7ef51feee52/raw/1601-vpc-cft.json"
+  },
+  "1602-vpc-tf.json": {
+    "id": "1aefa3582f0bb8c4f903e2b54bb38c9f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1aefa3582f0bb8c4f903e2b54bb38c9f/raw/1602-vpc-tf.json"
+  },
+  "1602-vpc-cft.json": {
+    "id": "399c37fd897c2e2147bf6490e5a68c90",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/399c37fd897c2e2147bf6490e5a68c90/raw/1602-vpc-cft.json"
+  },
+  "1603-vpc-tf.json": {
+    "id": "f60146208330e3c09aed58949afa4f31",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f60146208330e3c09aed58949afa4f31/raw/1603-vpc-tf.json"
+  },
+  "1603-vpc-cft.json": {
+    "id": "2e63ec731200d4bd9e8d520a6beb5363",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2e63ec731200d4bd9e8d520a6beb5363/raw/1603-vpc-cft.json"
+  },
+  "1604-vpc-tf.json": {
+    "id": "21d505a7a8f1d786a2c8401176ecbeba",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/21d505a7a8f1d786a2c8401176ecbeba/raw/1604-vpc-tf.json"
+  },
+  "1604-vpc-cft.json": {
+    "id": "6667c9be24f2d01b450592c0f754125a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6667c9be24f2d01b450592c0f754125a/raw/1604-vpc-cft.json"
+  },
+  "1605-vpc-tf.json": {
+    "id": "4eaf587bce3fd311e5699a5f60f65f23",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4eaf587bce3fd311e5699a5f60f65f23/raw/1605-vpc-tf.json"
+  },
+  "1605-vpc-cft.json": {
+    "id": "17f6d75fd569887ba8bdebb822127bff",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/17f6d75fd569887ba8bdebb822127bff/raw/1605-vpc-cft.json"
+  },
+  "1606-vpc-tf.json": {
+    "id": "8fb69376f3a99d9ba024dea1bc1d29b0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8fb69376f3a99d9ba024dea1bc1d29b0/raw/1606-vpc-tf.json"
+  },
+  "1606-vpc-cft.json": {
+    "id": "4560bcaa9894857508a07568f11e8434",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4560bcaa9894857508a07568f11e8434/raw/1606-vpc-cft.json"
+  },
+  "0301-vpc-tf.json": {
+    "id": "3de5c18e2ff797adf37697f52664ec15",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3de5c18e2ff797adf37697f52664ec15/raw/0301-vpc-tf.json"
+  },
+  "0301-vpc-cft.json": {
+    "id": "6264609af806907974bc8da964dc0e72",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6264609af806907974bc8da964dc0e72/raw/0301-vpc-cft.json"
+  },
+  "0302-vpc-tf.json": {
+    "id": "4564f0101ceb2741bfc7deb3475a56e2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4564f0101ceb2741bfc7deb3475a56e2/raw/0302-vpc-tf.json"
+  },
+  "0302-vpc-cft.json": {
+    "id": "706ed627fcde9ecabe3899760375a2b7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/706ed627fcde9ecabe3899760375a2b7/raw/0302-vpc-cft.json"
+  },
+  "0303-vpc-tf.json": {
+    "id": "b6879b63aab5aee6deab25afcef7dc5b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b6879b63aab5aee6deab25afcef7dc5b/raw/0303-vpc-tf.json"
+  },
+  "0303-vpc-cft.json": {
+    "id": "6bd9058bc6702ca83fc83ab48ae6203d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6bd9058bc6702ca83fc83ab48ae6203d/raw/0303-vpc-cft.json"
+  },
+  "0304-vpc-tf.json": {
+    "id": "833e404ef8fb46ebee3f744cf49650c6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/833e404ef8fb46ebee3f744cf49650c6/raw/0304-vpc-tf.json"
+  },
+  "0304-vpc-cft.json": {
+    "id": "f3a4ef464c2cdac4581fb5fabe336aa8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f3a4ef464c2cdac4581fb5fabe336aa8/raw/0304-vpc-cft.json"
+  },
+  "0305-vpc-tf.json": {
+    "id": "cb028cf272fd4fa345890e4f17da9786",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cb028cf272fd4fa345890e4f17da9786/raw/0305-vpc-tf.json"
+  },
+  "0305-vpc-cft.json": {
+    "id": "c6e65cfce0625be45b1ed36fb6adad72",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c6e65cfce0625be45b1ed36fb6adad72/raw/0305-vpc-cft.json"
+  },
+  "0306-vpc-tf.json": {
+    "id": "3aeb9ac5f8b3c8950abb6f50732d18c2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3aeb9ac5f8b3c8950abb6f50732d18c2/raw/0306-vpc-tf.json"
+  },
+  "0306-vpc-cft.json": {
+    "id": "9424dfd1830a0913cb7a32612ba51f90",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9424dfd1830a0913cb7a32612ba51f90/raw/0306-vpc-cft.json"
+  },
+  "0307-vpc-tf.json": {
+    "id": "4774a96270a68421a6f26aaa8e7c08e1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4774a96270a68421a6f26aaa8e7c08e1/raw/0307-vpc-tf.json"
+  },
+  "0307-vpc-cft.json": {
+    "id": "4a9c9318e4bed832374c165032a42617",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4a9c9318e4bed832374c165032a42617/raw/0307-vpc-cft.json"
+  },
+  "0308-vpc-tf.json": {
+    "id": "1d077b3f2c984189489c1efd6a695902",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1d077b3f2c984189489c1efd6a695902/raw/0308-vpc-tf.json"
+  },
+  "0308-vpc-cft.json": {
+    "id": "00af47d2f88d5610fcac2912c6e37532",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/00af47d2f88d5610fcac2912c6e37532/raw/0308-vpc-cft.json"
+  },
+  "0309-vpc-tf.json": {
+    "id": "ce7fba4764da8ea72846b456a2c7c2eb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ce7fba4764da8ea72846b456a2c7c2eb/raw/0309-vpc-tf.json"
+  },
+  "0309-vpc-cft.json": {
+    "id": "0846df1db8853e1f7c04379ecb411e0e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0846df1db8853e1f7c04379ecb411e0e/raw/0309-vpc-cft.json"
+  },
+  "0310-vpc-tf.json": {
+    "id": "da7cd112b578f45762a8a04e5ed251c5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/da7cd112b578f45762a8a04e5ed251c5/raw/0310-vpc-tf.json"
+  },
+  "0310-vpc-cft.json": {
+    "id": "29cb58ae441e31e7c5123996f1262924",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/29cb58ae441e31e7c5123996f1262924/raw/0310-vpc-cft.json"
+  },
+  "0311-vpc-tf.json": {
+    "id": "409dc1d9a14210a9d8b219b709158230",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/409dc1d9a14210a9d8b219b709158230/raw/0311-vpc-tf.json"
+  },
+  "0311-vpc-cft.json": {
+    "id": "bcadb4bef8a9bca39731f53fd066ef93",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/bcadb4bef8a9bca39731f53fd066ef93/raw/0311-vpc-cft.json"
+  },
+  "0312-vpc-tf.json": {
+    "id": "75f12c8a6a004e67af99b4f93e7bd9ea",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/75f12c8a6a004e67af99b4f93e7bd9ea/raw/0312-vpc-tf.json"
+  },
+  "0312-vpc-cft.json": {
+    "id": "8b2daa3e0ee3bb6cb72a61300e415945",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8b2daa3e0ee3bb6cb72a61300e415945/raw/0312-vpc-cft.json"
+  },
+  "0313-vpc-tf.json": {
+    "id": "96ee22fdea8e8fa1630044c7dae82a91",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/96ee22fdea8e8fa1630044c7dae82a91/raw/0313-vpc-tf.json"
+  },
+  "0313-vpc-cft.json": {
+    "id": "d578f0bc1755e7448dda83ab0c455bee",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d578f0bc1755e7448dda83ab0c455bee/raw/0313-vpc-cft.json"
+  },
+  "0314-vpc-tf.json": {
+    "id": "43a33659458d2b78f8cc01eaa8fce0f5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/43a33659458d2b78f8cc01eaa8fce0f5/raw/0314-vpc-tf.json"
+  },
+  "0314-vpc-cft.json": {
+    "id": "650ed1970f306769ea7cc64efc2ab042",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/650ed1970f306769ea7cc64efc2ab042/raw/0314-vpc-cft.json"
+  },
+  "2301-glue-tf.json": {
+    "id": "21f563ac3be6ce218b0e51ee605f2e3a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/21f563ac3be6ce218b0e51ee605f2e3a/raw/2301-glue-tf.json"
+  },
+  "2301-glue-cft.json": {
+    "id": "cfaffd93c480e746b46bfe6befd77124",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cfaffd93c480e746b46bfe6befd77124/raw/2301-glue-cft.json"
+  },
+  "2302-glue-tf.json": {
+    "id": "f88f80e1206338efcc4687c59cd38c22",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f88f80e1206338efcc4687c59cd38c22/raw/2302-glue-tf.json"
+  },
+  "2302-glue-cft.json": {
+    "id": "9e7dc46d473cbb79363725bb73da879f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9e7dc46d473cbb79363725bb73da879f/raw/2302-glue-cft.json"
+  },
+  "2303-glue-tf.json": {
+    "id": "67a5c623d26007fcacfee09184b9f35c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/67a5c623d26007fcacfee09184b9f35c/raw/2303-glue-tf.json"
+  },
+  "2303-glue-cft.json": {
+    "id": "776c9399cbcd713565e968e773332c2e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/776c9399cbcd713565e968e773332c2e/raw/2303-glue-cft.json"
+  },
+  "3501-migration-tf.json": {
+    "id": "2fde46049076966a92986d5fe5bc3696",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2fde46049076966a92986d5fe5bc3696/raw/3501-migration-tf.json"
+  },
+  "3501-migration-cft.json": {
+    "id": "db438f8f8e4f7357a613303d295624af",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/db438f8f8e4f7357a613303d295624af/raw/3501-migration-cft.json"
+  },
+  "3502-migration-tf.json": {
+    "id": "74eb81f289cffbb76f7039101e8578ee",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/74eb81f289cffbb76f7039101e8578ee/raw/3502-migration-tf.json"
+  },
+  "3502-migration-cft.json": {
+    "id": "a14e178ec1e97f582ff4143aca229a09",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a14e178ec1e97f582ff4143aca229a09/raw/3502-migration-cft.json"
+  },
+  "3503-migration-tf.json": {
+    "id": "a653905d4db1313ed728af7aa6b68df1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a653905d4db1313ed728af7aa6b68df1/raw/3503-migration-tf.json"
+  },
+  "3503-migration-cft.json": {
+    "id": "71e62046af19b81249fe50494ddff916",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/71e62046af19b81249fe50494ddff916/raw/3503-migration-cft.json"
+  },
+  "3504-migration-tf.json": {
+    "id": "e5f455d39d2cce9c4c04e896f0097a91",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e5f455d39d2cce9c4c04e896f0097a91/raw/3504-migration-tf.json"
+  },
+  "3504-migration-cft.json": {
+    "id": "b76b600756d003e81b5bc65d468a2ffa",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b76b600756d003e81b5bc65d468a2ffa/raw/3504-migration-cft.json"
+  },
+  "3505-migration-tf.json": {
+    "id": "b319eaa6193015d2916081046bdfcca5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b319eaa6193015d2916081046bdfcca5/raw/3505-migration-tf.json"
+  },
+  "3505-migration-cft.json": {
+    "id": "4940589b91daeee57d28848b3b08fbf2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4940589b91daeee57d28848b3b08fbf2/raw/3505-migration-cft.json"
+  },
+  "0601-serverless-tf.json": {
+    "id": "701ef495db72e61b5794783911764f3d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/701ef495db72e61b5794783911764f3d/raw/0601-serverless-tf.json"
+  },
+  "0601-serverless-cft.json": {
+    "id": "d0b62517657b7aa7ed6ef8bfa8d9837a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d0b62517657b7aa7ed6ef8bfa8d9837a/raw/0601-serverless-cft.json"
+  },
+  "0602-serverless-tf.json": {
+    "id": "51c49fe5738a7d3a16413921e0779857",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/51c49fe5738a7d3a16413921e0779857/raw/0602-serverless-tf.json"
+  },
+  "0602-serverless-cft.json": {
+    "id": "cb54768a5393c45ff1984b317a554030",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cb54768a5393c45ff1984b317a554030/raw/0602-serverless-cft.json"
+  },
+  "0603-serverless-tf.json": {
+    "id": "96835f311ca25b71bd23d6a2bc3b20f8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/96835f311ca25b71bd23d6a2bc3b20f8/raw/0603-serverless-tf.json"
+  },
+  "0603-serverless-cft.json": {
+    "id": "cbba273b885f349cc351761a02019562",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cbba273b885f349cc351761a02019562/raw/0603-serverless-cft.json"
+  },
+  "0604-serverless-tf.json": {
+    "id": "ade28d20e4672ee4e527fc546256c6c1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ade28d20e4672ee4e527fc546256c6c1/raw/0604-serverless-tf.json"
+  },
+  "0604-serverless-cft.json": {
+    "id": "76893f7aeb7692fb7d47330e0dfbde1e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/76893f7aeb7692fb7d47330e0dfbde1e/raw/0604-serverless-cft.json"
+  },
+  "0605-serverless-tf.json": {
+    "id": "36f4ad299fb1a5dfc40a8f3582a9e1f8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/36f4ad299fb1a5dfc40a8f3582a9e1f8/raw/0605-serverless-tf.json"
+  },
+  "0605-serverless-cft.json": {
+    "id": "0740cb348ad59dd465711acc85618739",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0740cb348ad59dd465711acc85618739/raw/0605-serverless-cft.json"
+  },
+  "0606-serverless-tf.json": {
+    "id": "5cda145a0ea0005d9b5b7ceee90feb67",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5cda145a0ea0005d9b5b7ceee90feb67/raw/0606-serverless-tf.json"
+  },
+  "0606-serverless-cft.json": {
+    "id": "3d14a7f1c8df863bbe16bf74438a21fe",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3d14a7f1c8df863bbe16bf74438a21fe/raw/0606-serverless-cft.json"
+  },
+  "0607-serverless-tf.json": {
+    "id": "16616096f913be76a24c23b9216d56c3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/16616096f913be76a24c23b9216d56c3/raw/0607-serverless-tf.json"
+  },
+  "0607-serverless-cft.json": {
+    "id": "9ccfd6e25e9811e364e61223d5895f31",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9ccfd6e25e9811e364e61223d5895f31/raw/0607-serverless-cft.json"
+  },
+  "0608-serverless-tf.json": {
+    "id": "6d57e30ed1faebdbd221404c5d1603e4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6d57e30ed1faebdbd221404c5d1603e4/raw/0608-serverless-tf.json"
+  },
+  "0608-serverless-cft.json": {
+    "id": "5b512fa2553baf8877f5f95b9bce7ab0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5b512fa2553baf8877f5f95b9bce7ab0/raw/0608-serverless-cft.json"
+  },
+  "5201-serverless-patterns-tf.json": {
+    "id": "14bd79a812b8e9b7de2c3d3317df1746",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/14bd79a812b8e9b7de2c3d3317df1746/raw/5201-serverless-patterns-tf.json"
+  },
+  "5201-serverless-patterns-cft.json": {
+    "id": "e084b1eea5a0ea6b322844b2ee58b1d3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e084b1eea5a0ea6b322844b2ee58b1d3/raw/5201-serverless-patterns-cft.json"
+  },
+  "5202-serverless-patterns-tf.json": {
+    "id": "86a2f98c4ba0cfff3475b349af4f9c91",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/86a2f98c4ba0cfff3475b349af4f9c91/raw/5202-serverless-patterns-tf.json"
+  },
+  "5202-serverless-patterns-cft.json": {
+    "id": "ce60be2c0c8b8931b5b25c27bbbfa7d2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ce60be2c0c8b8931b5b25c27bbbfa7d2/raw/5202-serverless-patterns-cft.json"
+  },
+  "5203-serverless-patterns-tf.json": {
+    "id": "f4bdd3c2fadf5e247f5b1b0c981a1906",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f4bdd3c2fadf5e247f5b1b0c981a1906/raw/5203-serverless-patterns-tf.json"
+  },
+  "5203-serverless-patterns-cft.json": {
+    "id": "25ad2915b1014ceb4b4cd665957cb8a4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/25ad2915b1014ceb4b4cd665957cb8a4/raw/5203-serverless-patterns-cft.json"
+  },
+  "5204-serverless-patterns-tf.json": {
+    "id": "24ba3f6061961dfafa404fa7a2ba8f46",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/24ba3f6061961dfafa404fa7a2ba8f46/raw/5204-serverless-patterns-tf.json"
+  },
+  "5204-serverless-patterns-cft.json": {
+    "id": "3e15e82b44faee581d5e97d47848f124",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3e15e82b44faee581d5e97d47848f124/raw/5204-serverless-patterns-cft.json"
+  },
+  "5205-serverless-patterns-tf.json": {
+    "id": "f4337703c2b53f5a326cc5a3d505d76a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f4337703c2b53f5a326cc5a3d505d76a/raw/5205-serverless-patterns-tf.json"
+  },
+  "5205-serverless-patterns-cft.json": {
+    "id": "b928a222f55fd80db56d283cf0e2bb17",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b928a222f55fd80db56d283cf0e2bb17/raw/5205-serverless-patterns-cft.json"
+  },
+  "5206-serverless-patterns-tf.json": {
+    "id": "24f638e427c722cf19fb19734b52b2f0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/24f638e427c722cf19fb19734b52b2f0/raw/5206-serverless-patterns-tf.json"
+  },
+  "5206-serverless-patterns-cft.json": {
+    "id": "0332e20a3b5b48ba27b286e99218d726",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0332e20a3b5b48ba27b286e99218d726/raw/5206-serverless-patterns-cft.json"
+  },
+  "5207-serverless-patterns-tf.json": {
+    "id": "29e113442ed12b231665bc2ee1c2ac60",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/29e113442ed12b231665bc2ee1c2ac60/raw/5207-serverless-patterns-tf.json"
+  },
+  "5207-serverless-patterns-cft.json": {
+    "id": "c44eeb363ebf1c5826f9f3c0501325f3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c44eeb363ebf1c5826f9f3c0501325f3/raw/5207-serverless-patterns-cft.json"
+  },
+  "5208-serverless-patterns-tf.json": {
+    "id": "5786ab47737e54ece11cecc1a1b38fd8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5786ab47737e54ece11cecc1a1b38fd8/raw/5208-serverless-patterns-tf.json"
+  },
+  "5208-serverless-patterns-cft.json": {
+    "id": "52488d17c4113a6ca2596b32df02a562",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/52488d17c4113a6ca2596b32df02a562/raw/5208-serverless-patterns-cft.json"
+  },
+  "5209-serverless-patterns-tf.json": {
+    "id": "d4e5d76bf3bd99035f733e6d8c1e8a1e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d4e5d76bf3bd99035f733e6d8c1e8a1e/raw/5209-serverless-patterns-tf.json"
+  },
+  "5209-serverless-patterns-cft.json": {
+    "id": "30deaff1ec689c77060d1e37d7ae00aa",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/30deaff1ec689c77060d1e37d7ae00aa/raw/5209-serverless-patterns-cft.json"
+  },
+  "5210-serverless-patterns-tf.json": {
+    "id": "56a317d4b68a90d9c569ae07f4273d23",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/56a317d4b68a90d9c569ae07f4273d23/raw/5210-serverless-patterns-tf.json"
+  },
+  "5210-serverless-patterns-cft.json": {
+    "id": "82659d415081e81130df19a526e8e537",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/82659d415081e81130df19a526e8e537/raw/5210-serverless-patterns-cft.json"
+  },
+  "5211-serverless-patterns-tf.json": {
+    "id": "bb31925d7568ecc3e510c2487b2929f0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/bb31925d7568ecc3e510c2487b2929f0/raw/5211-serverless-patterns-tf.json"
+  },
+  "5211-serverless-patterns-cft.json": {
+    "id": "c0802b7581d42213c51213c0e4458783",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c0802b7581d42213c51213c0e4458783/raw/5211-serverless-patterns-cft.json"
+  },
+  "5212-serverless-patterns-tf.json": {
+    "id": "e6f91ce28e5821684e47a6069f490670",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e6f91ce28e5821684e47a6069f490670/raw/5212-serverless-patterns-tf.json"
+  },
+  "5212-serverless-patterns-cft.json": {
+    "id": "789bfd67da9587e347f606331e128b95",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/789bfd67da9587e347f606331e128b95/raw/5212-serverless-patterns-cft.json"
+  },
+  "5213-serverless-patterns-tf.json": {
+    "id": "49f25c21b9a84f5c92f52b2d0b6114fc",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/49f25c21b9a84f5c92f52b2d0b6114fc/raw/5213-serverless-patterns-tf.json"
+  },
+  "5213-serverless-patterns-cft.json": {
+    "id": "c0bffbe78e274c108d6b4bc9b508a261",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c0bffbe78e274c108d6b4bc9b508a261/raw/5213-serverless-patterns-cft.json"
+  },
+  "5214-serverless-patterns-tf.json": {
+    "id": "0f06b84eb8377b76344a852e674d18e0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0f06b84eb8377b76344a852e674d18e0/raw/5214-serverless-patterns-tf.json"
+  },
+  "5214-serverless-patterns-cft.json": {
+    "id": "d66672984450c39ce49a1e99194c7048",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d66672984450c39ce49a1e99194c7048/raw/5214-serverless-patterns-cft.json"
+  },
+  "5215-serverless-patterns-tf.json": {
+    "id": "7f28f152d9242975137391b6c7e97b66",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7f28f152d9242975137391b6c7e97b66/raw/5215-serverless-patterns-tf.json"
+  },
+  "5215-serverless-patterns-cft.json": {
+    "id": "c49184ec3441a614daac6eb0fce399cf",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c49184ec3441a614daac6eb0fce399cf/raw/5215-serverless-patterns-cft.json"
+  },
+  "5216-serverless-patterns-tf.json": {
+    "id": "44d6c583937e424e9729889dd3f60760",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/44d6c583937e424e9729889dd3f60760/raw/5216-serverless-patterns-tf.json"
+  },
+  "5216-serverless-patterns-cft.json": {
+    "id": "11eb9cd417f43039b7ede68c5a15e786",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/11eb9cd417f43039b7ede68c5a15e786/raw/5216-serverless-patterns-cft.json"
+  },
+  "5217-serverless-patterns-tf.json": {
+    "id": "e18d7e44b5dc67b78c975ca84f76851e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e18d7e44b5dc67b78c975ca84f76851e/raw/5217-serverless-patterns-tf.json"
+  },
+  "5217-serverless-patterns-cft.json": {
+    "id": "4e49636011a9226719a1d4ec942fa23e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4e49636011a9226719a1d4ec942fa23e/raw/5217-serverless-patterns-cft.json"
+  },
+  "5218-serverless-patterns-tf.json": {
+    "id": "ecd15c2d43472f77b5d4032f54285cc0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ecd15c2d43472f77b5d4032f54285cc0/raw/5218-serverless-patterns-tf.json"
+  },
+  "5218-serverless-patterns-cft.json": {
+    "id": "01296f0c729be7b88607bbf614ec430c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/01296f0c729be7b88607bbf614ec430c/raw/5218-serverless-patterns-cft.json"
+  },
+  "5219-serverless-patterns-tf.json": {
+    "id": "c9d47b6e3459f2d975864a68550d0225",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c9d47b6e3459f2d975864a68550d0225/raw/5219-serverless-patterns-tf.json"
+  },
+  "5219-serverless-patterns-cft.json": {
+    "id": "988ccae7d534a8e7e0fc0d9971f35a33",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/988ccae7d534a8e7e0fc0d9971f35a33/raw/5219-serverless-patterns-cft.json"
+  },
+  "5220-serverless-patterns-tf.json": {
+    "id": "e3ef4b099cfe88528972af7f268cd930",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e3ef4b099cfe88528972af7f268cd930/raw/5220-serverless-patterns-tf.json"
+  },
+  "5220-serverless-patterns-cft.json": {
+    "id": "ad9a9bbbd4aa5e717405ca33a6534342",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ad9a9bbbd4aa5e717405ca33a6534342/raw/5220-serverless-patterns-cft.json"
+  },
+  "5221-serverless-patterns-tf.json": {
+    "id": "a97a743446885a0b1f4f989ec3621e9c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a97a743446885a0b1f4f989ec3621e9c/raw/5221-serverless-patterns-tf.json"
+  },
+  "5221-serverless-patterns-cft.json": {
+    "id": "1405096cdde8e8602122663c4d411ec0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1405096cdde8e8602122663c4d411ec0/raw/5221-serverless-patterns-cft.json"
+  },
+  "5222-serverless-patterns-tf.json": {
+    "id": "d33f7df4371cc16015d945b164eb1a27",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d33f7df4371cc16015d945b164eb1a27/raw/5222-serverless-patterns-tf.json"
+  },
+  "5222-serverless-patterns-cft.json": {
+    "id": "9cd907ea94ffd80d996e769acf4f34f7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9cd907ea94ffd80d996e769acf4f34f7/raw/5222-serverless-patterns-cft.json"
+  },
+  "5223-serverless-patterns-tf.json": {
+    "id": "37223643c1f2d5c4b4e527c15fc44b11",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/37223643c1f2d5c4b4e527c15fc44b11/raw/5223-serverless-patterns-tf.json"
+  },
+  "5223-serverless-patterns-cft.json": {
+    "id": "0a7c5e0c2156d8ca51b6651cb6d8fad2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0a7c5e0c2156d8ca51b6651cb6d8fad2/raw/5223-serverless-patterns-cft.json"
+  },
+  "5224-serverless-patterns-tf.json": {
+    "id": "513c08f79eef7da06b7192526dab60e3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/513c08f79eef7da06b7192526dab60e3/raw/5224-serverless-patterns-tf.json"
+  },
+  "5224-serverless-patterns-cft.json": {
+    "id": "7affe099d04ce1e67a06d1183c6bc2d7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7affe099d04ce1e67a06d1183c6bc2d7/raw/5224-serverless-patterns-cft.json"
+  },
+  "5225-serverless-patterns-tf.json": {
+    "id": "4ff00c62b280d0b475d6fdcab9ca8248",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4ff00c62b280d0b475d6fdcab9ca8248/raw/5225-serverless-patterns-tf.json"
+  },
+  "5225-serverless-patterns-cft.json": {
+    "id": "d17263c2e140062f60b1a07ba07a3a90",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d17263c2e140062f60b1a07ba07a3a90/raw/5225-serverless-patterns-cft.json"
+  },
+  "5226-serverless-patterns-tf.json": {
+    "id": "1742c3f4610122685912dc11ae603c59",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1742c3f4610122685912dc11ae603c59/raw/5226-serverless-patterns-tf.json"
+  },
+  "5226-serverless-patterns-cft.json": {
+    "id": "cce29449412e2eac6bd1d8a870d07e84",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cce29449412e2eac6bd1d8a870d07e84/raw/5226-serverless-patterns-cft.json"
+  },
+  "5227-serverless-patterns-tf.json": {
+    "id": "15289d6137ee0b23da2182847edd39f3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/15289d6137ee0b23da2182847edd39f3/raw/5227-serverless-patterns-tf.json"
+  },
+  "5227-serverless-patterns-cft.json": {
+    "id": "9bc5ff04f7df947afb7e379002b662ad",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9bc5ff04f7df947afb7e379002b662ad/raw/5227-serverless-patterns-cft.json"
+  },
+  "5228-serverless-patterns-tf.json": {
+    "id": "4dc3f788cf3b1f13abaed3d9e049d17b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4dc3f788cf3b1f13abaed3d9e049d17b/raw/5228-serverless-patterns-tf.json"
+  },
+  "5228-serverless-patterns-cft.json": {
+    "id": "43cf92f2e6f5213927e69cbbfc7486e8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/43cf92f2e6f5213927e69cbbfc7486e8/raw/5228-serverless-patterns-cft.json"
+  },
+  "5229-serverless-patterns-tf.json": {
+    "id": "2fb522fae6b892c99c567d317c3aa0a0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2fb522fae6b892c99c567d317c3aa0a0/raw/5229-serverless-patterns-tf.json"
+  },
+  "5229-serverless-patterns-cft.json": {
+    "id": "938f5415bce556fb8e1a180e07fd33b5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/938f5415bce556fb8e1a180e07fd33b5/raw/5229-serverless-patterns-cft.json"
+  },
+  "5230-serverless-patterns-tf.json": {
+    "id": "fda8d25d2e7374b9ee98ae9390b83fcc",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/fda8d25d2e7374b9ee98ae9390b83fcc/raw/5230-serverless-patterns-tf.json"
+  },
+  "5230-serverless-patterns-cft.json": {
+    "id": "7cf1e4b35988de83e9efd3cc77fb8559",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7cf1e4b35988de83e9efd3cc77fb8559/raw/5230-serverless-patterns-cft.json"
+  },
+  "5231-serverless-patterns-tf.json": {
+    "id": "67d72c21aa7564df54ad47b02831cbbe",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/67d72c21aa7564df54ad47b02831cbbe/raw/5231-serverless-patterns-tf.json"
+  },
+  "5231-serverless-patterns-cft.json": {
+    "id": "44ac579c32781dd242995f4110e268fa",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/44ac579c32781dd242995f4110e268fa/raw/5231-serverless-patterns-cft.json"
+  },
+  "5232-serverless-patterns-tf.json": {
+    "id": "ff68ea3b2b652acc686723f81a1f4705",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ff68ea3b2b652acc686723f81a1f4705/raw/5232-serverless-patterns-tf.json"
+  },
+  "5232-serverless-patterns-cft.json": {
+    "id": "0bf1b9fc6955ac8b3349843a9b25ecd3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0bf1b9fc6955ac8b3349843a9b25ecd3/raw/5232-serverless-patterns-cft.json"
+  },
+  "5233-serverless-patterns-tf.json": {
+    "id": "ce0839eba429b41da8beb99223a49cd6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ce0839eba429b41da8beb99223a49cd6/raw/5233-serverless-patterns-tf.json"
+  },
+  "5233-serverless-patterns-cft.json": {
+    "id": "752b5b05f3202e4246b340d8742f844d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/752b5b05f3202e4246b340d8742f844d/raw/5233-serverless-patterns-cft.json"
+  },
+  "5234-serverless-patterns-tf.json": {
+    "id": "7143c354bbdd757ffd048101343e10b6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7143c354bbdd757ffd048101343e10b6/raw/5234-serverless-patterns-tf.json"
+  },
+  "5234-serverless-patterns-cft.json": {
+    "id": "abdd35bc7256cbfbca99bcefca40734e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/abdd35bc7256cbfbca99bcefca40734e/raw/5234-serverless-patterns-cft.json"
+  },
+  "1001-container-tf.json": {
+    "id": "81cdcec1109ff67f8cff54c4a293b6cc",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/81cdcec1109ff67f8cff54c4a293b6cc/raw/1001-container-tf.json"
+  },
+  "1001-container-cft.json": {
+    "id": "be70ce4825c6649a5e355a87aee00fd2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/be70ce4825c6649a5e355a87aee00fd2/raw/1001-container-cft.json"
+  },
+  "1002-container-tf.json": {
+    "id": "344a58de7e9760047338207e858af13d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/344a58de7e9760047338207e858af13d/raw/1002-container-tf.json"
+  },
+  "1002-container-cft.json": {
+    "id": "7cbb724fe39282101e735b8909703547",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7cbb724fe39282101e735b8909703547/raw/1002-container-cft.json"
+  },
+  "1003-container-tf.json": {
+    "id": "d3c4859d5999c207a5721ba0970013c3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d3c4859d5999c207a5721ba0970013c3/raw/1003-container-tf.json"
+  },
+  "1003-container-cft.json": {
+    "id": "e7c67bf08918b6c497f70e72390fbfdb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e7c67bf08918b6c497f70e72390fbfdb/raw/1003-container-cft.json"
+  },
+  "1004-container-tf.json": {
+    "id": "542a06aa39a3ae989e98979cbbe4e11e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/542a06aa39a3ae989e98979cbbe4e11e/raw/1004-container-tf.json"
+  },
+  "1004-container-cft.json": {
+    "id": "1daaf662bbdded92e2b49c810284616a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/1daaf662bbdded92e2b49c810284616a/raw/1004-container-cft.json"
+  },
+  "1005-container-tf.json": {
+    "id": "0a0deba7fc3d877dda648814f3ef133e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0a0deba7fc3d877dda648814f3ef133e/raw/1005-container-tf.json"
+  },
+  "1005-container-cft.json": {
+    "id": "4b05bc92b68f302cbfa5eae757cb1515",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4b05bc92b68f302cbfa5eae757cb1515/raw/1005-container-cft.json"
+  },
+  "1006-container-tf.json": {
+    "id": "2428211f76078fbd97134298d6e729d6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2428211f76078fbd97134298d6e729d6/raw/1006-container-tf.json"
+  },
+  "1006-container-cft.json": {
+    "id": "28e31f9ae194235dccae682fc70ea179",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/28e31f9ae194235dccae682fc70ea179/raw/1006-container-cft.json"
+  },
+  "1007-container-tf.json": {
+    "id": "d4a87fb00bb36ae2498196b6350e660f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d4a87fb00bb36ae2498196b6350e660f/raw/1007-container-tf.json"
+  },
+  "1007-container-cft.json": {
+    "id": "cfc6c5ed6a22a6273e6c832d5323dcab",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cfc6c5ed6a22a6273e6c832d5323dcab/raw/1007-container-cft.json"
+  },
+  "1008-container-tf.json": {
+    "id": "bd59a75d54e7ae05aed18b2d0d6e0a6a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/bd59a75d54e7ae05aed18b2d0d6e0a6a/raw/1008-container-tf.json"
+  },
+  "1008-container-cft.json": {
+    "id": "a3bab301c14a5f9b2f84ccb8dd0104a3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a3bab301c14a5f9b2f84ccb8dd0104a3/raw/1008-container-cft.json"
+  },
+  "0801-gen-ai-tf.json": {
+    "id": "0dcdeaf89371e381e52cb9ddf51b70e1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0dcdeaf89371e381e52cb9ddf51b70e1/raw/0801-gen-ai-tf.json"
+  },
+  "0801-gen-ai-cft.json": {
+    "id": "72290b4c8c1f0071ad8a91873a16e7a6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/72290b4c8c1f0071ad8a91873a16e7a6/raw/0801-gen-ai-cft.json"
+  },
+  "0802-gen-ai-tf.json": {
+    "id": "6e636b199dfc84d662656f39f467803d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6e636b199dfc84d662656f39f467803d/raw/0802-gen-ai-tf.json"
+  },
+  "0802-gen-ai-cft.json": {
+    "id": "002f471cc12ef20cef5237953401304e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/002f471cc12ef20cef5237953401304e/raw/0802-gen-ai-cft.json"
+  },
+  "0803-gen-ai-tf.json": {
+    "id": "94e94670ae8974963c9581240383aade",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/94e94670ae8974963c9581240383aade/raw/0803-gen-ai-tf.json"
+  },
+  "0803-gen-ai-cft.json": {
+    "id": "c5a3a7edf608b40ca1f66da6c0c0ba3b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c5a3a7edf608b40ca1f66da6c0c0ba3b/raw/0803-gen-ai-cft.json"
+  },
+  "0804-gen-ai-tf.json": {
+    "id": "c828264c87f0e45be6b51e1bbc53ac8d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c828264c87f0e45be6b51e1bbc53ac8d/raw/0804-gen-ai-tf.json"
+  },
+  "0804-gen-ai-cft.json": {
+    "id": "71adca7a1028bf6559d0ead625562d03",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/71adca7a1028bf6559d0ead625562d03/raw/0804-gen-ai-cft.json"
+  },
+  "0805-gen-ai-tf.json": {
+    "id": "cfb59bb6446506b2334e28c061692b6b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cfb59bb6446506b2334e28c061692b6b/raw/0805-gen-ai-tf.json"
+  },
+  "0805-gen-ai-cft.json": {
+    "id": "09d756bd733c5880d921a56aaba15727",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/09d756bd733c5880d921a56aaba15727/raw/0805-gen-ai-cft.json"
+  },
+  "0806-gen-ai-tf.json": {
+    "id": "aded04b0712784367ca7f64776ab78b7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/aded04b0712784367ca7f64776ab78b7/raw/0806-gen-ai-tf.json"
+  },
+  "0806-gen-ai-cft.json": {
+    "id": "8e94bf90645c43387c450cb77ed7aaeb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8e94bf90645c43387c450cb77ed7aaeb/raw/0806-gen-ai-cft.json"
+  },
+  "0807-gen-ai-tf.json": {
+    "id": "9330ef77b55c10b03f3af0ba344288f1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9330ef77b55c10b03f3af0ba344288f1/raw/0807-gen-ai-tf.json"
+  },
+  "0807-gen-ai-cft.json": {
+    "id": "2d938320c7ece45cb0c6005c45ee4ecc",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2d938320c7ece45cb0c6005c45ee4ecc/raw/0807-gen-ai-cft.json"
+  },
+  "0808-gen-ai-tf.json": {
+    "id": "51ff65cccecca99cd498bf92b5877ce4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/51ff65cccecca99cd498bf92b5877ce4/raw/0808-gen-ai-tf.json"
+  },
+  "0808-gen-ai-cft.json": {
+    "id": "8a2548c93340a1b7bd75277112667d03",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8a2548c93340a1b7bd75277112667d03/raw/0808-gen-ai-cft.json"
+  },
+  "0809-gen-ai-tf.json": {
+    "id": "696ef5368d8c81ad01f0b934a08d2493",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/696ef5368d8c81ad01f0b934a08d2493/raw/0809-gen-ai-tf.json"
+  },
+  "0809-gen-ai-cft.json": {
+    "id": "c23a7a4e22dcc5bbb75c6db59bf45dfb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c23a7a4e22dcc5bbb75c6db59bf45dfb/raw/0809-gen-ai-cft.json"
+  },
+  "0810-gen-ai-tf.json": {
+    "id": "5f6a775a749a18058c447d4750e54b86",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5f6a775a749a18058c447d4750e54b86/raw/0810-gen-ai-tf.json"
+  },
+  "0810-gen-ai-cft.json": {
+    "id": "07d74238de94d18b427ece2829f4af86",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/07d74238de94d18b427ece2829f4af86/raw/0810-gen-ai-cft.json"
+  },
+  "0811-gen-ai-tf.json": {
+    "id": "35c06c08c3ba4ed73b530d8bb406d389",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/35c06c08c3ba4ed73b530d8bb406d389/raw/0811-gen-ai-tf.json"
+  },
+  "0811-gen-ai-cft.json": {
+    "id": "bfe602f83e450fa0406e4c518f44bbba",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/bfe602f83e450fa0406e4c518f44bbba/raw/0811-gen-ai-cft.json"
+  },
+  "0812-gen-ai-tf.json": {
+    "id": "35d8df3b95e6e63294ffeb66ef51e525",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/35d8df3b95e6e63294ffeb66ef51e525/raw/0812-gen-ai-tf.json"
+  },
+  "0812-gen-ai-cft.json": {
+    "id": "8e79f34714f5936ba2882005039c87a1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8e79f34714f5936ba2882005039c87a1/raw/0812-gen-ai-cft.json"
+  },
+  "0813-gen-ai-tf.json": {
+    "id": "354dd736c36b79243c6abb85866f56b2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/354dd736c36b79243c6abb85866f56b2/raw/0813-gen-ai-tf.json"
+  },
+  "0813-gen-ai-cft.json": {
+    "id": "23ede35eb2a9b8ca2a65ed4752a4454d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/23ede35eb2a9b8ca2a65ed4752a4454d/raw/0813-gen-ai-cft.json"
+  },
+  "2801-security-compliance-tf.json": {
+    "id": "aa2c26e6bbaf614571d34b0f7712bf18",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/aa2c26e6bbaf614571d34b0f7712bf18/raw/2801-security-compliance-tf.json"
+  },
+  "2801-security-compliance-cft.json": {
+    "id": "da3dd3aa33c979318c655afca43ddeb5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/da3dd3aa33c979318c655afca43ddeb5/raw/2801-security-compliance-cft.json"
+  },
+  "2601-emr-tf.json": {
+    "id": "b115f437037f52b9ecc768927b321106",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b115f437037f52b9ecc768927b321106/raw/2601-emr-tf.json"
+  },
+  "2601-emr-cft.json": {
+    "id": "4da6e82caca45f888ed22c86b227393f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4da6e82caca45f888ed22c86b227393f/raw/2601-emr-cft.json"
+  },
+  "2602-emr-tf.json": {
+    "id": "ec0d4ceee317eb33c697aaa2af5fee81",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ec0d4ceee317eb33c697aaa2af5fee81/raw/2602-emr-tf.json"
+  },
+  "2602-emr-cft.json": {
+    "id": "547130e81b32142f1a3527993187bd61",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/547130e81b32142f1a3527993187bd61/raw/2602-emr-cft.json"
+  },
+  "2603-emr-tf.json": {
+    "id": "8744f0b89acfd762fe1eb3c7dbefef72",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8744f0b89acfd762fe1eb3c7dbefef72/raw/2603-emr-tf.json"
+  },
+  "2603-emr-cft.json": {
+    "id": "a186dd7259c82bb9379b617b108018a2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a186dd7259c82bb9379b617b108018a2/raw/2603-emr-cft.json"
+  },
+  "2604-emr-tf.json": {
+    "id": "510de0987d7610cd237ea577b01f64ae",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/510de0987d7610cd237ea577b01f64ae/raw/2604-emr-tf.json"
+  },
+  "2604-emr-cft.json": {
+    "id": "72500f2b0390f95a7537e741d9451243",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/72500f2b0390f95a7537e741d9451243/raw/2604-emr-cft.json"
+  },
+  "2605-emr-tf.json": {
+    "id": "ca860f0f8af3379280634e3b19dc09cb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ca860f0f8af3379280634e3b19dc09cb/raw/2605-emr-tf.json"
+  },
+  "2605-emr-cft.json": {
+    "id": "4eeddb25eda788f2d41131705f1793ca",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4eeddb25eda788f2d41131705f1793ca/raw/2605-emr-cft.json"
+  },
+  "2606-emr-tf.json": {
+    "id": "d4b11bcff15d1f00c4cbdb5521f5b8ef",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d4b11bcff15d1f00c4cbdb5521f5b8ef/raw/2606-emr-tf.json"
+  },
+  "2606-emr-cft.json": {
+    "id": "e567c84e5b59adb9270b421a6db98ac4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e567c84e5b59adb9270b421a6db98ac4/raw/2606-emr-cft.json"
+  },
+  "2607-emr-tf.json": {
+    "id": "3acacfbf30bb34c96110a15ff05d57c0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3acacfbf30bb34c96110a15ff05d57c0/raw/2607-emr-tf.json"
+  },
+  "2607-emr-cft.json": {
+    "id": "7ed02dbdbbd4daa329d71c002386f426",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7ed02dbdbbd4daa329d71c002386f426/raw/2607-emr-cft.json"
+  },
+  "2608-emr-tf.json": {
+    "id": "b8f23678c38947cfc23cde5702ef8fcc",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b8f23678c38947cfc23cde5702ef8fcc/raw/2608-emr-tf.json"
+  },
+  "2608-emr-cft.json": {
+    "id": "ecb6909b924fd699d04128a0e192008d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ecb6909b924fd699d04128a0e192008d/raw/2608-emr-cft.json"
+  },
+  "2609-emr-tf.json": {
+    "id": "4c0ff2807e951e5ebcd7a3c2993bfbc8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4c0ff2807e951e5ebcd7a3c2993bfbc8/raw/2609-emr-tf.json"
+  },
+  "2609-emr-cft.json": {
+    "id": "bdacdf76cd862fe4ad7e7dbff17760cf",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/bdacdf76cd862fe4ad7e7dbff17760cf/raw/2609-emr-cft.json"
+  },
+  "2501-redshift-tf.json": {
+    "id": "fcc66c7aa2eae11f69a6f978dacc4c5b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/fcc66c7aa2eae11f69a6f978dacc4c5b/raw/2501-redshift-tf.json"
+  },
+  "2501-redshift-cft.json": {
+    "id": "a7e2b896639a4e17fe8aa34a424802be",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a7e2b896639a4e17fe8aa34a424802be/raw/2501-redshift-cft.json"
+  },
+  "2502-redshift-tf.json": {
+    "id": "5ab48b43276e194d4b2da0fe6033430e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5ab48b43276e194d4b2da0fe6033430e/raw/2502-redshift-tf.json"
+  },
+  "2502-redshift-cft.json": {
+    "id": "dc7989516fb95ec26465b679968c3924",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/dc7989516fb95ec26465b679968c3924/raw/2502-redshift-cft.json"
+  },
+  "2503-redshift-tf.json": {
+    "id": "c7ba5bf26a383417496d2e9083c859d8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c7ba5bf26a383417496d2e9083c859d8/raw/2503-redshift-tf.json"
+  },
+  "2503-redshift-cft.json": {
+    "id": "a56fc1b789001b2535977c5b12d5f6a4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a56fc1b789001b2535977c5b12d5f6a4/raw/2503-redshift-cft.json"
+  },
+  "2504-redshift-tf.json": {
+    "id": "c805546bfa63f4d625ba9f6775e759fd",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c805546bfa63f4d625ba9f6775e759fd/raw/2504-redshift-tf.json"
+  },
+  "2504-redshift-cft.json": {
+    "id": "c1d2adf5307cd382d68942e81d0597ab",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c1d2adf5307cd382d68942e81d0597ab/raw/2504-redshift-cft.json"
+  },
+  "2505-redshift-tf.json": {
+    "id": "bce7c98b2ff3f303ddf6add8dbc451db",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/bce7c98b2ff3f303ddf6add8dbc451db/raw/2505-redshift-tf.json"
+  },
+  "2505-redshift-cft.json": {
+    "id": "98bcbb0991eb2ba669518c34d6e0efee",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/98bcbb0991eb2ba669518c34d6e0efee/raw/2505-redshift-cft.json"
+  },
+  "2506-redshift-tf.json": {
+    "id": "6b8278461b2abcd2a6eb61383af0d7d9",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6b8278461b2abcd2a6eb61383af0d7d9/raw/2506-redshift-tf.json"
+  },
+  "2506-redshift-cft.json": {
+    "id": "f2cd87019c9694e9c39ebf8342cee42e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f2cd87019c9694e9c39ebf8342cee42e/raw/2506-redshift-cft.json"
+  },
+  "2507-redshift-tf.json": {
+    "id": "adead1f59745763115763d9547c65282",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/adead1f59745763115763d9547c65282/raw/2507-redshift-tf.json"
+  },
+  "2507-redshift-cft.json": {
+    "id": "95debcfe670d784c813209dd4d47d8ef",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/95debcfe670d784c813209dd4d47d8ef/raw/2507-redshift-cft.json"
+  },
+  "2508-redshift-tf.json": {
+    "id": "2fc897fe112ffa5d37ee97008a00fd2f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2fc897fe112ffa5d37ee97008a00fd2f/raw/2508-redshift-tf.json"
+  },
+  "2508-redshift-cft.json": {
+    "id": "fede7f7c41521cc72f8c243a8ec48f13",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/fede7f7c41521cc72f8c243a8ec48f13/raw/2508-redshift-cft.json"
+  },
+  "1801-event-bridge-tf.json": {
+    "id": "557acbd4e43b49debb3bf91710f709db",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/557acbd4e43b49debb3bf91710f709db/raw/1801-event-bridge-tf.json"
+  },
+  "1801-event-bridge-cft.json": {
+    "id": "ef9a3f093777642916d7c75d1c343874",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ef9a3f093777642916d7c75d1c343874/raw/1801-event-bridge-cft.json"
+  },
+  "1802-event-bridge-tf.json": {
+    "id": "3060b61cd3f3cbd466b2026d9633e70c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3060b61cd3f3cbd466b2026d9633e70c/raw/1802-event-bridge-tf.json"
+  },
+  "1802-event-bridge-cft.json": {
+    "id": "3c56867afcf8e0fa1c712a623f5a409a",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3c56867afcf8e0fa1c712a623f5a409a/raw/1802-event-bridge-cft.json"
+  },
+  "1803-event-bridge-tf.json": {
+    "id": "c7e0ec0fdeef6bd722bb3e55fede2cf0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c7e0ec0fdeef6bd722bb3e55fede2cf0/raw/1803-event-bridge-tf.json"
+  },
+  "1803-event-bridge-cft.json": {
+    "id": "5472bca2441b53ba65d50f9078b72bf9",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5472bca2441b53ba65d50f9078b72bf9/raw/1803-event-bridge-cft.json"
+  },
+  "1804-event-bridge-tf.json": {
+    "id": "dc9a4ce74b65f388c8b663673e3f8461",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/dc9a4ce74b65f388c8b663673e3f8461/raw/1804-event-bridge-tf.json"
+  },
+  "1804-event-bridge-cft.json": {
+    "id": "46f8db6294d7575dca9b43262e7a7270",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/46f8db6294d7575dca9b43262e7a7270/raw/1804-event-bridge-cft.json"
+  },
+  "1805-event-bridge-tf.json": {
+    "id": "3f31c19e6d2e518e6bfdbcaee65ba92c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3f31c19e6d2e518e6bfdbcaee65ba92c/raw/1805-event-bridge-tf.json"
+  },
+  "1805-event-bridge-cft.json": {
+    "id": "294c5046305c70f0636413013c6b416c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/294c5046305c70f0636413013c6b416c/raw/1805-event-bridge-cft.json"
+  },
+  "1806-event-bridge-tf.json": {
+    "id": "3037b3d778e385fd2232616c6397b561",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3037b3d778e385fd2232616c6397b561/raw/1806-event-bridge-tf.json"
+  },
+  "1806-event-bridge-cft.json": {
+    "id": "2737891ae636e672ffa8339b23e442c7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2737891ae636e672ffa8339b23e442c7/raw/1806-event-bridge-cft.json"
+  },
+  "1807-event-bridge-tf.json": {
+    "id": "10bb8e8612f898c3f08bed4f5f5066b2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/10bb8e8612f898c3f08bed4f5f5066b2/raw/1807-event-bridge-tf.json"
+  },
+  "1807-event-bridge-cft.json": {
+    "id": "198fa8bb3325fdf4f93c274f34961dab",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/198fa8bb3325fdf4f93c274f34961dab/raw/1807-event-bridge-cft.json"
+  },
+  "1301-step-function-tf.json": {
+    "id": "20d8a16f4029f14caf9c455a246023fd",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/20d8a16f4029f14caf9c455a246023fd/raw/1301-step-function-tf.json"
+  },
+  "1301-step-function-cft.json": {
+    "id": "7d9767e75170f59717fdd9ca6af5edad",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7d9767e75170f59717fdd9ca6af5edad/raw/1301-step-function-cft.json"
+  },
+  "1302-step-function-tf.json": {
+    "id": "eddfbb6a67b158dc500d81807ffcb2db",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/eddfbb6a67b158dc500d81807ffcb2db/raw/1302-step-function-tf.json"
+  },
+  "1302-step-function-cft.json": {
+    "id": "2b0f0489ba6fd169663b12c5d560f0be",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2b0f0489ba6fd169663b12c5d560f0be/raw/1302-step-function-cft.json"
+  },
+  "1303-step-function-tf.json": {
+    "id": "cff7bbaa39aacb12774ffa79c05b38b5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cff7bbaa39aacb12774ffa79c05b38b5/raw/1303-step-function-tf.json"
+  },
+  "1303-step-function-cft.json": {
+    "id": "d25086e1236df4d6c7f9eee510ac8269",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d25086e1236df4d6c7f9eee510ac8269/raw/1303-step-function-cft.json"
+  },
+  "1304-step-function-tf.json": {
+    "id": "ff80609c36128e31b9e35d5a13c33dc9",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ff80609c36128e31b9e35d5a13c33dc9/raw/1304-step-function-tf.json"
+  },
+  "1304-step-function-cft.json": {
+    "id": "0f60b8cd9b67ff0e2a3ba093dc4dbde1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0f60b8cd9b67ff0e2a3ba093dc4dbde1/raw/1304-step-function-cft.json"
+  },
+  "1305-step-function-tf.json": {
+    "id": "30d0c8f0972b9cf30ba685d168fd2e45",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/30d0c8f0972b9cf30ba685d168fd2e45/raw/1305-step-function-tf.json"
+  },
+  "1305-step-function-cft.json": {
+    "id": "418bc839b795085c091add92185c4784",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/418bc839b795085c091add92185c4784/raw/1305-step-function-cft.json"
+  },
+  "1306-step-function-tf.json": {
+    "id": "7de8afec05d119dcf1a244d8047e95ae",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7de8afec05d119dcf1a244d8047e95ae/raw/1306-step-function-tf.json"
+  },
+  "1306-step-function-cft.json": {
+    "id": "389060129709d9f83579838e5495829b",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/389060129709d9f83579838e5495829b/raw/1306-step-function-cft.json"
+  },
+  "1307-step-function-tf.json": {
+    "id": "87dcd0ac82fc971ae1f996829e406ae6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/87dcd0ac82fc971ae1f996829e406ae6/raw/1307-step-function-tf.json"
+  },
+  "1307-step-function-cft.json": {
+    "id": "82e0fa823ca9740998d3fc4130559ae4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/82e0fa823ca9740998d3fc4130559ae4/raw/1307-step-function-cft.json"
+  },
+  "1308-step-function-tf.json": {
+    "id": "e0262d107f79e83789c9fb7f86da4aa5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e0262d107f79e83789c9fb7f86da4aa5/raw/1308-step-function-tf.json"
+  },
+  "1308-step-function-cft.json": {
+    "id": "048dc66227186eabdda88cdfbc865e1d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/048dc66227186eabdda88cdfbc865e1d/raw/1308-step-function-cft.json"
+  },
+  "1309-step-function-tf.json": {
+    "id": "9743da90f06c1552632bdd0ef44c7ace",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9743da90f06c1552632bdd0ef44c7ace/raw/1309-step-function-tf.json"
+  },
+  "1309-step-function-cft.json": {
+    "id": "e9a7eca039b22198c6623bcd6ed972d8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e9a7eca039b22198c6623bcd6ed972d8/raw/1309-step-function-cft.json"
+  },
+  "1310-step-function-tf.json": {
+    "id": "28f42a3ba3bfba0c4bb17f9cdd49521c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/28f42a3ba3bfba0c4bb17f9cdd49521c/raw/1310-step-function-tf.json"
+  },
+  "1310-step-function-cft.json": {
+    "id": "93e3dfeea551d6a50b619ffb4b5423af",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/93e3dfeea551d6a50b619ffb4b5423af/raw/1310-step-function-cft.json"
+  },
+  "1311-step-function-tf.json": {
+    "id": "61a19eb3f5bbacb94910087349fea83e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/61a19eb3f5bbacb94910087349fea83e/raw/1311-step-function-tf.json"
+  },
+  "1311-step-function-cft.json": {
+    "id": "a6065bafc98c28b52d213ddf5e9a5dc5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a6065bafc98c28b52d213ddf5e9a5dc5/raw/1311-step-function-cft.json"
+  },
+  "1312-step-function-tf.json": {
+    "id": "f137537e8dc032b494c70c0309360171",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f137537e8dc032b494c70c0309360171/raw/1312-step-function-tf.json"
+  },
+  "1312-step-function-cft.json": {
+    "id": "e4b67c221dc03a069b613ee2fa5eafc2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e4b67c221dc03a069b613ee2fa5eafc2/raw/1312-step-function-cft.json"
+  },
+  "1313-step-function-tf.json": {
+    "id": "43d691f0b01915c3c1ed3820b6a674da",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/43d691f0b01915c3c1ed3820b6a674da/raw/1313-step-function-tf.json"
+  },
+  "1313-step-function-cft.json": {
+    "id": "27aef3ea84a74797f0773fc19ab81a91",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/27aef3ea84a74797f0773fc19ab81a91/raw/1313-step-function-cft.json"
+  },
+  "1314-step-function-tf.json": {
+    "id": "4108253e73758156fb62f648c62b9232",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/4108253e73758156fb62f648c62b9232/raw/1314-step-function-tf.json"
+  },
+  "1314-step-function-cft.json": {
+    "id": "c80e9cc00641932f203335570d9bb097",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c80e9cc00641932f203335570d9bb097/raw/1314-step-function-cft.json"
+  },
+  "1315-step-function-tf.json": {
+    "id": "2b93160f56f2616529f7650664b502b2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2b93160f56f2616529f7650664b502b2/raw/1315-step-function-tf.json"
+  },
+  "1315-step-function-cft.json": {
+    "id": "d1684d14e7a42af052d5cb3ed2cc413e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d1684d14e7a42af052d5cb3ed2cc413e/raw/1315-step-function-cft.json"
+  },
+  "1316-step-function-tf.json": {
+    "id": "3375a4633f44fc42ac5e7e5997e775cc",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3375a4633f44fc42ac5e7e5997e775cc/raw/1316-step-function-tf.json"
+  },
+  "1316-step-function-cft.json": {
+    "id": "b472bc17babfc281fad2934fa16a8464",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b472bc17babfc281fad2934fa16a8464/raw/1316-step-function-cft.json"
+  },
+  "1317-step-function-tf.json": {
+    "id": "d489815a3b13025d8c6f89541aac3442",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d489815a3b13025d8c6f89541aac3442/raw/1317-step-function-tf.json"
+  },
+  "1317-step-function-cft.json": {
+    "id": "c91b2b5d9545522ce149c5bf13c54356",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c91b2b5d9545522ce149c5bf13c54356/raw/1317-step-function-cft.json"
+  },
+  "1318-step-function-tf.json": {
+    "id": "0fd7e2599988acb0789e041f1d1786d3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0fd7e2599988acb0789e041f1d1786d3/raw/1318-step-function-tf.json"
+  },
+  "1318-step-function-cft.json": {
+    "id": "adaebbd17e7dcb8193cfc9eae3d620ad",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/adaebbd17e7dcb8193cfc9eae3d620ad/raw/1318-step-function-cft.json"
+  },
+  "3101-foundation-tf.json": {
+    "id": "27e6b3f6999523d1d7bb7a481d9c14db",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/27e6b3f6999523d1d7bb7a481d9c14db/raw/3101-foundation-tf.json"
+  },
+  "3101-foundation-cft.json": {
+    "id": "b35dfeb7c6ecee10ca2a822bad1f4aca",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b35dfeb7c6ecee10ca2a822bad1f4aca/raw/3101-foundation-cft.json"
+  },
+  "4601-data-lake-tf.json": {
+    "id": "47a460777fe792939a1e7aa1e765c1d2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/47a460777fe792939a1e7aa1e765c1d2/raw/4601-data-lake-tf.json"
+  },
+  "4601-data-lake-cft.json": {
+    "id": "36c786db8ddafc4c6b28b655adceaf9e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/36c786db8ddafc4c6b28b655adceaf9e/raw/4601-data-lake-cft.json"
+  },
+  "4602-data-lake-tf.json": {
+    "id": "b5262db3145724dc79c847a2b11ed5c5",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/b5262db3145724dc79c847a2b11ed5c5/raw/4602-data-lake-tf.json"
+  },
+  "4602-data-lake-cft.json": {
+    "id": "072c495f10a54187d8eb34af8663b414",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/072c495f10a54187d8eb34af8663b414/raw/4602-data-lake-cft.json"
+  },
+  "4603-data-lake-tf.json": {
+    "id": "0c3c61781f50645539c3020867a68c27",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0c3c61781f50645539c3020867a68c27/raw/4603-data-lake-tf.json"
+  },
+  "4603-data-lake-cft.json": {
+    "id": "86b6cd70c3caa636b98c214dcbdbfb94",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/86b6cd70c3caa636b98c214dcbdbfb94/raw/4603-data-lake-cft.json"
+  },
+  "0101-storage-tf.json": {
+    "id": "bb6e6d39043c9e5eca4e38ecb9444e73",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/bb6e6d39043c9e5eca4e38ecb9444e73/raw/0101-storage-tf.json"
+  },
+  "0101-storage-cft.json": {
+    "id": "0b331bb808cf91474316f0764110d700",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0b331bb808cf91474316f0764110d700/raw/0101-storage-cft.json"
+  },
+  "0102-storage-tf.json": {
+    "id": "c4f02de360a4f942ef69225e2cc0befd",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/c4f02de360a4f942ef69225e2cc0befd/raw/0102-storage-tf.json"
+  },
+  "0102-storage-cft.json": {
+    "id": "a4858d5e1a7c5ad0028445a6c324e5bc",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a4858d5e1a7c5ad0028445a6c324e5bc/raw/0102-storage-cft.json"
+  },
+  "0103-storage-tf.json": {
+    "id": "ffd1b19195196e6d7386283171cc36b0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ffd1b19195196e6d7386283171cc36b0/raw/0103-storage-tf.json"
+  },
+  "0103-storage-cft.json": {
+    "id": "e017c742ddf970262f0ec13319f97fe0",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/e017c742ddf970262f0ec13319f97fe0/raw/0103-storage-cft.json"
+  },
+  "0104-storage-tf.json": {
+    "id": "f0ddb0fd1954d0688d382724ce955161",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f0ddb0fd1954d0688d382724ce955161/raw/0104-storage-tf.json"
+  },
+  "0104-storage-cft.json": {
+    "id": "7cf91b9ea3f5158586b88db95c0de6d4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7cf91b9ea3f5158586b88db95c0de6d4/raw/0104-storage-cft.json"
+  },
+  "3201-migration-tf.json": {
+    "id": "926a424bf1dc5b845f799d34240257fb",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/926a424bf1dc5b845f799d34240257fb/raw/3201-migration-tf.json"
+  },
+  "3201-migration-cft.json": {
+    "id": "a28dc0a2db019d567d5cf9264d94781c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a28dc0a2db019d567d5cf9264d94781c/raw/3201-migration-cft.json"
+  },
+  "3202-migration-tf.json": {
+    "id": "cc7cbd3ec6e7c30b00b6b9a7dc824fad",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/cc7cbd3ec6e7c30b00b6b9a7dc824fad/raw/3202-migration-tf.json"
+  },
+  "3202-migration-cft.json": {
+    "id": "768522648667d699370beef62b790647",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/768522648667d699370beef62b790647/raw/3202-migration-cft.json"
+  },
+  "3203-migration-tf.json": {
+    "id": "a554179c18e3f0abbdef7e20dbc4009c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a554179c18e3f0abbdef7e20dbc4009c/raw/3203-migration-tf.json"
+  },
+  "3203-migration-cft.json": {
+    "id": "71fbc435529758b96f2e5e0b08ea8072",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/71fbc435529758b96f2e5e0b08ea8072/raw/3203-migration-cft.json"
+  },
+  "3204-migration-tf.json": {
+    "id": "fc28f5b66e0542d3a07d37e797208bf3",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/fc28f5b66e0542d3a07d37e797208bf3/raw/3204-migration-tf.json"
+  },
+  "3204-migration-cft.json": {
+    "id": "7260f1f0248b02cb28cd5478fbb8628f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/7260f1f0248b02cb28cd5478fbb8628f/raw/3204-migration-cft.json"
+  },
+  "0501-data protection-tf.json": {
+    "id": "dc048c23fd5b728300f6631024e3b688",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/dc048c23fd5b728300f6631024e3b688/raw/0501-data protection-tf.json"
+  },
+  "0501-data protection-cft.json": {
+    "id": "43481eec3eb7e87aed1e2e4c821ee2fc",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/43481eec3eb7e87aed1e2e4c821ee2fc/raw/0501-data protection-cft.json"
+  },
+  "0502-data protection-tf.json": {
+    "id": "aa70eca62a7d364f6f377155796f6674",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/aa70eca62a7d364f6f377155796f6674/raw/0502-data protection-tf.json"
+  },
+  "0502-data protection-cft.json": {
+    "id": "86ff003cc3e75196427aae2ab2a672e2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/86ff003cc3e75196427aae2ab2a672e2/raw/0502-data protection-cft.json"
+  },
+  "0503-data protection-tf.json": {
+    "id": "8ff589925f957f13f22256b93490f824",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8ff589925f957f13f22256b93490f824/raw/0503-data protection-tf.json"
+  },
+  "0503-data protection-cft.json": {
+    "id": "438c027d4a8a370c600b47cda00b9b72",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/438c027d4a8a370c600b47cda00b9b72/raw/0503-data protection-cft.json"
+  },
+  "0504-data protection-tf.json": {
+    "id": "826b7d27e8c192cfab7f625b014031f6",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/826b7d27e8c192cfab7f625b014031f6/raw/0504-data protection-tf.json"
+  },
+  "0504-data protection-cft.json": {
+    "id": "8f7aed0bfac8c4899584b3504020c764",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/8f7aed0bfac8c4899584b3504020c764/raw/0504-data protection-cft.json"
+  },
+  "0505-data protection-tf.json": {
+    "id": "937ebb1320929499d8acd8518a63f75f",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/937ebb1320929499d8acd8518a63f75f/raw/0505-data protection-tf.json"
+  },
+  "0505-data protection-cft.json": {
+    "id": "f3a560f041cea7115093f2ffa11ffcef",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f3a560f041cea7115093f2ffa11ffcef/raw/0505-data protection-cft.json"
+  },
+  "4301-api-gateway-tf.json": {
+    "id": "332401684d6f5bf9b08c2c62c38797d7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/332401684d6f5bf9b08c2c62c38797d7/raw/4301-api-gateway-tf.json"
+  },
+  "4301-api-gateway-cft.json": {
+    "id": "3dacfca4e7dca3419048bc1f0edb3f5e",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/3dacfca4e7dca3419048bc1f0edb3f5e/raw/4301-api-gateway-cft.json"
+  },
+  "4302-api-gateway-tf.json": {
+    "id": "22d7f7f687491615bc6ffd4a50faeed4",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/22d7f7f687491615bc6ffd4a50faeed4/raw/4302-api-gateway-tf.json"
+  },
+  "4302-api-gateway-cft.json": {
+    "id": "2a09754b740db2ced77118efd7ea18d7",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/2a09754b740db2ced77118efd7ea18d7/raw/4302-api-gateway-cft.json"
+  },
+  "4303-api-gateway-tf.json": {
+    "id": "5fe5c57ad3485e2c651839cc0c204efd",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/5fe5c57ad3485e2c651839cc0c204efd/raw/4303-api-gateway-tf.json"
+  },
+  "4303-api-gateway-cft.json": {
+    "id": "f21dad5b1c8b96e3a0db153d1a6d1d51",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/f21dad5b1c8b96e3a0db153d1a6d1d51/raw/4303-api-gateway-cft.json"
+  },
+  "4304-api-gateway-tf.json": {
+    "id": "ecc6ae7fafd184c7d943281ccd6a7266",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ecc6ae7fafd184c7d943281ccd6a7266/raw/4304-api-gateway-tf.json"
+  },
+  "4304-api-gateway-cft.json": {
+    "id": "9cbb2909af8b6cd65fc1a50f6ddcfe2d",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/9cbb2909af8b6cd65fc1a50f6ddcfe2d/raw/4304-api-gateway-cft.json"
+  },
+  "4305-api-gateway-tf.json": {
+    "id": "fb4b40d5d3a1b4ff95343e8a74beb4f1",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/fb4b40d5d3a1b4ff95343e8a74beb4f1/raw/4305-api-gateway-tf.json"
+  },
+  "4305-api-gateway-cft.json": {
+    "id": "d164400ee5e4d00080447562017da4d2",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d164400ee5e4d00080447562017da4d2/raw/4305-api-gateway-cft.json"
+  },
+  "4306-api-gateway-tf.json": {
+    "id": "ba1d35ca2ec3da2ec317e14b6f63931c",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/ba1d35ca2ec3da2ec317e14b6f63931c/raw/4306-api-gateway-tf.json"
+  },
+  "4306-api-gateway-cft.json": {
+    "id": "6885abddaea0a34cb97a20ce2f2cc636",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/6885abddaea0a34cb97a20ce2f2cc636/raw/4306-api-gateway-cft.json"
+  },
+  "4307-api-gateway-tf.json": {
+    "id": "61dc453c1054f13d9ecc543e8754cdb8",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/61dc453c1054f13d9ecc543e8754cdb8/raw/4307-api-gateway-tf.json"
+  },
+  "4307-api-gateway-cft.json": {
+    "id": "0286081fc4ba0ebbfb8d45e10fb027ad",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/0286081fc4ba0ebbfb8d45e10fb027ad/raw/4307-api-gateway-cft.json"
+  },
+  "4308-api-gateway-tf.json": {
+    "id": "a353d1ea692320b9b2b73ae48faaaece",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/a353d1ea692320b9b2b73ae48faaaece/raw/4308-api-gateway-tf.json"
+  },
+  "4308-api-gateway-cft.json": {
+    "id": "d576cc611b188343998bd48654a5e739",
+    "raw_url": "https://gist.githubusercontent.com/bsubhamay/d576cc611b188343998bd48654a5e739/raw/4308-api-gateway-cft.json"
   }
 }

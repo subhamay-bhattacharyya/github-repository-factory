@@ -1,5 +1,5 @@
 locals {
-  raw-repositories = jsondecode(file("${path.module}/repo-json/github-repo-test.json"))
+  raw-repositories = jsondecode(file("${path.module}/repo-json/github-repositories-1.json"))
 
   gist-ids = jsondecode(file("${path.module}/repo-json/gist-id.json"))
 
@@ -15,8 +15,8 @@ locals {
             description = item.description
             template    = iac-type == "tf" ? "terraform-template" : "cloudformation-template"
             iac         = iac-type == "tf" ? "Terraform" : "CloudFormation"
-            gist-id     = local.gist-ids["${id}-${item.category}-${iac-type}"]["id"]
-            status      = item.status
+            gist-id     = lookup(local.gist-ids, "${id}-${item.category}-${iac-type}.json", null) != null ? local.gist-ids["${id}-${item.category}-${iac-type}.json"]["id"] : null
+            # status      = item.status
             priority    = item.priority
             html-url    = item["html-url"]
             visibility  = item.visibility
@@ -33,12 +33,12 @@ locals {
   )
 }
 
-# output "gist-ids" {
-#   value = local.gist-ids
-# }
+output "gist-ids" {
+  value = local.gist-ids
+}
 
 
-# output "repositories" {
-#   value = local.repositories
-# }
+output "repositories" {
+  value = local.repositories
+}
 

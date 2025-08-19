@@ -1,0 +1,602 @@
+{
+  "1001": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 1. Containerize the Mythical Mysfits monolith",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1002": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 2. Deploy the container using AWS Fargate",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1003": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 3. Scale the adoption platform monolith with an ALB and an ECS Service",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1004": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 4. Incrementally build and deploy more microservices with AWS Fargate",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1005": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 5. Launch your Amazon EKS Cluster",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1006": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 6. Preparing EKS for the Mysfits",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1007": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 7. Deploying the monolith",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1008": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 8. Incrementally build and deploy more microservices with EKS and AWS Load Balancer Controller",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1101": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Text Generation with Amazon Bedrock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1102": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Knowledge Bases and RAG",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1103": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Model Customization",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1104": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Image and Video Generation Applications",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1105": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Agents",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1201": {
+    "workshop": "Karpenter: Amazon EKS Best Practice and Cloud Cost Optimization",
+    "category": "kubernetes",
+    "description": "Karpenter",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f6b4587e-b8a5-4a43-be87-26bd85a70aba/en-US",
+    "visibility": "public"
+  },
+  "1202": {
+    "workshop": "Karpenter: Amazon EKS Best Practice and Cloud Cost Optimization",
+    "category": "kubernetes",
+    "description": "Scaling an application and cluster",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f6b4587e-b8a5-4a43-be87-26bd85a70aba/en-US",
+    "visibility": "public"
+  },
+  "1301": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "First state machine",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1302": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Integrating services",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1303": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Handling errors",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1304": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Versions and Aliases",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1305": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Optimizing costs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1306": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Processing data in parallel",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1307": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Processing arrays of data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1308": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Creating state machines with IaC",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1309": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Integrate with Amazon ECS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1310": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Distributed map",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1311": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Human approval",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1312": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Wait for external system",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1313": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "External HTTP integration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1314": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Integrate with Amazon Bedrock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1315": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Saga Pattern",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1316": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Product feedback processing",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1317": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Language Detection and Translation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1318": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Text Summarization",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1401": {
+    "workshop": "Highly Available Web Application Workshop",
+    "category": "highly-available",
+    "description": "Highly Available Web Application Workshop",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US",
+    "visibility": "public"
+  },
+  "1601": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 1: Egress connectivity from an IPv6-only instance",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1602": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 2: Ingress connectivity to IPv6-only instances using an NLB",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1603": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 3: Private connectivity to IPv6 services using AWS PrivateLink",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1604": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 4: IPv6 connectivity using AWS Transit Gateway",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1605": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 5: Ingress connectivity to IPv6-only instances using ALB",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1606": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 6: Understanding IPv6 on Amazon EKS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1701": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 1 - Create an Agent with Function Definition",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1702": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 2 - Create Agents with API Schema",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1703": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 3 - Create Agents with Return of Control (Function Calling)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1704": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 4 - Create Agent with a Single Knowledge Base",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1705": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 5 - Create an Agent with a Knowledge Base and an Action Group",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1706": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 6 - Passing Prompt and Session Attributes to your Agent",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1707": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 7 - Overwriting Advanced Prompt and Custom Lambda Parsers",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1708": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 8 - Creating Agent with Guardrails for Amazon Bedrock integration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1709": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 9 - Creating an agents with memory",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1710": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 10 - Creating an agent with code interpretation capabilities",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  }
+}

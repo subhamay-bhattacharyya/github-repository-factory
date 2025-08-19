@@ -8,7 +8,7 @@ resource "github_repository" "this" {
   has_issues             = true
   has_projects           = true
   delete_branch_on_merge = true
-  topics                 = each.value.topics
+  topics                 = ["auto-created"]
 
   template {
     owner      = "subhamay-bhattacharyya"
@@ -29,7 +29,7 @@ resource "github_repository_file" "readme" {
       heading   = each.value.workshop
       repo-name = github_repository.this[each.key].name
       iac       = each.value.iac
-      gist-id   = each.value["gist-id"]
+      gist-id   = coalesce(each.value["gist-id"], "79f0c85a63e1e08d68684952bf914f2b")
       email     = "subhamay.aws@gmail.com"
     }
   )
@@ -81,101 +81,101 @@ resource "github_repository_file" "changelog" {
 }
 
 # CI Build workflow
-resource "github_repository_file" "ci-workflow" {
+# resource "github_repository_file" "ci-workflow" {
 
-  for_each            = var.repos
-  repository          = github_repository.this[each.key].name
-  branch              = "main"
-  file                = ".github/workflows/ci.yaml"
-  overwrite_on_create = true
-  content = file(
-    each.value.template == "terraform-template" ? local.tf-ci-workflow-template : local.cfn-ci-workflow-template
-  )
-}
+#   for_each            = var.repos
+#   repository          = github_repository.this[each.key].name
+#   branch              = "main"
+#   file                = ".github/workflows/ci.yaml"
+#   overwrite_on_create = true
+#   content = file(
+#     each.value.template == "terraform-template" ? local.tf-ci-workflow-template : local.cfn-ci-workflow-template
+#   )
+# }
 
-# Create branch workflow
-resource "github_repository_file" "create-branch-workflow" {
+# # Create branch workflow
+# resource "github_repository_file" "create-branch-workflow" {
 
-  for_each            = var.repos
-  repository          = github_repository.this[each.key].name
-  branch              = "main"
-  file                = ".github/workflows/create-branch.yaml"
-  overwrite_on_create = true
-  content = file(
-    each.value.template == "terraform-template" ? local.tf-create-branch-template : local.cfn-create-branch-template
-  )
-}
-
-
-# Create release workflow
-resource "github_repository_file" "create-release-workflow" {
-
-  for_each            = var.repos
-  repository          = github_repository.this[each.key].name
-  branch              = "main"
-  file                = ".github/workflows/create-release.yaml"
-  overwrite_on_create = true
-  content = file(
-    each.value.template == "terraform-template" ? local.tf-create-release-workflow-template : local.cfn-create-release-workflow-template
-  )
-}
-
-# Create stack workflow
-resource "github_repository_file" "deploy-workflow" {
-
-  for_each            = var.repos
-  repository          = github_repository.this[each.key].name
-  branch              = "main"
-  file                = each.value.template == "terraform-template" ? ".github/workflows/terraform-apply.yaml" : ".github/workflows/cloudformation-deploy.yaml"
-  overwrite_on_create = true
-  content = file(
-    each.value.template == "terraform-template" ? local.tf-apply-workflow-template : local.cfn-deploy-workflow-template
-  )
-}
+#   for_each            = var.repos
+#   repository          = github_repository.this[each.key].name
+#   branch              = "main"
+#   file                = ".github/workflows/create-branch.yaml"
+#   overwrite_on_create = true
+#   content = file(
+#     each.value.template == "terraform-template" ? local.tf-create-branch-template : local.cfn-create-branch-template
+#   )
+# }
 
 
-# Destroy stack workflow
-resource "github_repository_file" "destroy-workflow" {
+# # Create release workflow
+# resource "github_repository_file" "create-release-workflow" {
 
-  for_each            = var.repos
-  repository          = github_repository.this[each.key].name
-  branch              = "main"
-  file                = each.value.template == "terraform-template" ? ".github/workflows/terraform-destroy.yaml" : ".github/workflows/cloudformation-delete.yaml"
-  overwrite_on_create = true
-  content = file(
-    each.value.template == "terraform-template" ? local.tf-destroy-workflow-template : local.cfn-delete-workflow-template
-  )
-}
+#   for_each            = var.repos
+#   repository          = github_repository.this[each.key].name
+#   branch              = "main"
+#   file                = ".github/workflows/create-release.yaml"
+#   overwrite_on_create = true
+#   content = file(
+#     each.value.template == "terraform-template" ? local.tf-create-release-workflow-template : local.cfn-create-release-workflow-template
+#   )
+# }
 
-# Slack notification workflow
-resource "github_repository_file" "slack-notification-workflow" {
+# # Create stack workflow
+# resource "github_repository_file" "deploy-workflow" {
 
-  for_each            = var.repos
-  repository          = github_repository.this[each.key].name
-  branch              = "main"
-  file                = ".github/workflows/notify.yaml"
-  overwrite_on_create = true
-  content             = file(local.slack-notification-template)
-}
+#   for_each            = var.repos
+#   repository          = github_repository.this[each.key].name
+#   branch              = "main"
+#   file                = each.value.template == "terraform-template" ? ".github/workflows/terraform-apply.yaml" : ".github/workflows/cloudformation-deploy.yaml"
+#   overwrite_on_create = true
+#   content = file(
+#     each.value.template == "terraform-template" ? local.tf-apply-workflow-template : local.cfn-deploy-workflow-template
+#   )
+# }
 
-# Setup environment workflow
-resource "github_repository_file" "setup-environment-workflow" {
 
-  for_each            = var.repos
-  repository          = github_repository.this[each.key].name
-  branch              = "main"
-  file                = ".github/workflows/setup-environments.yaml"
-  overwrite_on_create = true
-  content             = file(local.setup-environment-template)
-}
+# # Destroy stack workflow
+# resource "github_repository_file" "destroy-workflow" {
 
-# Dependabot workflow
-resource "github_repository_file" "dependabot" {
+#   for_each            = var.repos
+#   repository          = github_repository.this[each.key].name
+#   branch              = "main"
+#   file                = each.value.template == "terraform-template" ? ".github/workflows/terraform-destroy.yaml" : ".github/workflows/cloudformation-delete.yaml"
+#   overwrite_on_create = true
+#   content = file(
+#     each.value.template == "terraform-template" ? local.tf-destroy-workflow-template : local.cfn-delete-workflow-template
+#   )
+# }
 
-  for_each            = var.repos
-  repository          = github_repository.this[each.key].name
-  branch              = "main"
-  file                = ".github/dependabot.yaml"
-  overwrite_on_create = true
-  content             = file(local.dependabot-template)
-}
+# # Slack notification workflow
+# resource "github_repository_file" "slack-notification-workflow" {
+
+#   for_each            = var.repos
+#   repository          = github_repository.this[each.key].name
+#   branch              = "main"
+#   file                = ".github/workflows/notify.yaml"
+#   overwrite_on_create = true
+#   content             = file(local.slack-notification-template)
+# }
+
+# # Setup environment workflow
+# resource "github_repository_file" "setup-environment-workflow" {
+
+#   for_each            = var.repos
+#   repository          = github_repository.this[each.key].name
+#   branch              = "main"
+#   file                = ".github/workflows/setup-environments.yaml"
+#   overwrite_on_create = true
+#   content             = file(local.setup-environment-template)
+# }
+
+# # Dependabot workflow
+# resource "github_repository_file" "dependabot" {
+
+#   for_each            = var.repos
+#   repository          = github_repository.this[each.key].name
+#   branch              = "main"
+#   file                = ".github/dependabot.yaml"
+#   overwrite_on_create = true
+#   content             = file(local.dependabot-template)
+# }

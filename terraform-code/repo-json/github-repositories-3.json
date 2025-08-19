@@ -1,0 +1,602 @@
+{
+  "3505": {
+    "workshop": "Modernizing the application stack with AWS modernization pathways",
+    "category": "migration",
+    "description": "Module 5: Microservices",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f2c0706c-7192-495f-853c-fd3341db265a/en-US",
+    "visibility": "public"
+  },
+  "3601": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "Lakehouse",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3602": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "Catalog (Data & AI Governance)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3603": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "Data Processing",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3604": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "SQL Analytics",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3605": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "ML/GenAI Model Development",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3606": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "Generative AI Application Development",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3801": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Athena Basics",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3802": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Athena Federation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3803": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "User Defined Functions",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3804": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Custom Data Source Connector",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3805": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Text Analysis using UDF",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3806": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Machine Learning",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3807": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "ACID Transactions with Iceberg",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3808": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Athena Spark",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3900": {
+    "workshop": "Building Agentic Workflows on AWS",
+    "category": "gen-ai",
+    "description": "Module 1: Build an Agentic Chatbot",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-agentic-workflows/en-US",
+    "visibility": "public"
+  },
+  "3901": {
+    "workshop": "Building Agentic Workflows on AWS",
+    "category": "gen-ai",
+    "description": "Module 2: Building an Agentic Workflow with Amazon Bedrock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-agentic-workflows/en-US",
+    "visibility": "public"
+  },
+  "3902": {
+    "workshop": "Building Agentic Workflows on AWS",
+    "category": "gen-ai",
+    "description": "Module 3: Using 3rd Party Agentic Workflows",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-agentic-workflows/en-US",
+    "visibility": "public"
+  },
+  "3903": {
+    "workshop": "Building Agentic Workflows on AWS",
+    "category": "gen-ai",
+    "description": "Module 4: Building an Agentic Workflow with SageMaker AI",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-agentic-workflows/en-US",
+    "visibility": "public"
+  },
+  "4001": {
+    "workshop": "Data Strategy: Generative AI in Action",
+    "category": "gen-ai",
+    "description": "Data Discovery",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/373a8112-5432-4d40-bff9-bafcb3203d58/en-US",
+    "visibility": "public"
+  },
+  "4002": {
+    "workshop": "Data Strategy: Generative AI in Action",
+    "category": "gen-ai",
+    "description": "Product and Support Knowledge Base",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/373a8112-5432-4d40-bff9-bafcb3203d58/en-US",
+    "visibility": "public"
+  },
+  "4003": {
+    "workshop": "Data Strategy: Generative AI in Action",
+    "category": "gen-ai",
+    "description": "Customer AI Agent",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/373a8112-5432-4d40-bff9-bafcb3203d58/en-US",
+    "visibility": "public"
+  },
+  "4004": {
+    "workshop": "Data Strategy: Generative AI in Action",
+    "category": "gen-ai",
+    "description": "Advanced QuickSight",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/373a8112-5432-4d40-bff9-bafcb3203d58/en-US",
+    "visibility": "public"
+  },
+  "4101": {
+    "workshop": "Building near real-time LLM-powered features for monolithic applications",
+    "category": "gen-ai-llm",
+    "description": "Configure event producer for current application",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/build-real-time-features-legacy-apps/en-US",
+    "visibility": "public"
+  },
+  "4102": {
+    "workshop": "Building near real-time LLM-powered features for monolithic applications",
+    "category": "gen-ai-llm",
+    "description": "Configure Amazon Bedrock Knowledge Base",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/build-real-time-features-legacy-apps/en-US",
+    "visibility": "public"
+  },
+  "4103": {
+    "workshop": "Building near real-time LLM-powered features for monolithic applications",
+    "category": "gen-ai-llm",
+    "description": "Deploy a new Chatbot feature in the existing application",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/build-real-time-features-legacy-apps/en-US",
+    "visibility": "public"
+  },
+  "4104": {
+    "workshop": "Building near real-time LLM-powered features for monolithic applications",
+    "category": "gen-ai-llm",
+    "description": "Optimize the Chat Function",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/build-real-time-features-legacy-apps/en-US",
+    "visibility": "public"
+  },
+  "4201": {
+    "workshop": "Accelerate your serverless journey with Powertools for AWS Lambda",
+    "category": "power-tools",
+    "description": "Workshop - Module 1",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/powertools-for-aws-lambda/en-US",
+    "visibility": "public"
+  },
+  "4202": {
+    "workshop": "Accelerate your serverless journey with Powertools for AWS Lambda",
+    "category": "power-tools",
+    "description": "Workshop - Module 2",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/powertools-for-aws-lambda/en-US",
+    "visibility": "public"
+  },
+  "4301": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "Introduction to Amazon API Gateway",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4302": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4303": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Mock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4304": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations HTTP Integration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4305": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations AWS Lambda",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4306": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations AWS Step Functions",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4307": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon SQS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4308": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon SNS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4309": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon Kinesis",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4310": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon DynamoDB",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4311": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon EventBridge",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4312": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Private Integration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4313": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon S3",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4314": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "Observability in API Gateway",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4315": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "WebSocket APIs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4316": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "Enable fine-grained access control for your APIs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4601": {
+    "workshop": "Serverless Data Lake Day",
+    "category": "data-lake",
+    "description": "Lab1: Data Ingestion & Storage",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ea7ddf16-5e0a-4ec7-b54e-5cadf3028b78/en-US/lab1-ingestion-storage/batch",
+    "visibility": "public"
+  },
+  "4602": {
+    "workshop": "Serverless Data Lake Day",
+    "category": "data-lake",
+    "description": "Lab2: Data Cataloging and ETL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ea7ddf16-5e0a-4ec7-b54e-5cadf3028b78/en-US/lab1-ingestion-storage/batch",
+    "visibility": "public"
+  },
+  "4603": {
+    "workshop": "Serverless Data Lake Day",
+    "category": "data-lake",
+    "description": "Lab3: Data Analytics & Visualization",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ea7ddf16-5e0a-4ec7-b54e-5cadf3028b78/en-US/lab1-ingestion-storage/batch",
+    "visibility": "public"
+  },
+  "5001": {
+    "workshop": "AWS Disaster Recovery Workshop",
+    "category": "disaster-recovery",
+    "description": "Backup and Restore",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/84b75b08-d9c9-4dfc-b9d8-7f4273e85da0/en-US",
+    "visibility": "public"
+  },
+  "5002": {
+    "workshop": "AWS Disaster Recovery Workshop",
+    "category": "disaster-recovery",
+    "description": "Pilot Light",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/84b75b08-d9c9-4dfc-b9d8-7f4273e85da0/en-US",
+    "visibility": "public"
+  }
+}

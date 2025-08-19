@@ -1,0 +1,110 @@
+{
+  "0101": {
+    "workshop": "AWS Storage Immersion Day",
+    "category": "storage",
+    "description": "S3 Security Best Practices",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US",
+    "visibility": "public"
+  },
+  "0102": {
+    "workshop": "AWS Storage Immersion Day",
+    "category": "storage",
+    "description": "Storage Performance Lab",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US",
+    "visibility": "public"
+  },
+  "0103": {
+    "workshop": "AWS Storage Immersion Day",
+    "category": "storage",
+    "description": "Migrating Data to AWS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US",
+    "visibility": "public"
+  },
+  "0104": {
+    "workshop": "AWS Storage Immersion Day",
+    "category": "storage",
+    "description": "AWS Backup Lab",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US",
+    "visibility": "public"
+  },
+  "0501": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 1: S3 Versioning",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  },
+  "0502": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 2: S3 Object Lock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  },
+  "0503": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 3: S3 Replication",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  },
+  "0504": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 4: S3 Multi-Region Access Points",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  },
+  "0505": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 5: Cross-account S3 Replication and Multi-Region Access Points",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  }
+}

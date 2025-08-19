@@ -1,0 +1,602 @@
+{
+  "5003": {
+    "workshop": "AWS Disaster Recovery Workshop",
+    "category": "disaster-recovery",
+    "description": "Warm Standby",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/84b75b08-d9c9-4dfc-b9d8-7f4273e85da0/en-US",
+    "visibility": "public"
+  },
+  "5101": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Real-Time Clickstream Anomaly Detection with Amazon Managed Service for Apache Flink",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5102": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Ingestion with DMS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5103": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Transforming data with Glue",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5104": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Query and Visualize",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5105": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Data Lake Automation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5106": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Bonus Lab: Glue DataBrew",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5201": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Simple CRUD API (HTTP \u2192 Lambda \u2192 DynamoDB)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5202": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Authenticated CRUD API (Cognito-authorized)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5203": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "GraphQL API with Aurora Serverless",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5204": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "API Gateway \u2192 SQS (Async Ingestion)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5205": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "S3 Event-Driven ETL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5206": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "S3 \u2192 Step Functions (Fan-out & Orchestration)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5207": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Multipart Upload API",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5208": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "SNS Fan-out (Topic \u2192 Multiple Subscribers)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5209": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Queue Worker (SQS \u2192 Lambda)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5210": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Dead-Letter Handling Pipeline",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5211": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Event Sourcing (DynamoDB Streams)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5212": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Saga Orchestration (Step Functions)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5213": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Human-in-the-loop Approval",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5214": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Batch/Periodic Jobs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5215": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Web/Mobile Notifications",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5216": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Email/Webhook Processor",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5217": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Change Data Capture to Search",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5218": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Read-Through Cache for Aurora",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5219": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Data Lake Landing \u2192 Curated",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5220": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Cognito User Management Hooks",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5221": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Fine-Grained Authorization",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5222": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Order Intake & Validation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5223": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Payment Orchestration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5224": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Receipt Generation & Storage",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5225": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Media Transcode Pipeline",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5226": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Lightweight Inference Endpoint",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5227": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Idempotent Write-Behind",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5228": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Outbox/Inbox Pattern",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5229": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Dead-Simple Rate Limiting / Token Bucket",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5230": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Blue/Green Read Model",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5231": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Transaction-heavy Workflow",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5232": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Hybrid NoSQL + SQL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5233": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Event Audit & Trace Correlation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5234": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Automated PII Redaction on Ingest",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "0701": {
+    "workshop": "Cloud Intelligence Dashboards Framework",
+    "category": "intelligence-dashboard",
+    "description": "Cloud Intelligence Dashboards Framework",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/awscid/en-US/dashboards/foundational/cudos-cid-kpi",
+    "visibility": "public"
+  },
+  "0201": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 01: Working with Glue Data Catalog",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0202": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 02: Working with Apache Spark",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0203": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 03: Working with Glue ETL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0204": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 04: Working with Glue Streaming",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0205": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 05: Working with Glue Studio",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0206": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 06: Monitoring, Troubleshooting and Scaling",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0207": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 07: Glue Job Orchestration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0208": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 08: CI/CD in AWS Glue",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  }
+}

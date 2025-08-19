@@ -1,0 +1,602 @@
+{
+  "0209": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 09: Working with AWS Glue job bookmarks",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0210": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 10: Working with AWS Glue Data Quality",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0211": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 11: Working with Glue Databrew",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0212": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Legacy ETL to AWS Glue Migration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0401": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Compute - Amazon EC2",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0402": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Network - Amazon VPC",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0403": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Security - AWS IAM & Config & CloudTrail",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0404": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Monitoring - Amazon CloudWatch",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0405": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Database - Amazon RDS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0406": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Storage - Amazon S3 & EFS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0901": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 1 \u2013 Discovering and Cataloging your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0902": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 2 - Exploring your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0903": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 3 \u2013 Transforming your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0904": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 4 \u2013 Enriching your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0905": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 5 \u2013 Visualizing your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0301": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "VPC Fundamentals",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0302": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Multiple VPCs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0303": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Security Controls",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0304": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Connecting to On-Premises",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0305": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Network Monitoring",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0306": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "AWS Gateway Load Balancer",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0307": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab 1: Multicast in AWS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0308": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #1 - VPC Components Deep Dive",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0309": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #2 - Transit Gateway and Site-to-Site VPNs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0310": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #3 - Route53 DNS Endpoints and Internal Hosted Zones",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0311": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #4 - VPC Endpoints for AWS Services",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0312": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #5 - VPC Endpoint Services",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0313": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #6  VPC Peering",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0314": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #7 - Transit Gateway Network Manager",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0601": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M1 - Intro to Serverless",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0602": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M2 - Synchronous Invocation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0603": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M3 - Synchronous + Idempotence",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0604": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M4 - Asynchronous Invocation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0605": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M5 - Polling",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0606": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M6 - Streaming Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0607": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M7 - Streaming Datalake",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0608": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M8 - Deployment Strategies",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0801": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 1: Getting started with generative AI",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0802": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 2: Working with private documents",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0803": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 3: Working with image files",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0804": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 4: Working with video files",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0805": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 5: Working with audio files",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0806": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 6: Working with SQL database",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0807": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 7: Working with graphs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0808": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 8: Working with business intelligence",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0809": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 9: Working with logs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0810": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 10: Working with streaming data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0811": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 11: Working with CSV files",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0812": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 12: Working with forms",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0813": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 13: Working with code",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  }
+}

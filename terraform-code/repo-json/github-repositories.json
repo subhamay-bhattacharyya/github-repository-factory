@@ -1,542 +1,3110 @@
 {
-   "0001":{
-      "workshop":"AWS Storage Immersion Day",
-      "category":"storage",
-      "description":"S3 Security Best Practices",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/s3-security-best-practices-lab",
-      "visibility":"private"
-   },
-   "0002":{
-      "workshop":"AWS Storage Immersion Day",
-      "category":"storage",
-      "description":"S3 Storage Performance",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/storage-performance-best-practices-lab/02-s3performance",
-      "visibility":"private"
-   },
-   "0003":{
-      "workshop":"AWS Storage Immersion Day",
-      "category":"storage",
-      "description":"EFS Storage Performance",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/storage-performance-best-practices-lab/03-efsperformance",
-      "visibility":"private"
-   },
-   "0004":{
-      "workshop":"AWS Storage Immersion Day",
-      "category":"storage",
-      "description":"Data Migration",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/migrating-data-with-datasync-lab/02-datamigration",
-      "visibility":"private"
-   },
-   "0005":{
-      "workshop":"AWS Storage Immersion Day",
-      "category":"storage",
-      "description":"AWS Backup",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":3.0,
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US/aws-backup-lab",
-      "visibility":"private"
-   },
-   "0101":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Working with Glue Data Catalog",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab1",
-      "visibility":"private"
-   },
-   "0102":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Working with Apache Spark",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab2",
-      "visibility":"private"
-   },
-   "0103":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Working with Glue ETL",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab3",
-      "visibility":"private"
-   },
-   "0104":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Working with Glue Streaming",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab4",
-      "visibility":"private"
-   },
-   "0105":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Working with Glue Studio - ETL Job",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab6",
-      "visibility":"private"
-   },
-   "0106":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Working with Glue Studio - Streaming ETL Job",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab6",
-      "visibility":"private"
-   },
-   "0107":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Monitoring Troubleshooting and Scaling",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab7",
-      "visibility":"private"
-   },
-   "0108":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Glue Job Orchestration",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab8",
-      "visibility":"private"
-   },
-   "0109":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Working with AWS Glue Job Bookmarks",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab10",
-      "visibility":"private"
-   },
-   "0110":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Working with AWS Glue Data Quality",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab12",
-      "visibility":"private"
-   },
-   "0111":{
-      "workshop":"AWS Glue Immersion Day",
-      "category":"glue",
-      "description":"Working with Glue Databrew",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US/lab5",
-      "visibility":"private"
-   },
-   "0201":{
-      "workshop":"AWS General Immersion Day",
-      "category":"general",
-      "description":"Compute - Amazon EC2",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/10-ec2",
-      "visibility":"private"
-   },
-   "0202":{
-      "workshop":"AWS General Immersion Day",
-      "category":"general",
-      "description":"Network - Amazon VPC",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0203":{
-      "workshop":"AWS General Immersion Day",
-      "category":"general",
-      "description":"Security - AWS IAM & Config & CloudTrail",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0204":{
-      "workshop":"AWS General Immersion Day",
-      "category":"general",
-      "description":"Monitoring - Amazon CloudWatch",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0205":{
-      "workshop":"AWS General Immersion Day",
-      "category":"general",
-      "description":"Database - Amazon RDS",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0206":{
-      "workshop":"AWS General Immersion Day",
-      "category":"general",
-      "description":"Storage - Amazon S3 and EFS",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0301":{
-      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
-      "category":"data-protection",
-      "description":"S3 Versioning",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0302":{
-      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
-      "category":"data-protection",
-      "description":"S3 Object Lock",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0303":{
-      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
-      "category":"data-protection",
-      "description":"S3 Replication",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0304":{
-      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
-      "category":"data-protection",
-      "description":"S3 Multi-Region Access Points",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"1",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0305":{
-      "workshop":"AWS S3 Data Protection and Global Resilience workshop",
-      "category":"data-protection",
-      "description":"S3 Cross Account and Multi-region Access Points",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":3.0,
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0401":{
-      "workshop":"Serverless Patterns",
-      "category":"serverless",
-      "description":"Intro to Serverless",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":3.0,
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0402":{
-      "workshop":"Serverless Patterns",
-      "category":"serverless",
-      "description":"Synchronous Invocation",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":3.0,
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0403":{
-      "workshop":"Serverless Patterns",
-      "category":"serverless",
-      "description":"Synchronous + Idempotence",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":3.0,
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0404":{
-      "workshop":"Serverless Patterns",
-      "category":"serverless",
-      "description":"Asynchronous Invocation",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":3.0,
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0405":{
-      "workshop":"Serverless Patterns",
-      "category":"serverless",
-      "description":"Polling",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":3.0,
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0406":{
-      "workshop":"Serverless Patterns",
-      "category":"serverless",
-      "description":"Streaming Data",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":3.0,
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0407":{
-      "workshop":"Serverless Patterns",
-      "category":"serverless",
-      "description":"Streaming Datalake",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":3.0,
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0501":{
-      "workshop":"Severless Datalake Immersion Day",
-      "category":"serverless-datalake",
-      "description":"Data Ingestion and Storage",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0502":{
-      "workshop":"Severless Datalake Immersion Day",
-      "category":"serverless-datalake",
-      "description":"Data Cataloging and ETL",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0503":{
-      "workshop":"Severless Datalake Immersion Day",
-      "category":"serverless-datalake",
-      "description":"Data Analytics and Visualization",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0601":{
-      "workshop":"AWS Disaster Recovery workshop",
-      "category":"disaster-recovery",
-      "description":"Backup and Restore",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0602":{
-      "workshop":"AWS Disaster Recovery workshop",
-      "category":"disaster-recovery",
-      "description":"Pilot Light",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0603":{
-      "workshop":"AWS Disaster Recovery workshop",
-      "category":"disaster-recovery",
-      "description":"Warm Standby",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0701":{
-      "workshop":"Amazon Athena workshop",
-      "category":"athena",
-      "description":"Athena Basics",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0702":{
-      "workshop":"Amazon Athena workshop",
-      "category":"athena",
-      "description":"Athena Federation",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0703":{
-      "workshop":"Amazon Athena workshop",
-      "category":"athena",
-      "description":"User Defined Functions",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0704":{
-      "workshop":"Amazon Athena workshop",
-      "category":"athena",
-      "description":"Custom Data Source Connector",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0705":{
-      "workshop":"Amazon Athena workshop",
-      "category":"athena",
-      "description":"Text Analysis Using UDF",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0706":{
-      "workshop":"Amazon Athena workshop",
-      "category":"athena",
-      "description":"Machine Learning",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0707":{
-      "workshop":"Amazon Athena workshop",
-      "category":"athena",
-      "description":"ACID Transactions with Iceberg",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0708":{
-      "workshop":"Amazon Athena workshop",
-      "category":"athena",
-      "description":"Athena Spark",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0801":{
-      "workshop":"The Amazon API Gateway workshop",
-      "category":"api-gateway",
-      "description":"Introduction to Amazon API Gateway",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0802":{
-      "workshop":"The Amazon API Gateway workshop",
-      "category":"api-gateway",
-      "description":"Deploy your first API using IaC",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0803":{
-      "workshop":"The Amazon API Gateway workshop",
-      "category":"api-gateway",
-      "description":"API Gateway REST Integrations",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0804":{
-      "workshop":"The Amazon API Gateway workshop",
-      "category":"api-gateway",
-      "description":"Observability in API Gateway",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0805":{
-      "workshop":"The Amazon API Gateway workshop",
-      "category":"api-gateway",
-      "description":"WebSocket APIs",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   },
-   "0806":{
-      "workshop":"The Amazon API Gateway workshop",
-      "category":"api-gateway",
-      "description":"Enable fine-grained access control for your APIs",
-      "iac":"tf",
-      "status":"not-started",
-      "priority":"NaN",
-      "html-url":"NaN",
-      "visibility":"private"
-   }
+  "1001": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 1. Containerize the Mythical Mysfits monolith",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1002": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 2. Deploy the container using AWS Fargate",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1003": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 3. Scale the adoption platform monolith with an ALB and an ECS Service",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1004": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 4. Incrementally build and deploy more microservices with AWS Fargate",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1005": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 5. Launch your Amazon EKS Cluster",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1006": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 6. Preparing EKS for the Mysfits",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1007": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 7. Deploying the monolith",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1008": {
+    "workshop": "AWS Containers Immersion Day",
+    "category": "container",
+    "description": "Lab 8. Incrementally build and deploy more microservices with EKS and AWS Load Balancer Controller",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US",
+    "visibility": "public"
+  },
+  "1101": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Text Generation with Amazon Bedrock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1102": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Knowledge Bases and RAG",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1103": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Model Customization",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1104": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Image and Video Generation Applications",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1105": {
+    "workshop": "Amazon Bedrock Workshop",
+    "category": "bedrock",
+    "description": "Agents",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US",
+    "visibility": "public"
+  },
+  "1201": {
+    "workshop": "Karpenter: Amazon EKS Best Practice and Cloud Cost Optimization",
+    "category": "kubernetes",
+    "description": "Karpenter",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f6b4587e-b8a5-4a43-be87-26bd85a70aba/en-US",
+    "visibility": "public"
+  },
+  "1202": {
+    "workshop": "Karpenter: Amazon EKS Best Practice and Cloud Cost Optimization",
+    "category": "kubernetes",
+    "description": "Scaling an application and cluster",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f6b4587e-b8a5-4a43-be87-26bd85a70aba/en-US",
+    "visibility": "public"
+  },
+  "1301": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "First state machine",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1302": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Integrating services",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1303": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Handling errors",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1304": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Versions and Aliases",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1305": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Optimizing costs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1306": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Processing data in parallel",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1307": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Processing arrays of data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1308": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Creating state machines with IaC",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1309": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Integrate with Amazon ECS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1310": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Distributed map",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1311": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Human approval",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1312": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Wait for external system",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1313": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "External HTTP integration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1314": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Integrate with Amazon Bedrock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1315": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Saga Pattern",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1316": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Product feedback processing",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1317": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Language Detection and Translation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1318": {
+    "workshop": "The AWS Step Functions Workshop",
+    "category": "step-function",
+    "description": "Text Summarization",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9e0368c0-8c49-4bec-a210-8480b51a34ac/en-US",
+    "visibility": "public"
+  },
+  "1401": {
+    "workshop": "Highly Available Web Application Workshop",
+    "category": "highly-available",
+    "description": "Highly Available Web Application Workshop",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/3de93ad5-ebbe-4258-b977-b45cdfe661f1/en-US",
+    "visibility": "public"
+  },
+  "1601": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 1: Egress connectivity from an IPv6-only instance",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1602": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 2: Ingress connectivity to IPv6-only instances using an NLB",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1603": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 3: Private connectivity to IPv6 services using AWS PrivateLink",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1604": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 4: IPv6 connectivity using AWS Transit Gateway",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1605": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 5: Ingress connectivity to IPv6-only instances using ALB",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1606": {
+    "workshop": "Get hands-on with IPv6",
+    "category": "vpc",
+    "description": "Module 6: Understanding IPv6 on Amazon EKS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/ipv6-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1701": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 1 - Create an Agent with Function Definition",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1702": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 2 - Create Agents with API Schema",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1703": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 3 - Create Agents with Return of Control (Function Calling)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1704": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 4 - Create Agent with a Single Knowledge Base",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1705": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 5 - Create an Agent with a Knowledge Base and an Action Group",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1706": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 6 - Passing Prompt and Session Attributes to your Agent",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1707": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 7 - Overwriting Advanced Prompt and Custom Lambda Parsers",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1708": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 8 - Creating Agent with Guardrails for Amazon Bedrock integration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1709": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 9 - Creating an agents with memory",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1710": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 10 - Creating an agent with code interpretation capabilities",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1711": {
+    "workshop": "Amazon Bedrock Agents Workshop",
+    "category": "bedrock-agent",
+    "description": "Lab 11 - Creating Industry Specific Agents",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US",
+    "visibility": "public"
+  },
+  "1801": {
+    "workshop": "Building event-driven architectures on AWS",
+    "category": "event-bridge",
+    "description": "Event-driven with EventBridge",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-event-driven-architectures-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1802": {
+    "workshop": "Building event-driven architectures on AWS",
+    "category": "event-bridge",
+    "description": "Event-driven with EventBridge",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-event-driven-architectures-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1803": {
+    "workshop": "Building event-driven architectures on AWS",
+    "category": "event-bridge",
+    "description": "Using the schema registry",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-event-driven-architectures-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1804": {
+    "workshop": "Building event-driven architectures on AWS",
+    "category": "event-bridge",
+    "description": "Archive and Replay",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-event-driven-architectures-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1805": {
+    "workshop": "Building event-driven architectures on AWS",
+    "category": "event-bridge",
+    "description": "Global endpoints",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-event-driven-architectures-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1806": {
+    "workshop": "Building event-driven architectures on AWS",
+    "category": "event-bridge",
+    "description": "Event-driven with Lambda",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-event-driven-architectures-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1807": {
+    "workshop": "Building event-driven architectures on AWS",
+    "category": "event-bridge",
+    "description": "Event-driven with SNS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-event-driven-architectures-on-aws/en-US",
+    "visibility": "public"
+  },
+  "1901": {
+    "workshop": "Tagging Workshop",
+    "category": "tagging",
+    "description": "Managing tags using the console & AWS CLI",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/tagging/en-US",
+    "visibility": "public"
+  },
+  "1902": {
+    "workshop": "Tagging Workshop",
+    "category": "tagging",
+    "description": "AWS Resource Groups",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/tagging/en-US",
+    "visibility": "public"
+  },
+  "1903": {
+    "workshop": "Tagging Workshop",
+    "category": "tagging",
+    "description": "IaC & tagging",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/tagging/en-US",
+    "visibility": "public"
+  },
+  "1904": {
+    "workshop": "Tagging Workshop",
+    "category": "tagging",
+    "description": "CI/CD & tagging",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/tagging/en-US",
+    "visibility": "public"
+  },
+  "1905": {
+    "workshop": "Tagging Workshop",
+    "category": "tagging",
+    "description": "Tag Governance with AWS Config",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/tagging/en-US",
+    "visibility": "public"
+  },
+  "1906": {
+    "workshop": "Tagging Workshop",
+    "category": "tagging",
+    "description": "AWS Tag Policies",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/tagging/en-US",
+    "visibility": "public"
+  },
+  "2101": {
+    "workshop": "Building a Serverless Text-to-Speech Application with Amazon Polly",
+    "category": "gen-ai",
+    "description": "Building a Serverless Text-to-Speech Application with Amazon Polly",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/3be7b9f7-146c-4112-94bd-444dd7cc5556/en-US",
+    "visibility": "public"
+  },
+  "2301": {
+    "workshop": "Extract transform and load data visually with Glue",
+    "category": "glue",
+    "description": "Glue Crawler",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/0cba1e21-10d6-4e8e-b35f-a09338ee68d9/en-US/howtostart/self-paced-labs",
+    "visibility": "public"
+  },
+  "2302": {
+    "workshop": "Extract transform and load data visually with Glue",
+    "category": "glue",
+    "description": "Glue Studio - ETL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/0cba1e21-10d6-4e8e-b35f-a09338ee68d9/en-US/howtostart/self-paced-labs",
+    "visibility": "public"
+  },
+  "2303": {
+    "workshop": "Extract transform and load data visually with Glue",
+    "category": "glue",
+    "description": "Lab 3: Personal Identifiable Information (PII)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/0cba1e21-10d6-4e8e-b35f-a09338ee68d9/en-US/howtostart/self-paced-labs",
+    "visibility": "public"
+  },
+  "2401": {
+    "workshop": "AWS Control Design",
+    "category": "security",
+    "description": "Infrastructure Protection",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/control-design/en-US",
+    "visibility": "public"
+  },
+  "2402": {
+    "workshop": "AWS Control Design",
+    "category": "security",
+    "description": "data-protection",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/control-design/en-US",
+    "visibility": "public"
+  },
+  "2403": {
+    "workshop": "AWS Control Design",
+    "category": "security",
+    "description": "Security Assurance",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/control-design/en-US",
+    "visibility": "public"
+  },
+  "2404": {
+    "workshop": "AWS Control Design",
+    "category": "security",
+    "description": "Identity and Access Management",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/control-design/en-US",
+    "visibility": "public"
+  },
+  "2501": {
+    "workshop": "Redshift Immersion Labs",
+    "category": "redshift",
+    "description": "Getting Started",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US",
+    "visibility": "public"
+  },
+  "2502": {
+    "workshop": "Redshift Immersion Labs",
+    "category": "redshift",
+    "description": "Table Design and Load",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US",
+    "visibility": "public"
+  },
+  "2503": {
+    "workshop": "Redshift Immersion Labs",
+    "category": "redshift",
+    "description": "Ongoing Load - ELT",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US",
+    "visibility": "public"
+  },
+  "2504": {
+    "workshop": "Redshift Immersion Labs",
+    "category": "redshift",
+    "description": "Data Sharing",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US",
+    "visibility": "public"
+  },
+  "2505": {
+    "workshop": "Redshift Immersion Labs",
+    "category": "redshift",
+    "description": "Machine Learning - Redshift ML",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US",
+    "visibility": "public"
+  },
+  "2506": {
+    "workshop": "Redshift Immersion Labs",
+    "category": "redshift",
+    "description": "Query Data Lake - Redshift Spectrum",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US",
+    "visibility": "public"
+  },
+  "2507": {
+    "workshop": "Redshift Immersion Labs",
+    "category": "redshift",
+    "description": "Operations",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US",
+    "visibility": "public"
+  },
+  "2508": {
+    "workshop": "Redshift Immersion Labs",
+    "category": "redshift",
+    "description": "Seamless Data Sharing Using Amazon Redshift",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/9f29cdba-66c0-445e-8cbb-28a092cb5ba7/en-US",
+    "visibility": "public"
+  },
+  "2601": {
+    "workshop": "ETL on Amazon EMR Workshop",
+    "category": "emr",
+    "description": "Cluster Creation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c86bd131-f6bf-4e8f-b798-58fd450d3c44/en-US",
+    "visibility": "public"
+  },
+  "2602": {
+    "workshop": "ETL on Amazon EMR Workshop",
+    "category": "emr",
+    "description": "Spark-based ETL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c86bd131-f6bf-4e8f-b798-58fd450d3c44/en-US",
+    "visibility": "public"
+  },
+  "2603": {
+    "workshop": "ETL on Amazon EMR Workshop",
+    "category": "emr",
+    "description": "Hive Workshop",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c86bd131-f6bf-4e8f-b798-58fd450d3c44/en-US",
+    "visibility": "public"
+  },
+  "2604": {
+    "workshop": "ETL on Amazon EMR Workshop",
+    "category": "emr",
+    "description": "Presto Workshop",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c86bd131-f6bf-4e8f-b798-58fd450d3c44/en-US",
+    "visibility": "public"
+  },
+  "2605": {
+    "workshop": "ETL on Amazon EMR Workshop",
+    "category": "emr",
+    "description": "EMR Managed Scaling",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c86bd131-f6bf-4e8f-b798-58fd450d3c44/en-US",
+    "visibility": "public"
+  },
+  "2606": {
+    "workshop": "ETL on Amazon EMR Workshop",
+    "category": "emr",
+    "description": "Pig Workshop",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c86bd131-f6bf-4e8f-b798-58fd450d3c44/en-US",
+    "visibility": "public"
+  },
+  "2607": {
+    "workshop": "ETL on Amazon EMR Workshop",
+    "category": "emr",
+    "description": "EMR Notebooks and SageMaker",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c86bd131-f6bf-4e8f-b798-58fd450d3c44/en-US",
+    "visibility": "public"
+  },
+  "2608": {
+    "workshop": "ETL on Amazon EMR Workshop",
+    "category": "emr",
+    "description": "Hudi Workshop",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c86bd131-f6bf-4e8f-b798-58fd450d3c44/en-US",
+    "visibility": "public"
+  },
+  "2609": {
+    "workshop": "ETL on Amazon EMR Workshop",
+    "category": "emr",
+    "description": "Orchestrating Amazon EMR with AWS StepFunctions",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c86bd131-f6bf-4e8f-b798-58fd450d3c44/en-US",
+    "visibility": "public"
+  },
+  "2801": {
+    "workshop": "Automating Incident Response Workshop",
+    "category": "security-compliance",
+    "description": "Automating Incident Response Workshop",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/auto-incident-response/en-US",
+    "visibility": "public"
+  },
+  "2901": {
+    "workshop": "Create a Serverless Chatbot Using Amazon Bedrock, Amazon Kendra, and Your Own Data",
+    "category": "gen-ai-chatbot",
+    "description": "Create a Serverless Chatbot Using Amazon Bedrock, Amazon Kendra, and Your Own Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/27eb3134-4f33-4689-bb73-269e4273947a/en-US",
+    "visibility": "public"
+  },
+  "3101": {
+    "workshop": "AWS 101 Workshop",
+    "category": "foundation",
+    "description": "AWS 101 Workshop - Creating a Web Application",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/aws101/en-US",
+    "visibility": "public"
+  },
+  "3201": {
+    "workshop": "Application Migration with AWS",
+    "category": "migration",
+    "description": "Discover",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c6bdf8dc-d2b2-4dbd-b673-90836e954745/en-US",
+    "visibility": "public"
+  },
+  "3202": {
+    "workshop": "Application Migration with AWS",
+    "category": "migration",
+    "description": "Database Migration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c6bdf8dc-d2b2-4dbd-b673-90836e954745/en-US",
+    "visibility": "public"
+  },
+  "3203": {
+    "workshop": "Application Migration with AWS",
+    "category": "migration",
+    "description": "Application Migration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c6bdf8dc-d2b2-4dbd-b673-90836e954745/en-US",
+    "visibility": "public"
+  },
+  "3204": {
+    "workshop": "Application Migration with AWS",
+    "category": "migration",
+    "description": "Elastic Disaster Recovery",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/c6bdf8dc-d2b2-4dbd-b673-90836e954745/en-US",
+    "visibility": "public"
+  },
+  "3501": {
+    "workshop": "Modernizing the application stack with AWS modernization pathways",
+    "category": "migration",
+    "description": "Module 1: The Monolith",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f2c0706c-7192-495f-853c-fd3341db265a/en-US",
+    "visibility": "public"
+  },
+  "3502": {
+    "workshop": "Modernizing the application stack with AWS modernization pathways",
+    "category": "migration",
+    "description": "Module 2: Replatforming using Modernization Pathways",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f2c0706c-7192-495f-853c-fd3341db265a/en-US",
+    "visibility": "public"
+  },
+  "3503": {
+    "workshop": "Modernizing the application stack with AWS modernization pathways",
+    "category": "migration",
+    "description": "Module 3: Move to Managed Database",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f2c0706c-7192-495f-853c-fd3341db265a/en-US",
+    "visibility": "public"
+  },
+  "3504": {
+    "workshop": "Modernizing the application stack with AWS modernization pathways",
+    "category": "migration",
+    "description": "Module 4: Preparing to implement the Strangler Fig pattern using Amazon API Gateway",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f2c0706c-7192-495f-853c-fd3341db265a/en-US",
+    "visibility": "public"
+  },
+  "3505": {
+    "workshop": "Modernizing the application stack with AWS modernization pathways",
+    "category": "migration",
+    "description": "Module 5: Microservices",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/f2c0706c-7192-495f-853c-fd3341db265a/en-US",
+    "visibility": "public"
+  },
+  "3601": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "Lakehouse",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3602": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "Catalog (Data & AI Governance)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3603": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "Data Processing",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3604": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "SQL Analytics",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3605": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "ML/GenAI Model Development",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3606": {
+    "workshop": "Amazon SageMaker Workshop",
+    "category": "sagemaker",
+    "description": "Generative AI Application Development",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/06dbe60c-3a94-463e-8ac2-18c7f85788d4/en-US",
+    "visibility": "public"
+  },
+  "3801": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Athena Basics",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3802": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Athena Federation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3803": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "User Defined Functions",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3804": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Custom Data Source Connector",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3805": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Text Analysis using UDF",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3806": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Machine Learning",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3807": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "ACID Transactions with Iceberg",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3808": {
+    "workshop": "Amazon Athena Workshop",
+    "category": "athena",
+    "description": "Athena Spark",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/athena-immersion-day/en-US",
+    "visibility": "public"
+  },
+  "3900": {
+    "workshop": "Building Agentic Workflows on AWS",
+    "category": "gen-ai",
+    "description": "Module 1: Build an Agentic Chatbot",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-agentic-workflows/en-US",
+    "visibility": "public"
+  },
+  "3901": {
+    "workshop": "Building Agentic Workflows on AWS",
+    "category": "gen-ai",
+    "description": "Module 2: Building an Agentic Workflow with Amazon Bedrock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-agentic-workflows/en-US",
+    "visibility": "public"
+  },
+  "3902": {
+    "workshop": "Building Agentic Workflows on AWS",
+    "category": "gen-ai",
+    "description": "Module 3: Using 3rd Party Agentic Workflows",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-agentic-workflows/en-US",
+    "visibility": "public"
+  },
+  "3903": {
+    "workshop": "Building Agentic Workflows on AWS",
+    "category": "gen-ai",
+    "description": "Module 4: Building an Agentic Workflow with SageMaker AI",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/building-agentic-workflows/en-US",
+    "visibility": "public"
+  },
+  "4001": {
+    "workshop": "Data Strategy: Generative AI in Action",
+    "category": "gen-ai",
+    "description": "Data Discovery",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/373a8112-5432-4d40-bff9-bafcb3203d58/en-US",
+    "visibility": "public"
+  },
+  "4002": {
+    "workshop": "Data Strategy: Generative AI in Action",
+    "category": "gen-ai",
+    "description": "Product and Support Knowledge Base",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/373a8112-5432-4d40-bff9-bafcb3203d58/en-US",
+    "visibility": "public"
+  },
+  "4003": {
+    "workshop": "Data Strategy: Generative AI in Action",
+    "category": "gen-ai",
+    "description": "Customer AI Agent",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/373a8112-5432-4d40-bff9-bafcb3203d58/en-US",
+    "visibility": "public"
+  },
+  "4004": {
+    "workshop": "Data Strategy: Generative AI in Action",
+    "category": "gen-ai",
+    "description": "Advanced QuickSight",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/373a8112-5432-4d40-bff9-bafcb3203d58/en-US",
+    "visibility": "public"
+  },
+  "4101": {
+    "workshop": "Building near real-time LLM-powered features for monolithic applications",
+    "category": "gen-ai-llm",
+    "description": "Configure event producer for current application",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/build-real-time-features-legacy-apps/en-US",
+    "visibility": "public"
+  },
+  "4102": {
+    "workshop": "Building near real-time LLM-powered features for monolithic applications",
+    "category": "gen-ai-llm",
+    "description": "Configure Amazon Bedrock Knowledge Base",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/build-real-time-features-legacy-apps/en-US",
+    "visibility": "public"
+  },
+  "4103": {
+    "workshop": "Building near real-time LLM-powered features for monolithic applications",
+    "category": "gen-ai-llm",
+    "description": "Deploy a new Chatbot feature in the existing application",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/build-real-time-features-legacy-apps/en-US",
+    "visibility": "public"
+  },
+  "4104": {
+    "workshop": "Building near real-time LLM-powered features for monolithic applications",
+    "category": "gen-ai-llm",
+    "description": "Optimize the Chat Function",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/build-real-time-features-legacy-apps/en-US",
+    "visibility": "public"
+  },
+  "4201": {
+    "workshop": "Accelerate your serverless journey with Powertools for AWS Lambda",
+    "category": "power-tools",
+    "description": "Workshop - Module 1",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/powertools-for-aws-lambda/en-US",
+    "visibility": "public"
+  },
+  "4202": {
+    "workshop": "Accelerate your serverless journey with Powertools for AWS Lambda",
+    "category": "power-tools",
+    "description": "Workshop - Module 2",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/powertools-for-aws-lambda/en-US",
+    "visibility": "public"
+  },
+  "4301": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "Introduction to Amazon API Gateway",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4302": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4303": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Mock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4304": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations HTTP Integration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4305": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations AWS Lambda",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4306": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations AWS Step Functions",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4307": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon SQS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4308": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon SNS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4309": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon Kinesis",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4310": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon DynamoDB",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4311": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon EventBridge",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4312": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Private Integration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4313": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "API Gateway REST Integrations Amazon S3",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4314": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "Observability in API Gateway",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4315": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "WebSocket APIs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4316": {
+    "workshop": "The Amazon API Gateway Workshop",
+    "category": "api-gateway",
+    "description": "Enable fine-grained access control for your APIs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/5079f77b-4228-442e-baba-06a1065f67e1/en-US/module-1/step-2",
+    "visibility": "public"
+  },
+  "4601": {
+    "workshop": "Serverless Data Lake Day",
+    "category": "data-lake",
+    "description": "Lab1: Data Ingestion & Storage",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ea7ddf16-5e0a-4ec7-b54e-5cadf3028b78/en-US/lab1-ingestion-storage/batch",
+    "visibility": "public"
+  },
+  "4602": {
+    "workshop": "Serverless Data Lake Day",
+    "category": "data-lake",
+    "description": "Lab2: Data Cataloging and ETL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ea7ddf16-5e0a-4ec7-b54e-5cadf3028b78/en-US/lab1-ingestion-storage/batch",
+    "visibility": "public"
+  },
+  "4603": {
+    "workshop": "Serverless Data Lake Day",
+    "category": "data-lake",
+    "description": "Lab3: Data Analytics & Visualization",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ea7ddf16-5e0a-4ec7-b54e-5cadf3028b78/en-US/lab1-ingestion-storage/batch",
+    "visibility": "public"
+  },
+  "5001": {
+    "workshop": "AWS Disaster Recovery Workshop",
+    "category": "disaster-recovery",
+    "description": "Backup and Restore",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/84b75b08-d9c9-4dfc-b9d8-7f4273e85da0/en-US",
+    "visibility": "public"
+  },
+  "5002": {
+    "workshop": "AWS Disaster Recovery Workshop",
+    "category": "disaster-recovery",
+    "description": "Pilot Light",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/84b75b08-d9c9-4dfc-b9d8-7f4273e85da0/en-US",
+    "visibility": "public"
+  },
+  "5003": {
+    "workshop": "AWS Disaster Recovery Workshop",
+    "category": "disaster-recovery",
+    "description": "Warm Standby",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/84b75b08-d9c9-4dfc-b9d8-7f4273e85da0/en-US",
+    "visibility": "public"
+  },
+  "5101": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Real-Time Clickstream Anomaly Detection with Amazon Managed Service for Apache Flink",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5102": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Ingestion with DMS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5103": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Transforming data with Glue",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5104": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Query and Visualize",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5105": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Lab: Data Lake Automation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5106": {
+    "workshop": "Data Engineering Immersion Day",
+    "category": "data-engineering",
+    "description": "Bonus Lab: Glue DataBrew",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US",
+    "visibility": "public"
+  },
+  "5201": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Simple CRUD API (HTTP → Lambda → DynamoDB)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5202": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Authenticated CRUD API (Cognito-authorized)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5203": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "GraphQL API with Aurora Serverless",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5204": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "API Gateway → SQS (Async Ingestion)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5205": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "S3 Event-Driven ETL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5206": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "S3 → Step Functions (Fan-out & Orchestration)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5207": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Multipart Upload API",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5208": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "SNS Fan-out (Topic → Multiple Subscribers)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5209": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Queue Worker (SQS → Lambda)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5210": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Dead-Letter Handling Pipeline",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5211": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Event Sourcing (DynamoDB Streams)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5212": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Saga Orchestration (Step Functions)",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5213": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Human-in-the-loop Approval",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5214": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Batch/Periodic Jobs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5215": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Web/Mobile Notifications",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5216": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Email/Webhook Processor",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5217": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Change Data Capture to Search",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5218": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Read-Through Cache for Aurora",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5219": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Data Lake Landing → Curated",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5220": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Cognito User Management Hooks",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5221": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Fine-Grained Authorization",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5222": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Order Intake & Validation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5223": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Payment Orchestration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5224": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Receipt Generation & Storage",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5225": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Media Transcode Pipeline",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5226": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Lightweight Inference Endpoint",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5227": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Idempotent Write-Behind",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5228": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Outbox/Inbox Pattern",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5229": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Dead-Simple Rate Limiting / Token Bucket",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5230": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Blue/Green Read Model",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5231": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Transaction-heavy Workflow",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5232": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Hybrid NoSQL + SQL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5233": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Event Audit & Trace Correlation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "5234": {
+    "workshop": "AWS Serverless Patterns (Personal Project)",
+    "category": "serverless-patterns",
+    "description": "Automated PII Redaction on Ingest",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "",
+    "visibility": "public"
+  },
+  "0701": {
+    "workshop": "Cloud Intelligence Dashboards Framework",
+    "category": "intelligence-dashboard",
+    "description": "Cloud Intelligence Dashboards Framework",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/awscid/en-US/dashboards/foundational/cudos-cid-kpi",
+    "visibility": "public"
+  },
+  "0201": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 01: Working with Glue Data Catalog",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0202": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 02: Working with Apache Spark",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0203": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 03: Working with Glue ETL",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0204": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 04: Working with Glue Streaming",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0205": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 05: Working with Glue Studio",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0206": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 06: Monitoring, Troubleshooting and Scaling",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0207": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 07: Glue Job Orchestration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0208": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 08: CI/CD in AWS Glue",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0209": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 09: Working with AWS Glue job bookmarks",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0210": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 10: Working with AWS Glue Data Quality",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0211": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Lab 11: Working with Glue Databrew",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0212": {
+    "workshop": "AWS Glue Immersion day",
+    "category": "glue",
+    "description": "Legacy ETL to AWS Glue Migration",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/ee59d21b-4cb8-4b3d-a629-24537cf37bb5/en-US",
+    "visibility": "public"
+  },
+  "0401": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Compute - Amazon EC2",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0402": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Network - Amazon VPC",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0403": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Security - AWS IAM & Config & CloudTrail",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0404": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Monitoring - Amazon CloudWatch",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0405": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Database - Amazon RDS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0406": {
+    "workshop": "AWS General Immersion Day",
+    "category": "general",
+    "description": "Storage - Amazon S3 & EFS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/general-immersionday/en-US",
+    "visibility": "public"
+  },
+  "0901": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 1 – Discovering and Cataloging your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0902": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 2 - Exploring your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0903": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 3 – Transforming your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0904": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 4 – Enriching your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0905": {
+    "workshop": "AWS Serverless Data Lake Jumpstart",
+    "category": "datalake",
+    "description": "Lab 5 – Visualizing your Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/276faf92-bffc-4843-8a8e-8078add48194/en-US",
+    "visibility": "public"
+  },
+  "0301": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "VPC Fundamentals",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0302": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Multiple VPCs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0303": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Security Controls",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0304": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Connecting to On-Premises",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0305": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Network Monitoring",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0306": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "AWS Gateway Load Balancer",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0307": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab 1: Multicast in AWS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0308": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #1 - VPC Components Deep Dive",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0309": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #2 - Transit Gateway and Site-to-Site VPNs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0310": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #3 - Route53 DNS Endpoints and Internal Hosted Zones",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0311": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #4 - VPC Endpoints for AWS Services",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0312": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #5 - VPC Endpoint Services",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0313": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #6  VPC Peering",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0314": {
+    "workshop": "Networking Immersion Day - Foundational Topics",
+    "category": "vpc",
+    "description": "Lab #7 - Transit Gateway Network Manager",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/networking/en-US/foundational",
+    "visibility": "public"
+  },
+  "0601": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M1 - Intro to Serverless",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0602": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M2 - Synchronous Invocation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0603": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M3 - Synchronous + Idempotence",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0604": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M4 - Asynchronous Invocation",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0605": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M5 - Polling",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0606": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M6 - Streaming Data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0607": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M7 - Streaming Datalake",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0608": {
+    "workshop": "Serverless Patterns",
+    "category": "serverless",
+    "description": "M8 - Deployment Strategies",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/serverless-patterns/en-US",
+    "visibility": "public"
+  },
+  "0801": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 1: Getting started with generative AI",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0802": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 2: Working with private documents",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0803": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 3: Working with image files",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0804": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 4: Working with video files",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0805": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 5: Working with audio files",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0806": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 6: Working with SQL database",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0807": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 7: Working with graphs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0808": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 8: Working with business intelligence",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0809": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 9: Working with logs",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0810": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 10: Working with streaming data",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0811": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 11: Working with CSV files",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0812": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 12: Working with forms",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0813": {
+    "workshop": "Using generative AI on AWS for diverse content types",
+    "category": "gen-ai",
+    "description": "Stream 13: Working with code",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/genai-on-aws/en-US",
+    "visibility": "public"
+  },
+  "0101": {
+    "workshop": "AWS Storage Immersion Day",
+    "category": "storage",
+    "description": "S3 Security Best Practices",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US",
+    "visibility": "public"
+  },
+  "0102": {
+    "workshop": "AWS Storage Immersion Day",
+    "category": "storage",
+    "description": "Storage Performance Lab",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US",
+    "visibility": "public"
+  },
+  "0103": {
+    "workshop": "AWS Storage Immersion Day",
+    "category": "storage",
+    "description": "Migrating Data to AWS",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US",
+    "visibility": "public"
+  },
+  "0104": {
+    "workshop": "AWS Storage Immersion Day",
+    "category": "storage",
+    "description": "AWS Backup Lab",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.us-east-1.prod.workshops.aws/workshops/74237958-77c8-4e7f-a02f-ae201a04d759/en-US",
+    "visibility": "public"
+  },
+  "0501": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 1: S3 Versioning",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  },
+  "0502": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 2: S3 Object Lock",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  },
+  "0503": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 3: S3 Replication",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  },
+  "0504": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 4: S3 Multi-Region Access Points",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  },
+  "0505": {
+    "workshop": "Amazon S3 data-protection and global resilience workshop",
+    "category": "data-protection",
+    "description": "Module 5: Cross-account S3 Replication and Multi-Region Access Points",
+    "iac": [
+      "tf",
+      "cft"
+    ],
+    "priority": "not-set",
+    "html-url": "https://catalog.workshops.aws/s3-data-protection/en-US",
+    "visibility": "public"
+  }
 }
