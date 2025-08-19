@@ -1,72 +1,30 @@
 [
-    {
-        "id": null,
-        "filename": "3202-migration-tf.json",
-        "description": "Gist for 3202-migration-tf.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "not started",
-            "color": "red",
-            "style": "flat"
-        },
-        "gist-type": "secret",
-        "operation": "create"
+  {
+    "id": "198b9351d03f64afb3971bf847ac1b19",
+    "filename": "maintain-gist-test-15.json",
+    "description": "Gist for maintain-gist-test-15.json",
+    "content": {
+      "schemaVersion": 1,
+      "label": "status",
+      "message": "not started",
+      "color": "red",
+      "style": "flat"
     },
-    {
-        "id": null,
-        "filename": "3202-migration-cft.json",
-        "description": "Gist for 3202-migration-cft.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "not started",
-            "color": "red",
-            "style": "flat"
-        },
-        "gist-type": "secret",
-        "operation": "create"
+    "operation": "created",
+    "url": "https://api.github.com/gists/198b9351d03f64afb3971bf847ac1b19"
+  },
+  {
+    "id": "43cfaf0a8cbe0f186ae530744783ba50",
+    "filename": "maintain-gist-test-16.json",
+    "description": "Gist for maintain-gist-test-16.json",
+    "content": {
+      "schemaVersion": 1,
+      "label": "status",
+      "message": "not started",
+      "color": "red",
+      "style": "flat"
     },
-    {
-        "id": "77f93a02120fa5702a93fe6060128580",
-        "filename": "tf-yor-action.json",
-        "description": "Gist for tf-yor-action.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "complete",
-            "color": "green",
-            "style": "flat"
-        },
-        "gist-type": "secret",
-        "operation": "delete"
-    },
-    {
-        "id": "8612993cb0c2464da5255d6018345bd6",
-        "filename": "slack-notification-wf.json",
-        "description": "Gist for slack-notification-wf.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "complete",
-            "color": "green",
-            "style": "flat"
-        },
-        "gist-type": "secret",
-        "operation": "skip"
-    },
-    {
-        "id": "e888b11add51c19433dd459ff2103354",
-        "filename": "tf-ci-reusable-wf.json",
-        "description": "Gist for tf-ci-reusable-wf.json",
-        "content": {
-            "schemaVersion": 1,
-            "label": "status",
-            "message": "complete",
-            "color": "green",
-            "style": "flat"
-        },
-        "gist-type": "secret",
-        "operation": "delete"
-    }
+    "operation": "created",
+    "url": "https://api.github.com/gists/43cfaf0a8cbe0f186ae530744783ba50"
+  }
 ]

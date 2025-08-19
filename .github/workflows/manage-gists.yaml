@@ -1,8 +1,5 @@
 name: Maintain GitHub Gists
 run-name: Maintain Gists run by ${{ github.actor }} on ${{ github.ref_name }}
-description: |
-  This workflow maintains GitHub Gists by creating, updating, or deleting them based on the provided input JSON file.
-  It can be triggered manually or via a scheduled event.
 
 on:
   workflow_dispatch:
@@ -10,12 +7,12 @@ on:
       input_path:
         description: 'Path to the input JSON file'
         required: true
-        default: 'gist-factory/all-gists.json'
+        default: 'all-gists.json'
         type: string
       output_path:
         description: 'Path to the output JSON file (optional)'
         required: false
-        default: 'gist-factory/all-gists.json'
+        default: 'all-gists.json'
         type: string
       skip_existing:
         description: 'Skip items that already contain a gist_id'
@@ -35,61 +32,89 @@ on:
 
 jobs:
   maintain-gists:
+    name: Maintain Gists
     runs-on: ubuntu-latest
-    
+
+    # Prevent overlapping runs of THIS workflow on the same branch
+    concurrency:
+      group: maintain-gists-${{ github.ref }}
+      cancel-in-progress: false
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-        cache: 'pip'
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pip'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    - name: Execute maintain_gists.py
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      working-directory: gist-factory
-      run: |
-        python maintain_gists.py \
-          --input "${{ inputs.input_path }}" \
-          ${{ inputs.output_path && format('--output "{0}"', inputs.output_path) || '' }} \
-          ${{ inputs.skip_existing && '--skip-existing' || '' }} \
-          ${{ inputs.dry_run && '--dry-run' || '' }} \
-          ${{ inputs.debug && '--debug' || '' }}
+      - name: Execute Python script (maintain_gists.py)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
+        working-directory: ${{ github.workspace }}/gist-factory
+        run: |
+          python maintain_gists.py \
+            --input "${{ inputs.input_path }}" \
+            ${{ inputs.output_path && format('--output "{0}"', inputs.output_path) || '' }} \
+            ${{ inputs.skip_existing && '--skip-existing' || '' }} \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            ${{ inputs.debug && '--debug' || '' }}
 
-    - name: Check for changes
-      id: git-check
-      run: |
-        git diff --exit-code all_gists.json || echo "changes=true" >> $GITHUB_OUTPUT
+      - name: Commit and push changes to temp branch
+        working-directory: ${{ github.workspace }}/gist-factory
+        run: |
+          ls -lR 
+          echo "========== gist-operation-report.json ==================="
+          cat gist-operation-report.json|jq
+          echo "========== all-gists.json ==============================="
+          cat all-gists.json
+          echo "==========  configure git ==============================="
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-    - name: Commit and push changes
-      if: steps.git-check.outputs.changes == 'true' && !inputs.dry_run
-      working-directory: gist-factory
-      run: |
-        git checkout -b feature/update-gists
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add all_gists.json
-        git commit -m "Update gists via GitHub Actions [skip ci]"
-        git push --set-upstream origin feature/update-gists
-        git push
+          BRANCH_NAME="temp/run-${{ github.run_id }}"
+          git checkout -b "$BRANCH_NAME"
 
-    - name: Upload artifacts
-      if: always()
-      uses: actions/upload-artifact@v3
-      with:
-        name: gist-results
-        path: |
-          all_gists.json
-          *.log
-        retention-days: 30
+          git add -A .
+          if ! git diff --cached --quiet; then
+            git commit -m "Update gist JSON files (run ${{ github.run_id }})"
+            git push origin "$BRANCH_NAME"
+          else
+            echo "No changes to commit"
+          fi
+
+      - name: Generate summary report and write to GitHub Action Summary
+        working-directory: ${{ github.workspace }}/gist-factory
+        run: |
+          echo "## Gist Operation Summary" > summary.md
+          echo "" >> summary.md
+          echo "| Gist ID | Status | Filename |" >> summary.md
+          echo "|---------|--------|----------|" >> summary.md
+          jq -r '.[] | "| " + (.id // "-") + " | " + (.status // "-") + " | " + (.filename // "-") + " |"' gist-operation-report.json >> summary.md
+          cat summary.md >> $GITHUB_STEP_SUMMARY
+
+      - name: List all available gists in GitHub Action Summary
+        working-directory: ${{ github.workspace }}/gist-factory
+        run: |
+            echo "## All Available Gists" > all-gists-summary.md
+            echo "" >> all-gists-summary.md
+            echo "| Gist ID | Description | Files | Gist Url     |" >> all-gists-summary.md
+            echo "|---------|-------------|-------|--------------|" >> all-gists-summary.md
+            jq -r '
+              .[] |
+                      "| " + (.id // "-") +
+                      " | " + (.description // "-") +
+                      " | " + (.filename // "-") +
+                      " | " + (.url // "-") + " |"' all-gists.json >> all-gists-summary.md
+            cat all-gists-summary.md >> $GITHUB_STEP_SUMMARY
+
