@@ -1,5 +1,5 @@
 locals {
-  raw-repositories = jsondecode(file("${path.module}/repo-json/github-repositories-2.json"))
+  raw-repositories = jsondecode(file("${path.module}/repo-json/github-repositories-4.json"))
 
   gist-ids = jsondecode(file("${path.module}/repo-json/gist-id.json"))
 
